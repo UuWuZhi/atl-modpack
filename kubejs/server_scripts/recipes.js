@@ -21,6 +21,34 @@ ServerEvents.recipes(event => {
     event.remove({output: 'extradelight:whipped_cream' });
     event.remove({output: 'kaleidoscope_tavern:miners_star' });
     event.custom({
+  "type": "kaleidoscope_cookery:stockpot",
+  "carrier": {
+    "item": "minecraft:paper"
+  },
+  "ingredients": [
+    {
+      "item": "kaleidoscope_end:void_conch"
+    },
+    {
+      "item": "kaleidoscope_end:void_conch"
+    },
+    {
+      "item": "kaleidoscope_end:dream_berry"
+    },
+    {
+      "item": "kaleidoscope_end:dragon_dust"
+    }
+  ],
+  "result": {
+    "count": 5,
+    "id": "kaleidoscope_end:void_conch"
+  },
+  "soup_base": "minecraft:water"
+    });
+
+
+
+    event.custom({
   "type": "kaleidoscope_tavern:barrel",
   "carrier": {
     "item": "kaleidoscope_tavern:empty_bottle"
@@ -96,6 +124,15 @@ ServerEvents.recipes(event => {
     "id": "croptopia:steamed_crab"
   }
     });
+    event.recipes.kaleidoscope_cookery.pot(
+        "minecraft:blaze_rod",
+        [
+        "minecraft:blaze_powder","minecraft:blaze_powder","minecraft:blaze_powder","minecraft:blaze_powder","minecraft:blaze_powder"
+        ],
+        "minecraft:stick",
+        100,
+        0
+    );
     event.recipes.kaleidoscope_cookery.pot(
         "croptopia:grilled_cheese",
         [

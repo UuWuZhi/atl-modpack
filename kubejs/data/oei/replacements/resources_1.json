@@ -136,7 +136,8 @@
     "matchItems": [
       "rusticdelight:roasted_coffee_beans",
       "youkaishomecoming:coffee_beans",
-      "extradelight:coffee_beans"
+      "extradelight:coffee_beans",
+      "croptopia:coffee_beans"
     ],
     "resultItems": "youkaishomecoming:coffee_beans"
   },

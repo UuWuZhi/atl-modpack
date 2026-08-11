@@ -1,0 +1,43 @@
+{
+"bookshelf:load_conditions": [
+  {
+    "type": "bookshelf:block_exists",
+    "values": [
+    "kaleidoscope_nether:weeping_cave_vines"
+    ]
+  }
+],
+"type": "botanypots:block_derived_crop",
+"block": "kaleidoscope_nether:weeping_cave_vines",
+"input": {
+"item": "kaleidoscope_nether:crimson_fruit"
+},
+"soil": {
+"item": "minecraft:netherrack"
+},
+"display":{
+  "type":"botanypots:transitional",
+  "phases":[{
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_nether:weeping_cave_vines","properties":{"age":"0"}},
+  "options":{"rotation":"X_180"}
+  },
+  {
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_nether:weeping_cave_vines","properties":{"age":"2"}},
+  "options":{"rotation":"X_180"}
+  },
+  {
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_nether:weeping_cave_vines","properties":{"age":"4"}},
+  "options":{"rotation":"X_180"}},
+  {
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_nether:weeping_cave_vines","properties":{"age":"6"}},
+  "options":{"rotation":"X_180"}},
+  {
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_nether:weeping_cave_vines","properties":{"age":"6","berries":"true"}},
+  "options":{"rotation":"X_180"}}
+  ]}
+}

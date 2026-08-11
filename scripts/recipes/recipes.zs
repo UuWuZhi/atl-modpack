@@ -19,8 +19,115 @@ craftingTable.remove(<item:croptopia:tofuburger>);
 craftingTable.addShapeless("croptopia_tofuburger",<item:croptopia:tofuburger>,
   [<item:minecraft:bread>,<item:croptopia:tofu>,<item:kaleidoscope_cookery:lettuce>,<item:extradelight:sliced_onion>]);
 
-//增加冲压机配方(塑形)
 
+//增加烈焰人燃烧室配方
+<recipetype:createaddition:liquid_burning>.addJsonRecipe("premium_chili_oil_fuel", {
+  "type": "createaddition:liquid_burning",
+  "burn_time": 48000,
+  "superheated": true,
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "kaleidoscope_grilling:premium_chili_oil"
+    }
+  ],
+  "results": []}
+ );
+<recipetype:createaddition:liquid_burning>.addJsonRecipe("secret_chili_oil_fuel", {
+  "type": "createaddition:liquid_burning",
+  "burn_time": 48000,
+  "superheated": false,
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "kaleidoscope_grilling:secret_chili_oil"
+    }
+  ],
+  "results": []}
+ );
+//增加磨粉配方(机械动力石磨、粉碎轮，森罗物语石磨配方使用kjs制作)
+<recipetype:create:milling>.addJsonRecipe("dragon_dust_mill", {
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "ends_delight:dragon_tooth"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "id": "kaleidoscope_end:dragon_dust"
+    }
+  ]}
+ );
+<recipetype:create:crushing>.addJsonRecipe("dragon_dust_crush", {
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "ends_delight:dragon_tooth"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "id": "kaleidoscope_end:dragon_dust"
+    }
+  ]}
+ );
+
+
+//增加砧板配方
+<recipetype:farmersdelight:cutting>.addJsonRecipe("chorus_petal", {
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:chorus_flower"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 4,
+        "id": "kaleidoscope_end:chorus_petal"
+      }
+    }
+  ],
+  "sound": {
+    "sound_id": "minecraft:item.axe.strip"
+  },
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "axe_strip"
+    },
+    {
+      "tag": "c:shears"
+    }
+  ]
+}
+ );
+ 
+//增加冲压机配方(工作盆)
+<recipetype:create:compacting>.addJsonRecipe("crimson_fruit_to_lava", {
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "kaleidoscope_nether:crimson_fruit"
+    }
+  ],
+  "results": [
+    {
+      "amount": 50,
+      "id": "minecraft:lava"
+    },
+    {
+      "amount": 1,
+      "id": "minecraft:blaze_powder"
+    }
+  ]}
+ );
 <recipetype:create:compacting>.addJsonRecipe("gold_oreberry_nugget_1", {
   "type": "create:compacting",
   "ingredients": [
@@ -65,7 +172,7 @@ craftingTable.addShapeless("croptopia_tofuburger",<item:croptopia:tofuburger>,
   "results": [
     {
       "amount": 1,
-      "id": "create:copper_ingot"
+      "id": "minecraft:copper_ingot"
     }
   ]}
  );
@@ -86,6 +193,37 @@ craftingTable.addShapeless("croptopia_tofuburger",<item:croptopia:tofuburger>,
   ]}
  );
 //增加搅拌机配方
+<recipetype:create:mixing>.addJsonRecipe("non_hatchable_dragon_egg", {
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {"item": "extradelight:boiled_egg"},{"item": "kaleidoscope_end:dragon_dust"},{"item": "minecraft:dragon_breath"}
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "id": "ends_delight:non_hatchable_dragon_egg"
+    }
+  ]}
+ );
+<recipetype:create:mixing>.addJsonRecipe("dragon_egg_liquid", {
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {"item": "ends_delight:liquid_dragon_egg"},
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "extradelight:egg_white_fluid"
+    },
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "id": "kaleidoscope_end:dragon_egg_liquid"
+    }
+  ]}
+ );
 <recipetype:create:mixing>.addJsonRecipe("gold_oreberry_juice", {
   "type": "create:mixing",
   "heat_requirement": "heated",
@@ -290,7 +428,7 @@ craftingTable.addShapeless("croptopia_tofuburger",<item:croptopia:tofuburger>,
       "amount": 1000,
       "fluid": "minecraft:lava"
     },
-    {"item": "minecraft:redstone"},{"item": "kaleidoscope_grilling:houttuynia_powder"}
+    {"item": "kaleidoscope_grilling:houttuynia_powder"},{"item": "kaleidoscope_nether:soul_pepper"}
   ],
   "results": [
     {

@@ -1,0 +1,18 @@
+{
+"bookshelf:load_conditions": [
+  {
+    "type": "bookshelf:block_exists",
+    "values": [
+    "kaleidoscope_nether:twisting_cave_vines"
+    ]
+  }
+],
+"type": "botanypots:block_derived_crop",
+"block": "kaleidoscope_nether:twisting_cave_vines",
+"input": {
+"item": "kaleidoscope_nether:warped_fruit"
+},
+"soil": {
+"item": "minecraft:netherrack"
+}
+}

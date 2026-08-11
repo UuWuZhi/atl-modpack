@@ -27,7 +27,7 @@ craftingTable.remove(<item:croptopia:sausage>);
 
 //删除拆解台等
 craftingTable.remove(<item:twilightforest:uncrafting_table>);
-craftingTable.remove(<item:exposure:interplanar_projector>);
+craftingTable.remove(<item:ends_delight:non_hatchable_dragon_egg>);
 
 //删除其他配方
 
