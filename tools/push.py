@@ -54,6 +54,31 @@ def do_refresh():
         run(["packwiz", "refresh"])
 
 
+def verify_index_consistency():
+    """验证 index.toml 记录的 hash 与磁盘文件一致。
+    防止 refresh 与 git 提交之间存在 CRLF/LF 或缓存差异导致 hash 不同步。"""
+    import hashlib
+    import re
+
+    idx = open(os.path.join(ROOT, "index.toml"), encoding="utf-8").read()
+    entries = re.findall(r'file = "([^"]+)"\n(?:hash-format = "[^"]+"\n)?hash = "([0-9a-f]+)"', idx)
+    mismatch = []
+    for fname, hashval in entries:
+        path = os.path.join(ROOT, fname)
+        if not os.path.exists(path):
+            continue  # metafile 可能不存在(如 jar 只存元数据)
+        actual = hashlib.sha256(open(path, "rb").read()).hexdigest()
+        if actual != hashval:
+            mismatch.append(fname)
+    if mismatch:
+        print(f"[警告] {len(mismatch)} 个文件 hash 与 index 不一致:")
+        for m in mismatch[:10]:
+            print(f"  - {m}")
+        print("建议重新 packwiz refresh 后提交")
+        return False
+    return True
+
+
 def do_commit(message):
     """提交当前改动。无改动则跳过。"""
     r = git(["git", "status", "--porcelain"], check=False)
@@ -77,6 +102,12 @@ def do_push_dev():
 
 def do_merge():
     """合并 dev→main 并推送。"""
+    # 确认当前在 dev,发布基于 dev
+    cur = git(["git", "branch", "--show-current"]).stdout.strip()
+    if cur != "dev":
+        print(f"[错误] 当前在 {cur} 分支,发布需在 dev 分支执行")
+        print("  请先: git checkout dev")
+        sys.exit(1)
     git(["git", "checkout", "main"])
     git(["git", "pull", "origin", "main"])
     git(["git", "merge", "dev", "--no-edit"])
@@ -110,11 +141,18 @@ def main():
         print("[错误] --merge / --release / --tag 只能选一个")
         sys.exit(1)
 
-    # 1. refresh + 提交(总是,除了纯 tag 模式可跳过提交)
+    # 1. refresh + 提交(总是,除了纯 tag 模式)
     do_refresh()
+
+    # 2. 校验 index 一致性(发布前必须)
+    if args.release or args.merge:
+        if not verify_index_consistency():
+            print("[错误] index 与磁盘文件不一致,请先修复(重新 refresh 并提交)")
+            sys.exit(1)
+
     do_commit(args.message)
 
-    # 2. 分支操作
+    # 3. 分支操作
     if args.release or args.merge:
         do_merge()
         if args.release and args.version:
