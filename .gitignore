@@ -24,6 +24,9 @@
 /tools/__pycache__/
 /tools/packwiz-cli/
 _tmp*/
+# 构建哈希缓存(入库,加速他人构建;若过期删后重新构建即可)
+!/tools/cache/
+!/tools/cache/seed.json
 
 # ==== Minecraft 运行时生成(实例/客户端特有,不入库) ====
 saves/
@@ -35,7 +38,8 @@ screenshots/
 *.png
 *.jpg
 *.jpeg
-cache/
+# 根级 cache(实例运行时目录,不入库);tools/cache 已在上方单独允许
+/cache/
 local/
 downloads/
 simplebackups/
