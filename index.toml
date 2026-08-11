@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/build.yml"
-hash = "0578b7de827ab7b2f28b1aa157d4c6cee44205d73da60c9636a7ab426c209577"
-
-[[files]]
 file = "config/BBEConfig.json"
 hash = "a1bdbd84f5af95c2de06cb8e8d05a9b34595a2f8bffc8a34590e605ac66f3eb9"
 

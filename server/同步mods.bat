@@ -8,8 +8,8 @@ setlocal
 chcp 65001 >nul
 cd /d "%~dp0"
 
-rem ---- 更新包 URL(发布时替换为真实 Pages 地址)----
-set "PACK_URL=https://USER.github.io/atl-modpack/pack.toml"
+rem ---- 更新包 URL ----
+set "PACK_URL=https://uuwuzhi.github.io/atl-modpack/pack.toml"
 
 rem ---- 检查 bootstrap ----
 if not exist "packwiz-installer-bootstrap.jar" (
