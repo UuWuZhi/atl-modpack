@@ -1,6 +1,6 @@
 name = "ForgeEndertech-1.21.1-12.1.2.2-NeoForge-build.0879"
 filename = "ForgeEndertech-1.21.1-12.1.2.2-NeoForge-build.0879.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/EgS8gGp8/versions/HtpCqEXI/ForgeEndertech-1.21.1-12.1.2.2-NeoForge-build.0879.jar"

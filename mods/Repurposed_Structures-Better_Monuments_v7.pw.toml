@@ -1,6 +1,6 @@
 name = "Repurposed_Structures-Better_Monuments_v7"
 filename = "Repurposed_Structures-Better_Monuments_v7.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/XmBp1AVZ/versions/Z6IPtb5n/Repurposed_Structures-Better_Monuments_v7.jar"

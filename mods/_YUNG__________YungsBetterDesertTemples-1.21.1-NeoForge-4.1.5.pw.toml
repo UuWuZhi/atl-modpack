@@ -1,6 +1,6 @@
 name = "[YUNG 的沙漠神殿优化] YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5"
 filename = "[YUNG 的沙漠神殿优化] YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/XNlO7sBv/versions/GQ9iNWkI/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar"

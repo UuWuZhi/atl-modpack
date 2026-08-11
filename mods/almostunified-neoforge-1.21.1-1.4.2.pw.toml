@@ -1,6 +1,6 @@
 name = "almostunified-neoforge-1.21.1-1.4.2"
 filename = "almostunified-neoforge-1.21.1-1.4.2.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/sdaSaQEz/versions/e8iYxxI3/almostunified-neoforge-1.21.1-1.4.2.jar"

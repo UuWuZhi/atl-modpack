@@ -1,6 +1,6 @@
 name = "[末影龙掉落鞘翅] dragondropselytra-1.21.1-3.6"
 filename = "[末影龙掉落鞘翅] dragondropselytra-1.21.1-3.6.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/DPkbo3dg/versions/BFgRHLFu/dragondropselytra-1.21.1-3.6.jar"

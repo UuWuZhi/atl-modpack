@@ -1,6 +1,6 @@
 name = "easy-villager-spawn-egg-1.0"
 filename = "easy-villager-spawn-egg-1.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/7qitKg42/versions/AUofRWAS/easy-villager-spawn-egg-1.0.jar"

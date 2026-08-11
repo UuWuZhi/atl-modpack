@@ -1,6 +1,6 @@
 name = "[机械动力] create-1.21.1-6.0.10"
 filename = "[机械动力] create-1.21.1-6.0.10.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar"

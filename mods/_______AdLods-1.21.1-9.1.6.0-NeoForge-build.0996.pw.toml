@@ -1,6 +1,6 @@
 name = "[大型矿床] AdLods-1.21.1-9.1.6.0-NeoForge-build.0996"
 filename = "[大型矿床] AdLods-1.21.1-9.1.6.0-NeoForge-build.0996.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Y3a9lWnU/versions/n4PsZvzI/AdLods-1.21.1-9.1.6.0-NeoForge-build.0996.jar"
