@@ -78,6 +78,14 @@ def compute_hashes(data):
         "sha512": hashlib.sha512(data).hexdigest(),
     }
 
+def sort_downloads(downloads):
+    """把 Modrinth CDN 排到最前(国内玩家访问比 CurseForge 快),其余保持。"""
+    if not downloads:
+        return downloads
+    mr = [u for u in downloads if "modrinth.com" in u]
+    others = [u for u in downloads if "modrinth.com" not in u]
+    return mr + others
+
 def get_file_info(entry, cache):
     """获取文件的 sha1/sha512/fileSize。优先缓存,否则下载计算。"""
     path = entry["path"]
@@ -92,7 +100,7 @@ def get_file_info(entry, cache):
                 "sha1": c["sha1"],
                 "sha512": c["sha512"],
                 "fileSize": c.get("fileSize"),
-                "downloads": c.get("downloads") or [url],
+                "downloads": sort_downloads(c.get("downloads") or [url]),
             }
 
     # 缓存缺失,下载计算
