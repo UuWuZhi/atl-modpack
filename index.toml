@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".nojekyll"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/BBEConfig.json"
 hash = "a1bdbd84f5af95c2de06cb8e8d05a9b34595a2f8bffc8a34590e605ac66f3eb9"
 

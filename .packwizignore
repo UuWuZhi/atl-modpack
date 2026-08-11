@@ -15,3 +15,6 @@
 /README.md
 /docs/
 /LICENSE
+
+# GitHub Pages 专用(只影响托管,客户端/服务器不需要)
+/.nojekyll
