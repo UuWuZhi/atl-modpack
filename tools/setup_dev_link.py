@@ -3,12 +3,17 @@
 """
 开发者符号链接工具 — 打通工作区与开发实例
 
-作用:把 开发实例 的 config/kubejs/scripts 链接到 工作区
+作用:把 开发实例 的 kubejs/scripts 链接到 工作区
      让"在实例里改脚本" == "改工作区文件",避免手动复制。
 
+注意:默认不链接 config —— 游戏运行会大量改写 config(默认值、线程数等),
+     链接会导致运行时污染工作区。需要时用 --link 手动指定。
+
 参数式用法:
-  python setup_dev_link.py <工作区> <实例> [--link config,kubejs,scripts]   建立
-  python setup_dev_link.py --remove <实例> [--link config,kubejs,scripts]   断开
+  python setup_dev_link.py <工作区> <实例>                    建立(kubejs,scripts)
+  python setup_dev_link.py <工作区> <实例> --link kubejs      只链 kubejs
+  python setup_dev_link.py --remove <实例>                    断开
+  python setup_dev_link.py --remove <实例> --link config      断开 config
 
 交互式用法(无参数):
   python setup_dev_link.py
@@ -22,7 +27,8 @@ import sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-DEFAULT_LINKS = ["config", "kubejs", "scripts"]
+# 默认链接目录:config 不链接(游戏运行会大量改写 config,污染工作区)
+DEFAULT_LINKS = ["kubejs", "scripts"]
 
 
 def is_junction(path):

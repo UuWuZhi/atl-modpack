@@ -57,7 +57,7 @@ git checkout dev          # 开发都在 dev 分支
 
 ### 打通工作区与实例(关键:符号链接)
 
-**在实例里改 kubejs/config = 改工作区文件**,无需手动复制:
+**在实例里改 kubejs/scripts = 改工作区文件**,无需手动复制:
 
 ```bat
 python tools\setup_dev_link.py D:\Code\atl-modpack "D:\Minecraft\.minecraft\versions\All The Leisures v1.0.1b"
@@ -66,9 +66,13 @@ python tools\setup_dev_link.py D:\Code\atl-modpack "D:\Minecraft\.minecraft\vers
 > 不想记参数?直接运行 `python tools\cli.py`,选「5. 建立/断开开发符号链接」交互式操作。
 
 作用:
-- 把实例的 `config/`、`kubejs/`、`scripts/` 链接到工作区(同一份文件)
+- 把实例的 `kubejs/`、`scripts/` 链接到工作区(同一份文件)
 - 在实例里改脚本、`/kubejs reload` 热重载 → 工作区 git 立即可见
 - 实例原来的文件备份为 `xxx.bak`
+
+> **为什么不链 config**:游戏运行会大量改写 config(默认值、线程数、日志开关),
+> 链接后这些运行时改动会污染工作区 git。所以 config 默认不链接,
+> 改 config 走「工作区改 → 发布 → 玩家拉取」流程即可。
 
 断开链接:
 
