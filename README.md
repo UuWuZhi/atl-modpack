@@ -21,6 +21,7 @@
 | [玩家指南](docs/guide/player.md) | 普通玩家:首次安装、日常更新 |
 | [服务端指南](docs/guide/server.md) | 服主:同步服务器 mods |
 | [开发者指南](docs/guide/developer.md) | 维护人/团队开发者:改 mod、构建、发布 |
+| [实战:更新 kubeJS 脚本](docs/guide/scenario-kubejs-update.md) | 开发者:改脚本并分发到玩家的完整流程 |
 | [完整工作流](WORKFLOW.md) | 维护人:端到端流程总览 |
 | [迁移记录](MIGRATION.md) | 维护人:首次迁移的来龙去脉 |
 
