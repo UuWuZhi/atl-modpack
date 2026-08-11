@@ -1,4 +1,4 @@
-# All The Leisures (魔塔整合包)
+# All The Leisures
 
 > 基于 Minecraft 1.21.1 + NeoForge 21.1.241,通过 **packwiz + GitHub Pages** 实现增量自动更新。
 
