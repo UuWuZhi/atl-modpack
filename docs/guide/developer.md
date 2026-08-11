@@ -95,6 +95,9 @@ packwiz update --all                 # 更新全部 mod 到最新
 packwiz update <slug>                # 更新单个
 ```
 
+> **标 side(客户端/服务端/双端)**:Modrinth 标记不可信,需人工确认。
+> 判断规则、常见坑、批量检查见 [side 判定手册](side-guide.md)。核心原则:不确定就标 `both`。
+
 ### 推送(用 push.py 一键完成)
 
 ```bash
