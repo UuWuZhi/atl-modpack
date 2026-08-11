@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/8490/172/sophisticatedstorage-1.21.1-1.5.81.2009.jar"
 hash-format = "sha1"
 hash = "c6f8089d018765cdae88dd6bf19093a09f20fb8d"
-
-[update]
-[update.curseforge]
-file-id = 8490172

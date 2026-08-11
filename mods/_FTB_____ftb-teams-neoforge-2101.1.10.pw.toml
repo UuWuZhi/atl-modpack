@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/7878/281/ftb-teams-neoforge-2101.1.10.jar"
 hash-format = "sha1"
 hash = "363376ae0fb22cb0527170fdf6a066d1da9b0225"
-
-[update]
-[update.curseforge]
-file-id = 7878281

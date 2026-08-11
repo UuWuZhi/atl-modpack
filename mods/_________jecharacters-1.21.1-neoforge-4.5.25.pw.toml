@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/8413/478/jecharacters-1.21.1-neoforge-4.5.25.jar"
 hash-format = "sha1"
 hash = "7e048553c421e6bd6683a0a0991dc2d4af45e46a"
-
-[update]
-[update.curseforge]
-file-id = 8413478

@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/8208/673/twilightdelight-3.2.2.jar"
 hash-format = "sha1"
 hash = "1ea8eed3c41852b0b09b8c29af5a454fd8c18a8d"
-
-[update]
-[update.curseforge]
-file-id = 8208673

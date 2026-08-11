@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/6213/612/easy-piglins-neoforge-1.21.1-1.1.0.jar"
 hash-format = "sha1"
 hash = "b8afa0340180509abd7746b71e296a457bcbf25c"
-
-[update]
-[update.curseforge]
-file-id = 6213612

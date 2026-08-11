@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/8009/71/ulticreatecompatability-1.0.0.jar"
 hash-format = "sha1"
 hash = "7cc28d6374f5bdb53ed62c508473bc4201391077"
-
-[update]
-[update.curseforge]
-file-id = 800971

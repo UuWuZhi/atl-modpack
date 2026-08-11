@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/5551/874/repurposed_structures_floralis_compat_v3.jar"
 hash-format = "sha1"
 hash = "87a7dbc63abcc3e46c5ff7a03d70dee84699fa22"
-
-[update]
-[update.curseforge]
-file-id = 5551874

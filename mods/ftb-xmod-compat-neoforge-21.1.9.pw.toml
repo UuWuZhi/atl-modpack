@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/8438/602/ftb-xmod-compat-neoforge-21.1.9.jar"
 hash-format = "sha1"
 hash = "0c8caa1d5e6954d71aa114f377bbc79ba83e1faf"
-
-[update]
-[update.curseforge]
-file-id = 8438602

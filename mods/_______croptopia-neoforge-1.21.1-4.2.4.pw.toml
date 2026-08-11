@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/7958/876/croptopia-neoforge-1.21.1-4.2.4.jar"
 hash-format = "sha1"
 hash = "2f03480a38c5d9113d22ae2012c69b165079c0e0"
-
-[update]
-[update.curseforge]
-file-id = 7958876

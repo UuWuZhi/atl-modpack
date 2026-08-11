@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/6634/655/TaxTreeGiant%2bM.1.21.1%2bNeoF.2.1.1.jar"
 hash-format = "sha1"
 hash = "f4c833f9899c288aa166a55de35bfdde8011c3e7"
-
-[update]
-[update.curseforge]
-file-id = 6634655

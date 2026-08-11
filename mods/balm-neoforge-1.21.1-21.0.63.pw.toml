@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/8424/824/balm-neoforge-1.21.1-21.0.63.jar"
 hash-format = "sha1"
 hash = "d452e71d4ff81a047f6e22f9a3ddb3c72632751e"
-
-[update]
-[update.curseforge]
-file-id = 8424824

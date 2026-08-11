@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/8234/657/explorerscompass-edited-1.21.1-3.0.4-neoforge.jar"
 hash-format = "sha1"
 hash = "c6d513fcc64b8a012745ec2087f4e37c9a591a0a"
-
-[update]
-[update.curseforge]
-file-id = 8234657

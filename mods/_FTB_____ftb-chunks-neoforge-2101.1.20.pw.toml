@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/8317/865/ftb-chunks-neoforge-2101.1.20.jar"
 hash-format = "sha1"
 hash = "f8fd8b158379015302f7aa234785f29a1353803d"
-
-[update]
-[update.curseforge]
-file-id = 8317865

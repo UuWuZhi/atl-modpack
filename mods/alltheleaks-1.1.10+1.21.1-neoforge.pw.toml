@@ -6,7 +6,3 @@ side = "both"
 url = "https://mediafilez.forgecdn.net/files/8409/394/alltheleaks-1.1.10%2b1.21.1-neoforge.jar"
 hash-format = "sha1"
 hash = "00bf99e3a09204a555dc219a9648423c93f529d4"
-
-[update]
-[update.curseforge]
-file-id = 8409394
