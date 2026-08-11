@@ -1,0 +1,207 @@
+[
+  {
+    "matchItems": [
+      "farmersdelight:cooked_rice",
+      "croptopia:steamed_rice",
+      "kaleidoscope_cookery:cooked_rice"
+    ],
+    "resultItems": "farmersdelight:cooked_rice"
+  },
+  {
+    "matchItems": [
+      "croptopia:sweetpotato",
+      "kaleidoscope_grilling:sweet_potato",
+      "expandeddelight:sweet_potato"
+    ],
+    "resultItems": "expandeddelight:sweet_potato"
+  },
+  {
+    "matchItems": [
+      "extradelight:peanuts",
+      "expandeddelight:peanut",
+      "croptopia:peanut"
+    ],
+    "resultItems": "extradelight:peanuts"
+  },
+  {
+    "matchItems": [
+      "expandeddelight:baked_sweet_potato",
+      "kaleidoscope_grilling:roasted_sweet_potato"
+    ],
+    "resultItems": "expandeddelight:baked_sweet_potato"
+  },
+  {
+    "matchItems": [
+      "expandeddelight:peanut_butter",
+      "croptopia:peanut_butter"
+    ],
+    "resultItems": "expandeddelight:peanut_butter"
+  },
+  {
+    "matchItems": [
+      "croptopia:hamburger",
+      "farmersdelight:hamburger"
+    ],
+    "resultItems": "farmersdelight:hamburger"
+  },
+  {
+    "matchItems": [
+      "extradelight:potato_chips",
+      "croptopia:potato_chips"
+    ],
+    "resultItems": "extradelight:potato_chips"
+  },
+  {
+    "matchItems": [
+      "croptopia:dough",
+      "farmersdelight:wheat_dough",
+      "kaleidoscope_cookery:raw_dough",
+      "create:dough"
+    ],
+    "resultItems": "kaleidoscope_cookery:raw_dough"
+  },
+  {
+    "matchItems": [
+      "croptopia:blueberry",
+      "biomeswevegone:blueberries",
+      "twilightforest:blueberry"
+    ],
+    "resultItems": "biomeswevegone:blueberries"
+  },
+  {
+    "matchItems": [
+      "youkaishomecoming:mantou",
+      "kaleidoscope_cookery:mantou"
+    ],
+    "resultItems": "youkaishomecoming:mantou"
+  },
+  {
+    "matchItems": [
+      "croptopia:clam",
+      "crabbersdelight:clam"
+    ],
+    "resultItems": "croptopia:clam"
+  },
+  {
+    "matchItems": [
+      "rusticdelight:bell_pepper_yellow",
+      "croptopia:bellpepper"
+    ],
+    "resultItems": "rusticdelight:bell_pepper_yellow"
+  },
+  {
+    "matchItems": [
+      "croptopia:asparagus",
+      "expandeddelight:asparagus"
+    ],
+    "resultItems": "croptopia:asparagus"
+  },
+  {
+    "matchItems": [
+      "croptopia:cheeseburger",
+      "extradelight:cheeseburger"
+    ],
+    "resultItems": "extradelight:cheeseburger"
+  },
+  {
+    "matchItems": [
+      "crabbersdelight:shrimp",
+      "croptopia:shrimp"
+    ],
+    "resultItems": "croptopia:shrimp"
+  },
+  {
+    "matchItems": [
+      "croptopia:shepherds_pie",
+      "farmersdelight:shepherds_pie"
+    ],
+    "resultItems": "farmersdelight:shepherds_pie"
+  },
+  {
+    "matchItems": [
+      "youkaishomecoming:bun",
+      "kaleidoscope_cookery:baozi"
+    ],
+    "resultItems": "youkaishomecoming:bun"
+  },
+  {
+    "matchItems": [
+      "youkaishomecoming:green_coffee_bean",
+      "rusticdelight:coffee_beans",
+      "extradelight:green_coffee"
+    ],
+    "resultItems": "youkaishomecoming:green_coffee_bean"
+  },
+  {
+    "matchItems": [
+      "rusticdelight:roasted_coffee_beans",
+      "youkaishomecoming:coffee_beans",
+      "extradelight:coffee_beans"
+    ],
+    "resultItems": "youkaishomecoming:coffee_beans"
+  },
+  {
+    "matchItems": [
+      "youkaishomecoming:coffee_powder",
+      "extradelight:ground_coffee"
+    ],
+    "resultItems": "youkaishomecoming:coffee_powder"
+  },
+  {
+    "matchItems": [
+      "youkaishomecoming:ice_cube",
+      "extradelight:ice_cubes"
+    ],
+    "resultItems": "youkaishomecoming:ice_cube"
+  },
+  {
+    "matchItems": [
+      "croptopia:strawberry",
+      "neapolitan:strawberries"
+    ],
+    "resultItems": "neapolitan:strawberries"
+  },
+  {
+    "matchItems": [
+      "croptopia:vanilla",
+      "neapolitan:dried_vanilla_pods"
+    ],
+    "resultItems": "neapolitan:dried_vanilla_pods"
+  },
+  {
+    "matchItems": [
+      "croptopia:crab",
+      "crabbersdelight:crab"
+    ],
+    "resultItems": "crabbersdelight:crab"
+  },
+  {
+    "matchItems": [
+      "extradelight:orange",
+      "croptopia:orange"
+    ],
+    "resultItems": "extradelight:orange"
+  },
+  {
+    "matchItems": [
+      "croptopia:pineapple",
+      "pineapple_delight:pineapple"
+    ],
+    "resultItems": "pineapple_delight:pineapple"
+  },
+  {
+    "matchItems": [
+      "kaleidoscope_tavern:grape",
+      "croptopia:grape"
+    ],
+    "resultItems": "kaleidoscope_tavern:grape"
+  },
+  {
+    "matchItems": [
+      "tofucraft:seeds_soybeans",
+      "extradelight:soybeans",
+      "croptopia:soybean"
+    ],
+    "resultItems": "tofucraft:seeds_soybeans"
+  }
+]

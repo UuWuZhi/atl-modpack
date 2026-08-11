@@ -35,7 +35,6 @@ crash-reports/
 reports/
 screenshots/
 *.log
-*.png
 *.jpg
 *.jpeg
 # 根级 cache(实例运行时目录,不入库);tools/cache 已在上方单独允许
@@ -48,10 +47,8 @@ dynamic-data-pack-cache/
 dynamic-resource-pack-cache/
 lightspeed-cache/
 fancymenu_data/
-xaero/
 .mixin.out/
 .sable/
-oei/
 tlm_custom_pack/
 schematics/
 patchouli_books/
@@ -60,11 +57,32 @@ ponders_watched.json
 TrashSlotSaveState.json
 usercache.json
 usernamecache.json
-options.txt
 servers.dat
 *_cache/
 *.tmp
 *.bak
+
+# ==== 例外:以下整合包原创内容必须入库(被上方规则误伤的) ====
+# config 里的 xaero 配置(cfg/json/txt)
+!config/xaero/
+# config 里的 png 图标
+!config/customwindowtitle/icon.png
+# kubejs 纹理
+!kubejs/assets/
+!kubejs/assets/**
+!kubejs/data/
+!kubejs/data/**
+# resourcepacks 的原创 assets
+!resourcepacks/assets/
+!resourcepacks/assets/**
+# config 里的 oei 配置(json)
+!config/oei/
+# config 里的 fancymenu options.txt
+!config/fancymenu/options.txt
+# 以上 negate 需先恢复父目录遍历
+!/config/
+!/kubejs/
+!/resourcepacks/
 
 # ==== 服务器侧私有状态(不入库) ====
 whitelist.json

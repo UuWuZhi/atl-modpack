@@ -1,0 +1,49 @@
+[
+  {
+    "matchItems": [
+      "farmersdelight:cooked_rice",
+      "croptopia:steamed_rice",
+      "kaleidoscope_cookery:cooked_rice"
+    ],
+    "resultItems": "farmersdelight:cooked_rice"
+  },
+  {
+    "matchItems": [
+      "kaleidoscope_cookery:lettuce_rice",
+      "croptopia:lettuce_rice"
+    ],
+    "resultItems": "kaleidoscope_cookery:lettuce_rice"
+  },
+  {
+    "matchItems": [
+      "farmersdelight:tomato_seeds",
+      "croptopia:tomato_seed",
+      "kaleidoscope_cookery:tomato_seed"
+    ],
+    "resultItems": "farmersdelight:tomato_seeds"
+  },
+  {
+    "matchItems": [
+      "expandeddelight:chili_pepper_seeds",
+      "extradelight:chili_seeds",
+      "tofucraft:seeds_chili",
+      "croptopia:chile_pepper_seed",
+      "kaleidoscope_cookery:chili_seed"
+    ],
+    "resultItems": "kaleidoscope_cookery:chili_seed"
+  },
+  {
+    "matchItems": [
+      "kaleidoscope_cookery:oil",
+      "butchercraft:lard"
+    ],
+    "resultItems": "kaleidoscope_cookery:oil"
+  },
+  {
+    "matchItems": [
+      "neapolitan:milk_bottle",
+      "croptopia:milk_bottle"
+    ],
+    "resultItems": "neapolitan:milk_bottle"
+  }
+]
