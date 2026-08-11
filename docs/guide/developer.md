@@ -26,7 +26,7 @@
 - `push.py` — 推 dev / merge 到 main / 打 tag / 一站式 release
 - `setup_dev_link.py` — 建立/断开符号链接
 - `build_import_pack.py` — 构建导入包
-- `release.py` — 构建 + tag + 发布
+- `release.py` — 构建导入包(纯构建)
 
 ---
 
@@ -143,8 +143,8 @@ python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.m
 python tools/push.py --release -m "v1.1.0"
 python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.mrpack
 
-# 方式 B:release.py(会打空 release commit,可能触发 Pages 空部署)
-python tools/release.py 1.1.0
+# 方式 B:release.py(纯构建 mrpack)
+python tools/release.py
 ```
 
 **发布到 GitHub Release**(任选):
@@ -196,10 +196,13 @@ atl-modpack/
 ├── config/ kubejs/ scripts/ defaultconfigs/   # 原创内容
 ├── bootstrap/           # 更新工具链(玩家/服主从这拿)
 ├── server/              # 服主脚本
-├── tools/               # 构建脚本 + packwiz CLI + 哈希缓存
-│   ├── migrate.py           # (一次性)mrpack→packwiz 迁移
+├── tools/               # 工具链(python)
+│   ├── cli.py               # 交互式总入口
+│   ├── push.py              # 推 dev / merge / tag / release
+│   ├── setup_dev_link.py    # 工作区↔实例 符号链接
 │   ├── build_import_pack.py # 构建导入包
-│   ├── release.py           # 构建+发版
+│   ├── release.py           # 构建导入包(纯构建)
+│   ├── packwiz-cli/         # packwiz 可执行文件
 │   └── cache/seed.json      # 哈希缓存
 ├── docs/                # 文档
 ├── .gitignore           # git 忽略
