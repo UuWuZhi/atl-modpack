@@ -34,7 +34,8 @@ def run(cmd, cwd=ROOT, check=True):
     return r
 
 def git(cmd, cwd=ROOT, check=True):
-    r = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
+    # errors="replace" 避免中文文件名导致 GBK 解码崩溃
+    r = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, errors="replace", encoding="utf-8")
     if check and r.returncode != 0:
         print(f"[错误] git {' '.join(cmd)}: {r.stderr.strip()}")
         sys.exit(1)
