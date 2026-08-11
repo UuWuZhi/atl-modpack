@@ -17,6 +17,7 @@
 | [玩家指南](docs/guide/player.md) | 普通玩家:安装、更新、常见问题 |
 | [服务端指南](docs/guide/server.md) | 服主:同步服务器 mods |
 | [开发者指南](docs/guide/developer.md) | 维护人/团队:开发、发布、构建 |
+| [从零搭建环境](docs/guide/bootstrap.md) | 新电脑/新成员:只有 git 时建立完整环境 |
 
 ## 快速开始
 
