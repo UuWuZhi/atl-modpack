@@ -1,0 +1,24 @@
+# 强制 LF 行尾,确保 packwiz 本地计算的 hash 与 git 仓库 blob 一致
+# (Windows autocrlf 会把文件检出为 CRLF,导致 packwiz refresh 算出的 hash 与提交版本不符,
+#  玩家增量更新时 hash 对不上,每次都要重下。eol=lf 避免此问题。)
+
+# 文本文件统一 LF
+*.toml    text eol=lf
+*.json    text eol=lf
+*.js      text eol=lf
+*.snbt    text eol=lf
+*.md      text eol=lf
+*.txt     text eol=lf
+*.bat     text eol=crlf
+*.cfg     text eol=lf
+*.nbt     binary
+*.png     binary
+*.zip     binary
+*.jar     binary
+*.json5   text eol=lf
+
+# 默认二进制
+*.nbt     -text
+*.png     -text
+*.zip     -text
+*.jar     -text
