@@ -5,6 +5,18 @@
 
 ---
 
+## 〇、核心概念:开发与发布分离
+
+```
+【开发】所有开发者 → 推 dev 分支(玩家不可见)
+【发布】维护人验证后 → merge dev→main(玩家增量更新)
+```
+
+- **Pages 只部署 main**:dev 分支的推送**不会**触发玩家更新
+- **开发随意,发布谨慎**:实验性改动留在 dev,确认无 bug 才发布
+
+---
+
 ## 一、环境搭建
 
 ### 需要安装
@@ -16,14 +28,13 @@
 | **Python 3.11+** | 构建脚本 | python.org |
 | **PCL2**(或任意启动器) | 建开发实例测试 | PCL 社区 |
 
-### 获取仓库
+### 获取仓库(注意切换到 dev 分支)
 
 ```bash
 git clone https://github.com/UuWuZhi/atl-modpack.git
 cd atl-modpack
+git checkout dev          # 开发都在 dev 分支
 ```
-
-> 仓库里已含 `tools/packwiz-cli/`(如果你没装 packwiz,可从 `tools/` 找;但建议装到 PATH)。
 
 ### 建开发实例(测试用)
 
@@ -31,11 +42,34 @@ cd atl-modpack
 2. PCL2 → 导入整合包 → 建一个开发实例
 3. 实例内跑一次 `仅更新.bat`,确认能进游戏
 
-> **开发原则**:改代码在「仓库」里做(git 管理),测试在「开发实例」里做(真实环境)。两者通过 push + bootstrap 打通,不需要手动复制文件。
+### 打通工作区与实例(关键:符号链接)
+
+**在实例里改 kubejs/config = 改工作区文件**,无需手动复制:
+
+```bat
+tools\setup_dev_link.bat D:\Code\atl-modpack "D:\Minecraft\.minecraft\versions\All The Leisures v1.0.1b"
+```
+
+作用:
+- 把实例的 `config/`、`kubejs/`、`scripts/` 链接到工作区(同一份文件)
+- 在实例里改脚本、`/kubejs reload` 热重载 → 工作区 git 立即可见
+- 实例原来的文件备份为 `xxx.bak`
+
+断开链接:
+
+```bat
+tools\setup_dev_link.bat --remove "D:\Minecraft\.minecraft\versions\All The Leisures v1.0.1b"
+```
+
+> **为什么需要它**:KubeJS 开发强依赖热重载(要看物品 ID、配方 ID、游戏内验证),只能在实例里做。符号链接让"实例编辑"与"工作区 git"合一,消灭手动复制。
 
 ---
 
 ## 二、日常开发
+
+### 改原创内容(config / kubejs / scripts)
+
+通过符号链接,**直接在开发实例里编辑** → 工作区文件同步变化。
 
 ### 改 mod(加/删/更新)
 
@@ -46,31 +80,33 @@ packwiz update --all                 # 更新全部 mod 到最新
 packwiz update <slug>                # 更新单个
 ```
 
-### 改原创内容(config / kubejs / 资源包)
-
-直接编辑仓库里对应文件,然后:
+### 推送(用 push.py 一键完成)
 
 ```bash
-packwiz refresh        # 重建 index,更新这些文件的哈希
+python tools/push.py -m "改了什么"     # 自动 refresh + 提交 + 推 dev
 ```
 
-### 提交并推送
-
-```bash
-git add -A
-git commit -m "feat: 描述改动"
-git push               # 触发 Pages 自动更新(1~3 分钟)
-```
-
-### 测试
-
-push 后,在开发实例里双击 `仅更新.bat`,拉到最新改动,进游戏验证。
-
-> **改完一定要 `packwiz refresh`**,否则 index 哈希对不上,玩家更新会失败。
+> 推 dev = 玩家不可见。可放心推实验性改动。
 
 ---
 
-## 三、构建导入包
+## 三、发布(维护人)
+
+```bash
+python tools/push.py --release -m "版本说明"   # merge dev→main + 推 main
+python tools/push.py --release --version 1.1.0  # 发布时可选打 tag
+```
+
+作用:
+1. 切到 main,merge dev,push main → Pages 更新 → 玩家增量拉到(1~3 分钟)
+2. `--version` 打 git tag(供 Release 关联)
+3. 自动回到 dev 继续开发
+
+> 发布 = 你确认无 bug、不损坏存档后的动作。发布前务必在实例里测试。
+
+---
+
+## 四、构建导入包
 
 ```bash
 python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.mrpack
@@ -83,17 +119,18 @@ python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.m
 
 ---
 
-## 四、发布新版本(release)
+## 五、发布新版本(release)
+
+**发布 = merge dev→main + 打 tag + 构建 mrpack**。
 
 ```bash
+# 方式 A(推荐):push.py 一步完成 merge+push,再手动构建 mrpack
+python tools/push.py --release -m "v1.1.0"
+python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.mrpack
+
+# 方式 B:release.py(会打空 release commit,可能触发 Pages 空部署)
 python tools/release.py 1.1.0
 ```
-
-这个命令会:
-1. `packwiz refresh`(更新索引)
-2. 构建 `dist/modpack.mrpack`
-3. 打 git tag `v1.1.0` 并 push
-4. 提示下一步发布
 
 **发布到 GitHub Release**(任选):
 ```bash
@@ -108,13 +145,20 @@ gh release create v1.1.0 dist/modpack.mrpack --title "v1.1.0"
 
 ---
 
-## 五、版本控制策略
+## 六、版本控制策略
 
-| 场景 | 玩家如何收到 |
-|---|---|
-| 改 config/kubejs | 自动(增量,无感) |
-| 更新 mod 版本 | `packwiz update` 后 push,增量拉到 |
-| 大版本发布 | `release.py` 打 tag + 发导入包 |
+| 场景 | 推哪 | 玩家如何收到 |
+|---|---|---|
+| 开发中改动(实验) | dev | 看不到 |
+| 确认可发布 | merge dev→main | 增量,无感(1~3 分钟) |
+| 更新 mod 版本 | dev→main | 增量拉到 |
+| 大版本发布 | main + tag + mrpack | 重新导入 |
+
+### 分支约定
+
+- **dev**:所有开发者日常推送,玩家不可见
+- **main**:只有发布时 merge,Pages 部署,玩家可见
+- 冲突解决:`git pull origin dev` 后手动 merge 或用 `git merge`
 
 ### 锁版本(可选)
 
@@ -126,7 +170,7 @@ packwiz unpin <slug>    # 解除
 
 ---
 
-## 六、仓库结构
+## 七、仓库结构
 
 ```
 atl-modpack/
@@ -149,7 +193,7 @@ atl-modpack/
 
 ---
 
-## 七、常见问题
+## 八、常见问题
 
 ### 改了 config 但玩家没更新到
 
