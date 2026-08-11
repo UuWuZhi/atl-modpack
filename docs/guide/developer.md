@@ -15,6 +15,19 @@
 - **Pages 只部署 main**:dev 分支的推送**不会**触发玩家更新
 - **开发随意,发布谨慎**:实验性改动留在 dev,确认无 bug 才发布
 
+### 工具总览
+
+| 入口 | 用法 | 适合 |
+|---|---|---|
+| **交互式** `python tools\cli.py` | 菜单选择,无需记参数 | 新手 / 服主 |
+| **参数式** `python tools\push.py --release` | 一行命令 | 熟练开发者 / AI |
+
+参数式脚本(可单独调用):
+- `push.py` — 推 dev / merge 到 main / 打 tag / 一站式 release
+- `setup_dev_link.py` — 建立/断开符号链接
+- `build_import_pack.py` — 构建导入包
+- `release.py` — 构建 + tag + 发布
+
 ---
 
 ## 一、环境搭建
@@ -47,8 +60,10 @@ git checkout dev          # 开发都在 dev 分支
 **在实例里改 kubejs/config = 改工作区文件**,无需手动复制:
 
 ```bat
-tools\setup_dev_link.bat D:\Code\atl-modpack "D:\Minecraft\.minecraft\versions\All The Leisures v1.0.1b"
+python tools\setup_dev_link.py D:\Code\atl-modpack "D:\Minecraft\.minecraft\versions\All The Leisures v1.0.1b"
 ```
+
+> 不想记参数?直接运行 `python tools\cli.py`,选「5. 建立/断开开发符号链接」交互式操作。
 
 作用:
 - 把实例的 `config/`、`kubejs/`、`scripts/` 链接到工作区(同一份文件)
@@ -58,7 +73,7 @@ tools\setup_dev_link.bat D:\Code\atl-modpack "D:\Minecraft\.minecraft\versions\A
 断开链接:
 
 ```bat
-tools\setup_dev_link.bat --remove "D:\Minecraft\.minecraft\versions\All The Leisures v1.0.1b"
+python tools\setup_dev_link.py --remove "D:\Minecraft\.minecraft\versions\All The Leisures v1.0.1b"
 ```
 
 > **为什么需要它**:KubeJS 开发强依赖热重载(要看物品 ID、配方 ID、游戏内验证),只能在实例里做。符号链接让"实例编辑"与"工作区 git"合一,消灭手动复制。
