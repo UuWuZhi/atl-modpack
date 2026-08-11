@@ -1,0 +1,13 @@
+name = "[装箱乐事] cratedelight-26.07.01-1.21-neoforge"
+filename = "[装箱乐事] cratedelight-26.07.01-1.21-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9rlXSyLg/versions/8x7j76JV/cratedelight-26.07.01-1.21-neoforge.jar"
+hash-format = "sha1"
+hash = "23522b85b799a781ac9b3a60aa7dafd65bd3bc23"
+
+[update]
+[update.modrinth]
+mod-id = "9rlXSyLg"
+version = "8x7j76JV"

@@ -1,0 +1,13 @@
+name = "[水产乐事] aquaculturedelight-1.2.0-neoforge-1.21.1"
+filename = "[水产乐事] aquaculturedelight-1.2.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/U9GJqWrI/versions/VFpyJiVp/aquaculturedelight-1.2.0-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "111393c07a98f29cab1de0d91965cc1bc6d9d73f"
+
+[update]
+[update.modrinth]
+mod-id = "U9GJqWrI"
+version = "VFpyJiVp"

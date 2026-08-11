@@ -1,0 +1,14 @@
+{
+	id: "4E0DE679E72F7DCF"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ id: "60F4BFA1B3127666", item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:sakura_wine" } }
+		{ id: "26B829EE464E2E09", item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:honey_wine" } }
+		{ id: "6A830A1FBF6DB429", item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_bloodwine:blood_grape_wine" } }
+		{ id: "0AF42527F487F2FC", item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_bloodwine:blood_sakura_wine" } }
+		{ id: "52A13ED651A3902D", item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_bloodwine:sinmark_crimson" } }
+		{ id: "44F947D89D5742DD", item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_twilight:giant_spirit" } }
+		{ id: "0543B356CA14B2D9", item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_bloodwine:blood_champagne" } }
+	]
+}

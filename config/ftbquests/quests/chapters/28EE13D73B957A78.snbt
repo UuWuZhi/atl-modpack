@@ -1,0 +1,703 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "28EE13D73B957A78"
+	group: "56DC7E32459FC237"
+	icon: {
+		id: "farmersdelight:skillet"
+	}
+	id: "28EE13D73B957A78"
+	images: [
+		{
+			height: 18.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/root.png"
+			order: -9
+			rotation: 0.0d
+			width: 24.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 4.0d
+			image: "kaleidoscope_grilling:item/oil_pot_canola"
+			rotation: 0.0d
+			width: 4.0d
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			height: 3.0d
+			image: "kaleidoscope_grilling:item/secret_chili_oil_brush"
+			rotation: 90.0d
+			width: 3.0d
+			x: -10.0d
+			y: -4.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:cooked_beef"
+			}
+			id: "5C6715143F50B980"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6CA6D97F6FDF0D5C"
+					type: "checkmark"
+				}
+				{
+					id: "29E31CE8115956E4"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+				{
+					id: "460A566A92E990A0"
+					item: { count: 1, id: "kaleidoscope_cookery:stove" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C6715143F50B980"]
+			id: "3186655F3F57DA92"
+			rewards: [{
+				id: "63CCAA6F649803DE"
+				item: {
+					count: 1
+					id: "kaleidoscope_grilling:advanced_rack"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7420BAD1CBD8B35B"
+					item: { count: 1, id: "kaleidoscope_grilling:grill" }
+					type: "item"
+				}
+				{
+					id: "0460D404BDDF9CC9"
+					item: { count: 1, id: "kaleidoscope_cookery:shawarma_spit" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C6715143F50B980"]
+			id: "1B79F6B0202704D7"
+			tasks: [
+				{
+					id: "33FAB1C6046EF2CF"
+					item: { count: 1, id: "kaleidoscope_cookery:stockpot" }
+					type: "item"
+				}
+				{
+					id: "19DE6B614A891475"
+					item: { count: 1, id: "kaleidoscope_cookery:stockpot_lid" }
+					type: "item"
+				}
+				{
+					id: "00DBFDD2746C7441"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					id: "2AF2A2B169162B0F"
+					item: { count: 1, id: "extradelight:melting_pot" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C6715143F50B980"]
+			id: "21A47CCF503E09A6"
+			rewards: [{
+				id: "4394B49C5BD63384"
+				item: {
+					count: 1
+					id: "kaleidoscope_cookery:kitchen_shovel"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "076C5E4945DA1F3F"
+					item: { count: 1, id: "farmersdelight:skillet" }
+					type: "item"
+				}
+				{
+					id: "0C78E57F0FA450AF"
+					item: { count: 1, id: "kaleidoscope_cookery:pot" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C6715143F50B980"]
+			id: "7676E6C4A42D3FCD"
+			rewards: [{
+				id: "39A464FA68DBB54A"
+				item: {
+					count: 1
+					id: "kaleidoscope_cookery:fruit_basket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69E1D85E6B0FB9AF"
+				item: { count: 1, id: "kaleidoscope_cookery:steamer" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C6715143F50B980"]
+			id: "3B4652716AF39CD0"
+			rewards: [{
+				id: "45E49D7DB57DA83E"
+				item: {
+					count: 1
+					id: "extradelight:oak_spice_rack"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B5627CEC81F1836"
+				item: { count: 1, id: "extradelight:mixing_bowl" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C6715143F50B980"]
+			id: "57F35DBFEE186F59"
+			tasks: [{
+				id: "7C61B36AA66A9611"
+				item: { count: 1, id: "extradelight:serving_pot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5C6715143F50B980"]
+			id: "1F38A15BC954B66B"
+			tasks: [{
+				id: "1497B2F9335862E6"
+				item: { count: 1, id: "extradelight:oven" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3186655F3F57DA92"]
+			id: "206808E39E14E384"
+			rewards: [{
+				id: "163DCA494C0F35FE"
+				item: {
+					count: 1
+					id: "kaleidoscope_cookery:oil_pot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "341040D16353BC86"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(kaleidoscope_grilling:secret_skewer)item_tag(kaleidoscope_grilling:raw_skewers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0923EEB543BCF443"]
+			id: "0B8EC6D0A3B5AB39"
+			rewards: [{
+				id: "297231F7ECE873EB"
+				table_id: 275250857614525516L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "779DAC4182EAFA54"
+					item: { components: { "ftbfiltersystem:filter": "only_one(item(kaleidoscope_grilling:special_seasoning))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "07BBC825B726AF69"
+					item: { components: { "ftbfiltersystem:filter": "only_one(item(kaleidoscope_grilling:dragon_egg_powder)item(kaleidoscope_grilling:totem_powder)item(kaleidoscope_grilling:houttuynia_powder)item(minecraft:redstone)item(minecraft:gunpowder)item(kaleidoscope_grilling:onion_powder)item(kaleidoscope_grilling:green_chili_powder)item(kaleidoscope_grilling:sichuan_pepper))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C6715143F50B980"]
+			icon: {
+				id: "create:millstone"
+			}
+			id: "51AD5055AFCF75B4"
+			tasks: [{
+				id: "2713A4D6E31754EC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["206808E39E14E384"]
+			id: "0923EEB543BCF443"
+			rewards: [{
+				count: 2
+				id: "55CF0DF15F0064F8"
+				item: {
+					count: 1
+					id: "kaleidoscope_grilling:empty_seasoning_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "313686B067775211"
+				item: { components: { "ftbfiltersystem:filter": "component(fuzzy:{\"kaleidoscope_cookery:oil_pot_oil_count\":64})" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B8EC6D0A3B5AB39"]
+			id: "337C2873EBE102FA"
+			rewards: [{
+				id: "48BAAC7426991F0B"
+				item: {
+					count: 1
+					id: "kaleidoscope_grilling:premium_chili_oil_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56662890DBEFA811"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item_tag(kaleidoscope_grilling:grilled_skewers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["337C2873EBE102FA"]
+			id: "0A964089AB95F81D"
+			rewards: [{
+				id: "10D59A1A9713280F"
+				item: {
+					count: 1
+					id: "kaleidoscope_grilling:dragon_egg_powder"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E0E28FA3468C091"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(kaleidoscope_grilling:dark_grilling)item(kaleidoscope_grilling:mysterious_skewer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C6715143F50B980"]
+			id: "5D585F37C74AD5A6"
+			rewards: [{
+				id: "58A5981ADEE6655C"
+				item: {
+					count: 1
+					id: "kaleidoscope_cookery:enamel_basin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73ECA3233FF4B4F2"
+				item: { count: 1, id: "kaleidoscope_cookery:millstone" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D585F37C74AD5A6"]
+			id: "7E421F6D7BBE45D3"
+			tasks: [
+				{
+					id: "21BE1879E975B8B4"
+					item: { count: 1, id: "kaleidoscope_grilling:big_vat" }
+					type: "item"
+				}
+				{
+					id: "39AC1CDE36238ED2"
+					item: { count: 1, id: "kaleidoscope_grilling:oil_press" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B79F6B0202704D7"]
+			id: "25858B7916C3E48C"
+			tasks: [{
+				id: "2D44FF1C7D47004F"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(minecraft:glass_bottle)item(minecraft:bowl)item(minecraft:flower_pot)item(youkaishomecoming:saucer)item(minecraft:paper))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["206808E39E14E384"]
+			id: "7D3A5D3DDB89B8C9"
+			tasks: [{
+				id: "64F8B1A9093AF5A3"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B79F6B0202704D7"]
+			id: "2CE33BC41122E916"
+			tasks: [{
+				id: "6D33551561980A28"
+				item: { count: 1, id: "extradelight:chiller" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F38A15BC954B66B"]
+			id: "40C2B65ECBC63346"
+			tasks: [{
+				id: "73945E9C7B3F64E5"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(extradelight:sheet)item(extradelight:tray)item(extradelight:loaf_pan)item(extradelight:pie_dish)item(extradelight:square_pan)item(extradelight:baking_stone))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2CE33BC41122E916"]
+			id: "06777EA7B3F0208B"
+			tasks: [{
+				id: "5E404E28243B3886"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(extradelight:tray)item(minecraft:bowl)item(minecraft:stick)item(extradelight:square_pan)item(extradelight:muffin_tin)item(extradelight:bar_mold))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51AD5055AFCF75B4"]
+			id: "61832F81A864A384"
+			tasks: [{
+				id: "30E97D24E9388048"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:jams)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51AD5055AFCF75B4"]
+			id: "1D9E70FE1EE07D78"
+			tasks: [{
+				id: "386A2CF9D50A13C0"
+				item: { count: 1, id: "croptopia:soy_sauce" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51AD5055AFCF75B4"]
+			id: "62216FA7C18E8792"
+			tasks: [{
+				id: "3EE09E51EA15840E"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(rusticdelight:cooking_oil)item(croptopia:olive_oil)item(tofucraft:bottle_soyoil)item(butchercraft:lard))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["51AD5055AFCF75B4"]
+			id: "720FA6ABB560CBA1"
+			tasks: [{
+				id: "4504C77BEC85D7CD"
+				item: { count: 1, id: "youkaishomecoming:butter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51AD5055AFCF75B4"]
+			id: "145BD791E9D19AA8"
+			tasks: [{
+				id: "572781F2E3EF8C1C"
+				item: { count: 1, id: "extradelight:whipped_cream" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["51AD5055AFCF75B4"]
+			id: "7F3F254C20FEEE8F"
+			tasks: [{
+				id: "725DFE3EC7C4B4BD"
+				item: { count: 1, id: "croptopia:salt" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["51AD5055AFCF75B4"]
+			id: "0F78FF1EFE4316F1"
+			tasks: [{
+				id: "2A5BB579B97FA1D2"
+				item: { count: 1, id: "croptopia:pepper" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["51AD5055AFCF75B4"]
+			id: "1C5B839B67AD544E"
+			tasks: [{
+				id: "3246F7CA2D9692AA"
+				item: { count: 1, id: "croptopia:flour" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C6715143F50B980"]
+			id: "3D71E833E45E5432"
+			rewards: [{
+				id: "2725FA8ED94E8F59"
+				item: {
+					count: 1
+					id: "kaleidoscope_cookery:kitchenware_racks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52BA9BF8019DF6D2"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(choppersdelight:cutting_boards)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B79F6B0202704D7"]
+			id: "1CADFD3BB0C926DC"
+			tasks: [{
+				id: "4A9D53638F4A0460"
+				item: { count: 1, id: "youkaishomecoming:kettle" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C6715143F50B980"]
+			id: "2C8DDDDBA176DF16"
+			rewards: [{
+				id: "20F188CC8C0413FA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "75BB2C80845186C3"
+					item: { count: 1, id: "extradelight:drying_rack_item" }
+					type: "item"
+				}
+				{
+					id: "032718F9ADD5A60C"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(twilightforest:drying_racks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "0DBF6D456AFD5622"
+					item: { count: 1, id: "youkaishomecoming:drying_rack" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C8DDDDBA176DF16"]
+			id: "05C951DCCD2A8EBD"
+			rewards: [{
+				id: "55AEE38E53FFB43D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4C79B92251D08311"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(extradelight:evaporator)item(tofucraft:salt_furnace)item(tofucraft:blocksaltpan))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05C951DCCD2A8EBD"]
+			id: "79BCA96AF9A062C8"
+			tasks: [{
+				id: "2556A4A87049DEAD"
+				item: { count: 1, id: "croptopia:tofu" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D71E833E45E5432"]
+			id: "6FE49A7843C95D0C"
+			rewards: [{
+				count: 2
+				id: "42E0F99FA32E5F68"
+				item: {
+					count: 1
+					id: "extradelight:flour_sack"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "598427105F3D2B89"
+				item: { count: 1, id: "extradelight:dough_shaping" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1CADFD3BB0C926DC"]
+			id: "36EB3D83373C13B0"
+			tasks: [{
+				id: "564535C585BDB1B0"
+				item: { count: 1, id: "youkaishomecoming:moka_pot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5D585F37C74AD5A6"]
+			id: "5BDE1801CA7CA793"
+			tasks: [{
+				id: "775A6225E600DCF4"
+				item: { count: 1, id: "extradelight:mortar_stone" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51AD5055AFCF75B4"]
+			id: "4C27F6799F7D13EE"
+			tasks: [{
+				id: "5E82D62BFF28453C"
+				item: { count: 1, id: "expandeddelight:cinnamon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["51AD5055AFCF75B4"]
+			id: "4E2B107969611257"
+			tasks: [{
+				id: "130150606B5C865E"
+				item: { count: 1, id: "croptopia:caramel" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["51AD5055AFCF75B4"]
+			id: "0E48658D92339E5F"
+			tasks: [{
+				id: "0FAE71FE1DF8AFE3"
+				item: { count: 1, id: "rusticdelight:syrup" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5D585F37C74AD5A6"]
+			id: "4A36EF93FB5DFFFD"
+			rewards: [{
+				id: "08D7F3B70AF182E0"
+				item: {
+					components: {
+						"kaleidoscope_tavern:brew_level": 6
+					}
+					count: 1
+					id: "kaleidoscope_world_liquor:cool_tea"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "423B0FFBDA13D83B"
+				item: { count: 1, id: "kaleidoscope_world_liquor:freezer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B4652716AF39CD0"]
+			id: "6DDC169A52B69A44"
+			tasks: [{
+				id: "0FF20BF868A40444"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:chocolate/bar)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0923EEB543BCF443"]
+			id: "4D90C906C3F52815"
+			tasks: [{
+				id: "11987D956EF94C01"
+				item: { count: 1, id: "kaleidoscope_grilling:premium_chili_oil_bucket" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+	]
+}

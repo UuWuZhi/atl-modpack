@@ -1,0 +1,13 @@
+name = "[泛用兼容：石材] stonezone-1.21-2.11.16-neoforge"
+filename = "[泛用兼容：石材] stonezone-1.21-2.11.16-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uYwn8IP5/versions/5yz4JuMs/stonezone-1.21-2.11.16-neoforge.jar"
+hash-format = "sha1"
+hash = "ac55fe6d399a7890f3542168a3b1b668214f0512"
+
+[update]
+[update.modrinth]
+mod-id = "uYwn8IP5"
+version = "5yz4JuMs"

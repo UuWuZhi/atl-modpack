@@ -1,0 +1,12 @@
+name = "[平滑区块保存] smoothchunk-1.21-4.1"
+filename = "[平滑区块保存] smoothchunk-1.21-4.1.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/6296/628/smoothchunk-1.21-4.1.jar"
+hash-format = "sha1"
+hash = "f54d5d352e15560240f151a7d054096a33a58f4a"
+
+[update]
+[update.curseforge]
+file-id = 6296628

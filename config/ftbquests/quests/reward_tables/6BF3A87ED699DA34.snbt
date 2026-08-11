@@ -1,0 +1,31 @@
+{
+	id: "6BF3A87ED699DA34"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ id: "6C42763A3B314C79", item: { count: 1, id: "kaleidoscope_cookery:baozi_plate" } }
+		{
+			count: 4
+			id: "2EFB01FCB1CAD778"
+			item: {
+				count: 1
+				id: "youkaishomecoming:mantou"
+			}
+		}
+		{ id: "5EFC73F91C0E5E25", item: { count: 1, id: "farmersdelight:pasta_with_meatballs" } }
+		{ id: "546AA99B0794CC1E", item: { count: 1, id: "extradelight:cheesy_garlic_bread" } }
+		{ id: "0D96DDEA8602C320", item: { count: 1, id: "farmersdelight:hamburger" } }
+		{ id: "12BBE0E0A04BB9B4", item: { count: 1, id: "extradelight:bacon_egg_sandwich" } }
+		{ id: "45376908A0EABEFA", item: { count: 1, id: "tofudelight:soy_vegetable_noodle" } }
+		{
+			count: 3
+			id: "63213E5051EED66F"
+			item: {
+				count: 1
+				id: "neapolitan:adzuki_bun"
+			}
+		}
+		{ id: "1EE1EEC545393671", item: { count: 1, id: "expandeddelight:sweet_roll" } }
+		{ id: "2B79701448405D2C", item: { count: 1, id: "tofucraft:misosoup" } }
+	]
+}

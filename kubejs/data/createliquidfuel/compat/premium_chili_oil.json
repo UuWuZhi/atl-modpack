@@ -1,0 +1,6 @@
+{
+  "fluid": "kaleidoscope_grilling:premium_chili_oil",
+  "burnTime": 1,
+  "superHeat": true,
+  "amountConsumedPerTick" : 1
+}

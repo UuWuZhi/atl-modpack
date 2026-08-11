@@ -1,0 +1,37 @@
+{
+	id: "72307C8FE3F9D573"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ id: "144A25B9CD3CEF13", item: { count: 1, id: "kaleidoscope_tavern:bar_cabinet" } }
+		{ id: "347C520D5BA552F3", item: { count: 1, id: "kaleidoscope_tavern:cellar_cabinet" } }
+		{ id: "066ADDAEF41B8950", item: { count: 1, id: "kaleidoscope_world_liquor:oak_bar_cabinet" } }
+		{ id: "0CD1B874FB27B7DB", item: { count: 1, id: "kaleidoscope_world_liquor:oak_cellar_cabinet" } }
+		{ id: "56B9C145E524DF7B", item: { count: 1, id: "kaleidoscope_world_liquor:birch_bar_cabinet" } }
+		{ id: "33AF297349F3CAE8", item: { count: 1, id: "kaleidoscope_world_liquor:birch_cellar_cabinet" } }
+		{ id: "53E9116394AA383C", item: { count: 1, id: "kaleidoscope_world_liquor:spruce_bar_cabinet" } }
+		{ id: "0B66A8BDBD38B86D", item: { count: 1, id: "kaleidoscope_world_liquor:spruce_cellar_cabinet" } }
+		{ id: "0DC0603063C3E842", item: { count: 1, id: "kaleidoscope_world_liquor:dark_oak_bar_cabinet" } }
+		{ id: "3E9FC0A27DBDDD33", item: { count: 1, id: "kaleidoscope_world_liquor:dark_oak_cellar_cabinet" } }
+		{ id: "68AE3AF60663165A", item: { count: 1, id: "kaleidoscope_world_liquor:cherry_bar_cabinet" } }
+		{ id: "3D385BCA33C9703C", item: { count: 1, id: "kaleidoscope_world_liquor:cherry_cellar_cabinet" } }
+		{ id: "58ADFCA7B8B437F5", item: { count: 1, id: "vinery:oak_wine_rack_small" } }
+		{ id: "3EB240BA7630B97F", item: { count: 1, id: "vinery:oak_wine_rack_mid" } }
+		{ id: "6B7545490D39683A", item: { count: 1, id: "vinery:spruce_wine_rack_small" } }
+		{ id: "3E659D2F33B01B9B", item: { count: 1, id: "vinery:spruce_wine_rack_mid" } }
+		{ id: "5682C6B50FD3E096", item: { count: 1, id: "vinery:birch_wine_rack_small" } }
+		{ id: "3EA0DF49DC660F32", item: { count: 1, id: "vinery:birch_wine_rack_mid" } }
+		{ id: "586F263B5EF50154", item: { count: 1, id: "vinery:jungle_wine_rack_small" } }
+		{ id: "6A807013B30ADB3E", item: { count: 1, id: "vinery:jungle_wine_rack_mid" } }
+		{ id: "30EFDAF420C74190", item: { count: 1, id: "vinery:acacia_wine_rack_small" } }
+		{ id: "00E6E2BC6313E800", item: { count: 1, id: "vinery:acacia_wine_rack_mid" } }
+		{ id: "5E8E657A23818468", item: { count: 1, id: "vinery:dark_oak_wine_rack_small" } }
+		{ id: "7DFCF5F8F17E395E", item: { count: 1, id: "vinery:dark_oak_wine_rack_mid" } }
+		{ id: "76ADECF83D2AB05E", item: { count: 1, id: "vinery:mangrove_wine_rack_small" } }
+		{ id: "0D57D39BD9E6264C", item: { count: 1, id: "vinery:mangrove_wine_rack_mid" } }
+		{ id: "27B7E4B026DC4284", item: { count: 1, id: "vinery:bamboo_wine_rack_small" } }
+		{ id: "266D8EF6862210A3", item: { count: 1, id: "vinery:bamboo_wine_rack_mid" } }
+		{ id: "05386ED9AFCC655F", item: { count: 1, id: "vinery:cherry_wine_rack_small" } }
+		{ id: "0EFC9B46B3BEBAA0", item: { count: 1, id: "vinery:cherry_wine_rack_mid" } }
+	]
+}

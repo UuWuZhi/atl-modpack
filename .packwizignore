@@ -1,0 +1,13 @@
+# packwiz 分发忽略清单 — 这些文件不进 index.toml,不会下发到客户端
+# 它们只存在于 git 仓库(维护工具/脚本),不属于整合包内容
+
+# 维护工具与脚本(玩家从导入包/仓库获取,不通过增量更新下发)
+/tools/
+/bootstrap/
+/server/
+/.github/
+
+# 迁移审计报告与文档(维护人参考)
+/_missing_update.json
+/_side_report.json
+/MIGRATION.md

@@ -1,0 +1,13 @@
+name = "[车万女仆] touhoulittlemaid-1.5.3-neoforge+mc1.21.1"
+filename = "[车万女仆] touhoulittlemaid-1.5.3-neoforge+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/R0bDWFAW/versions/tXG1TkGx/touhoulittlemaid-1.5.3-neoforge%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "f96507810deaa2ffd8c3bd86a79d6ccbd56ca32e"
+
+[update]
+[update.modrinth]
+mod-id = "R0bDWFAW"
+version = "tXG1TkGx"

@@ -1,0 +1,13 @@
+name = "[扩充乐事] expandeddelight-0.1.4"
+filename = "[扩充乐事] expandeddelight-0.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/e9V6wFcR/versions/RTRYPIJp/expandeddelight-0.1.4.jar"
+hash-format = "sha1"
+hash = "cf26fe18c3a9deec525fe0f0e7c2d3b9f4e9f484"
+
+[update]
+[update.modrinth]
+mod-id = "e9V6wFcR"
+version = "RTRYPIJp"

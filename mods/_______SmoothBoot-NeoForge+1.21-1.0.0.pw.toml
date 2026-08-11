@@ -1,0 +1,13 @@
+name = "[流畅加载] SmoothBoot-NeoForge+1.21-1.0.0"
+filename = "[流畅加载] SmoothBoot-NeoForge+1.21-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gk3B4zrk/versions/Qf76J2L2/SmoothBoot-NeoForge%2B1.21-1.0.0.jar"
+hash-format = "sha1"
+hash = "305cf6ea335b5a61742927642dc3bdf0c7ea55e8"
+
+[update]
+[update.modrinth]
+mod-id = "gk3B4zrk"
+version = "Qf76J2L2"

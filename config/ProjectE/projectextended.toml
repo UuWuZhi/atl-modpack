@@ -1,0 +1,2 @@
+#Set to false to not display missing Game Stages in tooltips when a player cannot learn or condense an item.
+showMissingGameStages = true

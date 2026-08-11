@@ -1,0 +1,13 @@
+name = "choppersdelight-neoforge-1.21.1-1.2.0"
+filename = "choppersdelight-neoforge-1.21.1-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5Ngo9jUy/versions/hEUl3S23/choppersdelight-neoforge-1.21.1-1.2.0.jar"
+hash-format = "sha1"
+hash = "5ed621dd8d35c126e9cdb5a97ba85440712403f2"
+
+[update]
+[update.modrinth]
+mod-id = "5Ngo9jUy"
+version = "hEUl3S23"

@@ -1,0 +1,12 @@
+name = "Quest-Kill-Task-neoforge-0.3.1+1.21.1"
+filename = "Quest-Kill-Task-neoforge-0.3.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/6692/790/Quest-Kill-Task-neoforge-0.3.1%2b1.21.1.jar"
+hash-format = "sha1"
+hash = "a8d9ccce4f1c893fa61d4984ccf09620924d074e"
+
+[update]
+[update.curseforge]
+file-id = 6692790

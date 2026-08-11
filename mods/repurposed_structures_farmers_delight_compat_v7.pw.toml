@@ -1,0 +1,13 @@
+name = "repurposed_structures_farmers_delight_compat_v7"
+filename = "repurposed_structures_farmers_delight_compat_v7.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/P5wB88AS/versions/PKPVpBYy/repurposed_structures_farmers_delight_compat_v7.jar"
+hash-format = "sha1"
+hash = "7304ad83540513d16926dec8c1a9ba98c0e8d424"
+
+[update]
+[update.modrinth]
+mod-id = "P5wB88AS"
+version = "PKPVpBYy"

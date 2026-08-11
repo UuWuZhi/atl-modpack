@@ -1,0 +1,13 @@
+name = "[丰富的生态] ecologics-1.21.1-2.3.7"
+filename = "[丰富的生态] ecologics-1.21.1-2.3.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NCKpPR0Z/versions/ihEiqSv4/ecologics-1.21.1-2.3.7.jar"
+hash-format = "sha1"
+hash = "3cf395ba5facd56917accc6563f7819f4e39c941"
+
+[update]
+[update.modrinth]
+mod-id = "NCKpPR0Z"
+version = "ihEiqSv4"

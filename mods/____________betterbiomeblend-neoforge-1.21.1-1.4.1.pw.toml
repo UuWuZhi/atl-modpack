@@ -1,0 +1,13 @@
+name = "[更好的生物群系过渡] betterbiomeblend-neoforge-1.21.1-1.4.1"
+filename = "[更好的生物群系过渡] betterbiomeblend-neoforge-1.21.1-1.4.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Rs6c7WyL/versions/qmc1SklW/betterbiomeblend-neoforge-1.21.1-1.4.1.jar"
+hash-format = "sha1"
+hash = "8b182828d9014a85aef975ccd2f3929d029f5585"
+
+[update]
+[update.modrinth]
+mod-id = "Rs6c7WyL"
+version = "qmc1SklW"

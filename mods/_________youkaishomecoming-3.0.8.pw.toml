@@ -1,0 +1,13 @@
+name = "[妖怪们的归家] youkaishomecoming-3.0.8"
+filename = "[妖怪们的归家] youkaishomecoming-3.0.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uJT3ahxz/versions/vu5Xy9Dk/youkaishomecoming-3.0.8.jar"
+hash-format = "sha1"
+hash = "e25288594f06e43fead8002839fb561efee6565e"
+
+[update]
+[update.modrinth]
+mod-id = "uJT3ahxz"
+version = "vu5Xy9Dk"

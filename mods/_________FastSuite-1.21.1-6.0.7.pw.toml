@@ -1,0 +1,12 @@
+name = "[配方性能优化] FastSuite-1.21.1-6.0.7"
+filename = "[配方性能优化] FastSuite-1.21.1-6.0.7.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/7527/945/FastSuite-1.21.1-6.0.7.jar"
+hash-format = "sha1"
+hash = "664e62684311f727f1fac18f0de28e5317874b7e"
+
+[update]
+[update.curseforge]
+file-id = 7527945

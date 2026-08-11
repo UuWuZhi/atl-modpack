@@ -1,0 +1,13 @@
+name = "All The Leisures"
+author = "atl-team"
+version = "1.0.1b"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "cca42114634ff8c602e74532448958c91c5efbe3c7f5c8be7f55ca2aab2d027f"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.241"

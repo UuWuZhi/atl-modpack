@@ -1,0 +1,13 @@
+name = "MaidUseHandCrank_1.6.2-neoforge_21.1.219-1.21.1"
+filename = "MaidUseHandCrank_1.6.2-neoforge_21.1.219-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kVNtrRcL/versions/Qu15bii2/MaidUseHandCrank_1.6.2-neoforge_21.1.219-1.21.1.jar"
+hash-format = "sha1"
+hash = "b6105222645e2946bb93186d133e8e03baa61e88"
+
+[update]
+[update.modrinth]
+mod-id = "kVNtrRcL"
+version = "Qu15bii2"

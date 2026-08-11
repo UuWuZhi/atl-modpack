@@ -1,0 +1,13 @@
+name = "squatgrow-neoforge-21.1.4+mc1.21.1"
+filename = "squatgrow-neoforge-21.1.4+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/b5JMdB5V/versions/NZp6wTbs/squatgrow-neoforge-21.1.4%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "a1ff3e1383186b83609ab03e66ff8fc935cf2562"
+
+[update]
+[update.modrinth]
+mod-id = "b5JMdB5V"
+version = "NZp6wTbs"

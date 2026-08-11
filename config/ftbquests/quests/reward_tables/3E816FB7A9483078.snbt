@@ -1,0 +1,13 @@
+{
+	id: "3E816FB7A9483078"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "38FC3A9A47E17A53", item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:wine" } }
+		{ id: "438AA03CCE75AA42", item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:ice_wine" } }
+		{ id: "2085984AB51017FC", item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:brandy" } }
+		{ id: "0E49DB073B2AC87B", item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:whiskey" } }
+		{ id: "063481C596670C1E", item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:vodka" } }
+		{ id: "238A5C85ABF3E090", item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_world_liquor:kwas_chlebowy" } }
+	]
+}

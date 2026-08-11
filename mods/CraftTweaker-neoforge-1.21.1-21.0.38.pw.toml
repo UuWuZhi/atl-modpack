@@ -1,0 +1,13 @@
+name = "CraftTweaker-neoforge-1.21.1-21.0.38"
+filename = "CraftTweaker-neoforge-1.21.1-21.0.38.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Xg35A4rS/versions/BVOSHJwc/CraftTweaker-neoforge-1.21.1-21.0.38.jar"
+hash-format = "sha1"
+hash = "dba530a29e0dd26333c1a1a82ae33942483306df"
+
+[update]
+[update.modrinth]
+mod-id = "Xg35A4rS"
+version = "BVOSHJwc"

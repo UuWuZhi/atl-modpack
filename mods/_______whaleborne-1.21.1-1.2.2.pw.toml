@@ -1,0 +1,13 @@
+name = "[鲸帆远航] whaleborne-1.21.1-1.2.2"
+filename = "[鲸帆远航] whaleborne-1.21.1-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dyFCSxic/versions/n54AXckx/whaleborne-1.21.1-1.2.2.jar"
+hash-format = "sha1"
+hash = "e9739a129e8eaf45a4c1c7717ef4480cf501ca98"
+
+[update]
+[update.modrinth]
+mod-id = "dyFCSxic"
+version = "n54AXckx"

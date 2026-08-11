@@ -1,0 +1,13 @@
+name = "fancymenu_neoforge_3.9.8_MC_1.21.1"
+filename = "fancymenu_neoforge_3.9.8_MC_1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Wq5SjeWM/versions/lvDR4oIj/fancymenu_neoforge_3.9.8_MC_1.21.1.jar"
+hash-format = "sha1"
+hash = "1192ddd19dc2f7f59a361d64aeb5682b273b6063"
+
+[update]
+[update.modrinth]
+mod-id = "Wq5SjeWM"
+version = "lvDR4oIj"

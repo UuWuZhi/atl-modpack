@@ -1,0 +1,13 @@
+name = "[森罗物语：动态结构] kaleidoscope_contraption-1.0.1"
+filename = "[森罗物语：动态结构] kaleidoscope_contraption-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JCCAvv9N/versions/q0HgrIR4/kaleidoscope_contraption-1.0.1.jar"
+hash-format = "sha1"
+hash = "ccebf17848035db08b2f7233cedde133a569769b"
+
+[update]
+[update.modrinth]
+mod-id = "JCCAvv9N"
+version = "q0HgrIR4"

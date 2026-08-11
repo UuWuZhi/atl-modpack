@@ -1,0 +1,12 @@
+name = "[村民物品化／简单村民] easy-villagers-neoforge-1.21.1-1.1.42"
+filename = "[村民物品化／简单村民] easy-villagers-neoforge-1.21.1-1.1.42.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8066/730/easy-villagers-neoforge-1.21.1-1.1.42.jar"
+hash-format = "sha1"
+hash = "bde2278d0c216916ff5a780c9f3acfb50ebee9e5"
+
+[update]
+[update.curseforge]
+file-id = 8066730

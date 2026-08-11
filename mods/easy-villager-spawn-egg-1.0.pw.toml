@@ -1,0 +1,13 @@
+name = "easy-villager-spawn-egg-1.0"
+filename = "easy-villager-spawn-egg-1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/7qitKg42/versions/AUofRWAS/easy-villager-spawn-egg-1.0.jar"
+hash-format = "sha1"
+hash = "b4f744d90dba94a4a76a38244c5c501659594ea8"
+
+[update]
+[update.modrinth]
+mod-id = "7qitKg42"
+version = "AUofRWAS"

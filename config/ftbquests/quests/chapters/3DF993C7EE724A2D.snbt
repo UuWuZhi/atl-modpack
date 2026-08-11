@@ -1,0 +1,787 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3DF993C7EE724A2D"
+	group: "56DC7E32459FC237"
+	icon: {
+		id: "kaleidoscope_tavern:molotov"
+	}
+	id: "3DF993C7EE724A2D"
+	images: [
+		{
+			height: 18.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/root.png"
+			order: -9
+			rotation: 0.0d
+			width: 24.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 6.0d
+			image: "kaleidoscope_tavern:item/wine"
+			order: -2
+			rotation: 0.0d
+			width: 5.0d
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			height: 6.0d
+			image: "vinery:item/straw_hat_item"
+			rotation: -50.0d
+			width: 6.0d
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			height: 6.0d
+			image: "trailandtales_delight:item/cheese_slice"
+			rotation: 0.0d
+			width: 6.0d
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			height: 7.0d
+			image: "extradelight:item/plate"
+			order: -1
+			rotation: 0.0d
+			width: 7.0d
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			height: 5.0d
+			image: "kaleidoscope_tavern:item/wine"
+			rotation: 15.0d
+			width: 4.0d
+			x: -11.0d
+			y: 5.5d
+		}
+		{
+			height: 4.0d
+			image: "kaleidoscope_tavern:item/allium_garden"
+			order: -2
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			height: 4.0d
+			image: "farmersdelight:item/iron_knife"
+			rotation: -180.0d
+			width: 4.0d
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			alpha: 100
+			color: 0
+			height: 6.0d
+			image: "vinery:item/straw_hat_item"
+			order: -1
+			rotation: -50.0d
+			width: 6.0d
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			alpha: 100
+			color: 0
+			height: 5.0d
+			image: "kaleidoscope_tavern:item/wine"
+			order: -1
+			rotation: 15.0d
+			width: 4.0d
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			height: 4.0d
+			image: "extradelight:item/miso_paste"
+			rotation: 0.0d
+			width: 4.0d
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			alpha: 100
+			color: 0
+			height: 4.0d
+			image: "extradelight:item/miso_paste"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 9.0d
+			y: -6.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["65B829DED67CECC5"]
+			id: "4944031212711105"
+			rewards: [
+				{
+					id: "2A72901A7F3B74A0"
+					item: {
+						count: 1
+						id: "kaleidoscope_tavern:molotov"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DD45075ACE37250"
+					table_id: 4504003936956985464L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "15B9B5AE0EF4CCF9"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item_tag(kaleidoscope_tavern:alcohol))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D34E81218CA787A"]
+			id: "65B829DED67CECC5"
+			rewards: [{
+				id: "520828C64EB2EA68"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"kaleidoscope_world_liquor:brew_accelerator": 1
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E135B74832CDAE6"
+				item: { count: 1, id: "kaleidoscope_tavern:barrel" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18B08B3F2E868370"]
+			id: "1D34E81218CA787A"
+			rewards: [
+				{
+					id: "5B43A5DD65A5513D"
+					item: {
+						count: 1
+						id: "vinery:winemaker_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "0F7EDE100BC560C4"
+					item: {
+						count: 1
+						id: "vinery:winemaker_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "4F87A552FBFB3AF8"
+					item: {
+						count: 1
+						id: "vinery:winemaker_apron"
+					}
+					type: "item"
+				}
+				{
+					id: "48C3D43045A9E759"
+					item: {
+						count: 1
+						id: "vinery:straw_hat"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "486DACCB553EA35D"
+					item: { count: 1, id: "kaleidoscope_tavern:pressing_tub" }
+					type: "item"
+				}
+				{
+					id: "65AAC27441ADC665"
+					item: { count: 1, id: "vinery:grapevine_pot" }
+					type: "item"
+				}
+				{
+					id: "170924694B41DC69"
+					item: { count: 1, id: "vinery:apple_press" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "trailandtales_delight:cheese_wheel"
+			}
+			id: "18B08B3F2E868370"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "50064148FF81D1E3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D34E81218CA787A"]
+			id: "262E1F38F5719E93"
+			rewards: [{
+				id: "36CAC4C4351AD91D"
+				item: {
+					count: 1
+					id: "minecraft:milk_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2073DB8E417A130C"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4944031212711105"]
+			icon: {
+				id: "kaleidoscope_tavern:shaker"
+			}
+			id: "05A2090D94973235"
+			rewards: [
+				{
+					id: "2AC39C26790BD467"
+					item: {
+						count: 1
+						id: "kaleidoscope_world_liquor:cola"
+					}
+					type: "item"
+				}
+				{
+					id: "1E1DFD1D8ABFA3CF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7A4916325B751C1B"
+				item: { count: 1, id: "kaleidoscope_tavern:shaker" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["224DF69D733609B2"]
+			id: "07077E5BC0085A2E"
+			rewards: [{
+				id: "06EAA1FA6A50BB7A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "5421B5187E9F2E88"
+				item: { count: 1, id: "vinery:fermentation_barrel" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07077E5BC0085A2E"]
+			id: "5F6D15E7A5120791"
+			rewards: [
+				{
+					id: "7D59AE5506B98618"
+					item: {
+						count: 1
+						id: "vinery:wine_box"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "353862019E557D62"
+					table_id: 8228213476652864883L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25215980E5280D38"
+					table_id: 8228213476652864883L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "11F50A89400DDD2F"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item_tag(vinery:red_wine)item_tag(vinery:white_wine))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F6D15E7A5120791"]
+			id: "7CEBC55200B8CE98"
+			rewards: [
+				{
+					id: "41E5D4417E95C6B1"
+					item: {
+						count: 1
+						id: "vinery:storage_pot"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60DBF6F08C02870A"
+					table_id: 7910390732157459276L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FFB57D93624BDA1"
+					table_id: 7910390732157459276L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "29022667BB955245"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item_tag(vinery:red_wine)item_tag(vinery:white_wine))not(item(vinery:apple_juice))not(item(vinery:apple_wine))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7CEBC55200B8CE98"
+				"05A2090D94973235"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "vinery:vinery_standard"
+			}
+			id: "7737822FD4B37C48"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "74128EAE0CE170F8"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FBC2AD064605DA9"]
+			id: "303FF52BC530929E"
+			rewards: [{
+				id: "3999FD555F5797B3"
+				table_id: 4464116521062227588L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6AD87B1D640DC9DC"
+					item: { count: 1, id: "trailandtales_delight:cheese_wheel" }
+					type: "item"
+				}
+				{
+					id: "7429357B09CB9C2F"
+					item: { count: 1, id: "expandeddelight:cheese_wheel" }
+					type: "item"
+				}
+				{
+					id: "375B5ACCCFDB23D7"
+					item: { count: 1, id: "trailandtales_delight:cheese_slice" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05CD85C38137BDC9"]
+			id: "6AA11AA1EE11508A"
+			rewards: [{
+				id: "44565DC81D831037"
+				table_id: 4464116521062227588L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5E35809302212D36"
+					item: { components: { "ftbfiltersystem:filter": "only_one(item(extradelight:gherkins_block_item)item(extradelight:pickled_beets_block_item)item(extradelight:pickled_onions_block_item)item(extradelight:pickled_carrots_block_item)item(extradelight:pickled_eggs_block_item)item(extradelight:pickled_fish_block_item)item(extradelight:pickled_sausage_block_item)item(extradelight:pickled_ginger_block_item)item(extradelight:preserved_lemons_block_item)item(extradelight:pickled_rinds_block_item)item(extradelight:kimchi_item)item(extradelight:sauerkraut_item))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "251851BB0121D8FB"
+					item: { count: 1, id: "extradelight:vinegar" }
+					type: "item"
+				}
+				{
+					id: "282F3E9A19F764DD"
+					item: { count: 1, id: "extradelight:fish_sauce_item" }
+					type: "item"
+				}
+				{
+					id: "6D6F35B8E640B816"
+					item: { components: { "ftbfiltersystem:filter": "only_one(item(extradelight:hot_sauce_item)item(extradelight:soy_sauce_item)item(extradelight:miso_paste_item))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "188F19FBDB4518A5"
+					item: { count: 1, id: "extradelight:natto_item" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D9F20416C114813"]
+			id: "532D88716BE98327"
+			tasks: [{
+				id: "644F0D5F617DA267"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(youkaishomecoming:soy_sauce_bottle)item(youkaishomecoming:mio)item(youkaishomecoming:mead)item(youkaishomecoming:sparrow_sake)item(youkaishomecoming:kiku)item(youkaishomecoming:hakutsuru)item(youkaishomecoming:kappa_village)item(youkaishomecoming:suigei)item(youkaishomecoming:daiginjo)item(youkaishomecoming:dassai)item(youkaishomecoming:tengu_tango)item(youkaishomecoming:full_moons_eve))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"532D88716BE98327"
+				"303FF52BC530929E"
+				"6AA11AA1EE11508A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "extradelight:yeast_pot"
+			}
+			id: "1C362CD547984763"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3D6CB392FCCD2B85"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7737822FD4B37C48"
+				"1C362CD547984763"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/advancements/icons/modpackroot.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "077EAC8E1A8D4F2F"
+			rewards: [{
+				id: "4FDBC3F194772B67"
+				item: {
+					count: 1
+					id: "tofucraft:tofu_bedrock"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "729F8B0D14069B77"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["05A2090D94973235"]
+			id: "5A1F91478E5520D8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53AE8D498220C249"
+					table_id: 1785154364835567261L
+					type: "loot"
+				}
+				{
+					id: "48DD347C3D077A10"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"kaleidoscope_world_liquor:brew_accelerator": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "498ED4254A46B2CA"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(kaleidoscope_tavern:depth_charge)item(kaleidoscope_tavern:nether_special)item(kaleidoscope_tavern:bloody_mary)item(kaleidoscope_tavern:sculk_special)item(kaleidoscope_tavern:allium_garden)item(kaleidoscope_tavern:signature_cocktail)item(kaleidoscope_tavern:mystery_cocktail)item(kaleidoscope_tavern:white_lady)item(kaleidoscope_tavern:emerald)item(kaleidoscope_tavern:brass_heart)item(kaleidoscope_tavern:godfather)item(kaleidoscope_tavern:grasshopper)item(kaleidoscope_tavern:screwdriver)item(kaleidoscope_tavern:mojito)item(kaleidoscope_world_liquor:jerk)item(kaleidoscope_world_liquor:shrimp_cocktail)item(kaleidoscope_world_liquor:around_the_world)item(kaleidoscope_world_liquor:long_island_iced_tea)item(kaleidoscope_world_liquor:pine_colada))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65B829DED67CECC5"]
+			id: "0123829F01494099"
+			rewards: [{
+				id: "7C5521C78B36088D"
+				table_id: 5624404920899698127L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A0E318A57714642"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "kaleidoscope_world_liquor:brew_accelerator": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4944031212711105"]
+			id: "3C8A2CD83D23E843"
+			rewards: [{
+				id: "2A079AD1399C5BF6"
+				table_id: 5624404920899698127L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5670FC563CFC8448"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_world_liquor:lafite_1982" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4944031212711105"]
+			id: "4A0F4C41A0554B59"
+			rewards: [{
+				id: "6CF9C6598D2FCE6B"
+				table_id: 5624404920899698127L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C9FA17E139A847B"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_world_liquor:maotai" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4944031212711105"]
+			id: "4508BF302F93C4DD"
+			rewards: [{
+				id: "4D1C846A14938755"
+				table_id: 5624404920899698127L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01757514A3465E43"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:champagne" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3C8A2CD83D23E843"
+				"4A0F4C41A0554B59"
+				"4508BF302F93C4DD"
+			]
+			id: "38F9CDBB8C8CEB27"
+			rewards: [
+				{
+					id: "0633ABF76FE382D1"
+					item: {
+						count: 1
+						id: "kaleidoscope_tavern:circular_rack"
+					}
+					type: "item"
+				}
+				{
+					id: "47CCB23E4CE59779"
+					item: {
+						count: 1
+						id: "kaleidoscope_tavern:holder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "772FAE4CD1C7A0D7"
+					item: { count: 1, id: "kaleidoscope_tavern:glass_bar_cabinet" }
+					type: "item"
+				}
+				{
+					id: "4569AA969C54ACDF"
+					item: { count: 1, id: "kaleidoscope_tavern:tilted_rack" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D34E81218CA787A"]
+			id: "224DF69D733609B2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "614CACB9EA2F2D6B"
+					table_id: 2424256487421657683L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01DBB336828D59B2"
+					table_id: 2424256487421657683L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "786F1F305EA6A087"
+					table_id: 2424256487421657683L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "342F6F79D2E0D3AA"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item_tag(vinery:grapejuice)item(vinery:apple_juice))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65B829DED67CECC5"]
+			id: "74F1188046F32125"
+			rewards: [{
+				id: "731F6D10B6646039"
+				table_id: 5624404920899698127L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34E2EBF8A6E77AA3"
+				item: { count: 1, id: "kaleidoscope_bloodwine:blood_bucket" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18B08B3F2E868370"]
+			id: "476BB86E7F174E8E"
+			rewards: [{
+				id: "4481D2A6868DCD8E"
+				table_id: 4464116521062227588L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "19A392981D78FA1A"
+					item: { count: 1, id: "extradelight:vat" }
+					type: "item"
+				}
+				{
+					id: "5EE62599C4FA1A82"
+					item: { count: 1, id: "extradelight:lid" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18B08B3F2E868370"]
+			id: "2FBC2AD064605DA9"
+			rewards: [{
+				id: "7C3BB983C61F8D96"
+				table_id: 4464116521062227588L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0DFE1F903BB72DE2"
+				item: { count: 1, id: "expandeddelight:cask" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18B08B3F2E868370"]
+			id: "0D9F20416C114813"
+			tasks: [{
+				id: "52CB026C0BB873C0"
+				item: { count: 1, id: "youkaishomecoming:fermentation_tank" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["476BB86E7F174E8E"]
+			id: "05CD85C38137BDC9"
+			rewards: [{
+				count: 16
+				id: "2B54A742A2A2CA7E"
+				item: {
+					count: 1
+					id: "extradelight:yeast"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F73CBEE85DC0008"
+					item: { count: 1, id: "extradelight:yeast" }
+					type: "item"
+				}
+				{
+					id: "3D8C899E84E57D63"
+					item: { count: 1, id: "extradelight:yeast_pot" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+	]
+}

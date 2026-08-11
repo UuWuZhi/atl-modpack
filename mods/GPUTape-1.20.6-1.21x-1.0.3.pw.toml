@@ -1,0 +1,13 @@
+name = "GPUTape-1.20.6-1.21x-1.0.3"
+filename = "GPUTape-1.20.6-1.21x-1.0.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5CTSrY8X/versions/nlerwS8N/GPUTape-1.20.6-1.21x-1.0.3.jar"
+hash-format = "sha1"
+hash = "96d8f1df0f08e169396b603c42cf997e9081de59"
+
+[update]
+[update.modrinth]
+mod-id = "5CTSrY8X"
+version = "nlerwS8N"

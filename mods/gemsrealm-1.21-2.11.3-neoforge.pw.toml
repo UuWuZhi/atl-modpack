@@ -1,0 +1,13 @@
+name = "gemsrealm-1.21-2.11.3-neoforge"
+filename = "gemsrealm-1.21-2.11.3-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/v259p1An/versions/XIE0asyq/gemsrealm-1.21-2.11.3-neoforge.jar"
+hash-format = "sha1"
+hash = "f5103b91488597ccc856aa85285f9ec6958f34bc"
+
+[update]
+[update.modrinth]
+mod-id = "v259p1An"
+version = "XIE0asyq"

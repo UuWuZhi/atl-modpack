@@ -1,0 +1,13 @@
+name = "OreBerries-Replanted-1.21.1-0.9.7"
+filename = "OreBerries-Replanted-1.21.1-0.9.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/no8wHvOG/versions/zDdYPxys/OreBerries-Replanted-1.21.1-0.9.7.jar"
+hash-format = "sha1"
+hash = "0726ea1a20e743db744d7e2fc83b79f40496bf13"
+
+[update]
+[update.modrinth]
+mod-id = "no8wHvOG"
+version = "zDdYPxys"

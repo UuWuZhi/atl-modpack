@@ -1,0 +1,13 @@
+name = "[森罗物语：酒馆] kaleidoscopetavern-1.2.0-neoforge+mc1.21.1"
+filename = "[森罗物语：酒馆] kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/r9RZvhiJ/versions/W9ILsQt7/kaleidoscopetavern-1.2.0-neoforge%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "bf026cb97921749adf6155181d2f9639d37a7261"
+
+[update]
+[update.modrinth]
+mod-id = "r9RZvhiJ"
+version = "W9ILsQt7"

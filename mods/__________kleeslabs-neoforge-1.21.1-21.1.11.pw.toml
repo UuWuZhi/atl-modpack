@@ -1,0 +1,12 @@
+name = "[更好地破坏半砖] kleeslabs-neoforge-1.21.1-21.1.11"
+filename = "[更好地破坏半砖] kleeslabs-neoforge-1.21.1-21.1.11.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8163/148/kleeslabs-neoforge-1.21.1-21.1.11.jar"
+hash-format = "sha1"
+hash = "6b357c38c09620d7494da94a03470d5fbb4eade6"
+
+[update]
+[update.curseforge]
+file-id = 8163148

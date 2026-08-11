@@ -1,0 +1,31 @@
+{
+	id: "2255A0DE291499CE"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ id: "0E4BFF2A68030DFA", item: { count: 1, id: "kaleidoscope_nether:pepper_pork_belly_chicken_soup" } }
+		{ id: "0D393D1592584777", item: { count: 1, id: "kaleidoscope_cookery:spicy_chicken" } }
+		{ id: "2BBE298262494173", item: { count: 1, id: "extradelight:pork_stew_rice" } }
+		{
+			id: "3BE71CF665C48732"
+			item: {
+				count: 1
+				id: "extradelight:pork_stew_feast"
+			}
+			weight: 0.5f
+		}
+		{ id: "4D618BE99D59000D", item: { count: 1, id: "youkaishomecoming:cumberland_loin" } }
+		{
+			id: "6AC410570E9B6994"
+			item: {
+				count: 1
+				id: "extradelight:beef_stew_feast"
+			}
+			weight: 0.5f
+		}
+		{ id: "295D4FEBBCC3B70A", item: { count: 1, id: "kaleidoscope_nether:ruby_steak" } }
+		{ id: "63883A22B8761230", item: { count: 1, id: "extradelight:rack_lamb_block_item" } }
+		{ id: "5CD096042B64F380", item: { count: 1, id: "croptopia:shepherds_pie" } }
+		{ id: "193DADDE9BE08982", item: { count: 1, id: "farmersdelight:shepherds_pie_block" } }
+	]
+}

@@ -1,0 +1,13 @@
+name = "[森罗物语：厨房] kaleidoscopecookery-1.4.1-neoforge+mc1.21.1"
+filename = "[森罗物语：厨房] kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/v17FatAc/versions/TqaHu4Ma/kaleidoscopecookery-1.4.1-neoforge%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "a08a4436ebfebee7b56beb776ea8aada489ee0ab"
+
+[update]
+[update.modrinth]
+mod-id = "v17FatAc"
+version = "TqaHu4Ma"

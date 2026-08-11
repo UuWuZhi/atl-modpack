@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0466DB778F9F58D7"
+	group: "0BD499FB8EC31FBF"
+	icon: {
+		id: "kaleidoscope_twilight:minotaur_roll"
+	}
+	id: "0466DB778F9F58D7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "3572BE99E72BE36A"
+		tasks: [{
+			id: "0518DFFE94C4C39D"
+			type: "checkmark"
+		}]
+		x: -12.5d
+		y: -1.5d
+	}]
+}

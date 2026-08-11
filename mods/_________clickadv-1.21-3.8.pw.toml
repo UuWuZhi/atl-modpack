@@ -1,0 +1,12 @@
+name = "[可点击的进度] clickadv-1.21-3.8"
+filename = "[可点击的进度] clickadv-1.21-3.8.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/5551/404/clickadv-1.21-3.8.jar"
+hash-format = "sha1"
+hash = "1aeae5774513fdc82fa52d544edcd72b26c498b8"
+
+[update]
+[update.curseforge]
+file-id = 5551404

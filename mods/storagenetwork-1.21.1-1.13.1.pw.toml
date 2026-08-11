@@ -1,0 +1,13 @@
+name = "storagenetwork-1.21.1-1.13.1"
+filename = "storagenetwork-1.21.1-1.13.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cVIr8Vz1/versions/XSVSQtfE/storagenetwork-1.21.1-1.13.1.jar"
+hash-format = "sha1"
+hash = "a3a074656113cf5ce578ac63ac6ec61b46d1ce5d"
+
+[update]
+[update.modrinth]
+mod-id = "cVIr8Vz1"
+version = "XSVSQtfE"

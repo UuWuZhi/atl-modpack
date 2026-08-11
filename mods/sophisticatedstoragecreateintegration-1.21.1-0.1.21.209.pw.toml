@@ -1,0 +1,12 @@
+name = "sophisticatedstoragecreateintegration-1.21.1-0.1.21.209"
+filename = "sophisticatedstoragecreateintegration-1.21.1-0.1.21.209.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8503/147/sophisticatedstoragecreateintegration-1.21.1-0.1.21.209.jar"
+hash-format = "sha1"
+hash = "d8f72f22459750496008a7c2a39dc865152d075c"
+
+[update]
+[update.curseforge]
+file-id = 8503147

@@ -1,0 +1,35 @@
+{
+"type":"botanypots:block_derived_crop",
+"block":"kaleidoscope_end:dream_berry_head",
+"input": {
+"item": "kaleidoscope_end:dream_berry"
+},
+"soil": {
+"tag": "botanypots:soil/end"
+},
+"display":{
+  "type":"botanypots:transitional",
+  "phases":[{
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_end:dream_berry_head","properties":{"age":"0"}},
+  "options":{"rotation":"X_180"}
+  },
+  {
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_end:dream_berry_head","properties":{"age":"2"}},
+  "options":{"rotation":"X_180"}
+  },
+  {
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_end:dream_berry_head","properties":{"age":"4"}},
+  "options":{"rotation":"X_180"}},
+  {
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_end:dream_berry_head","properties":{"age":"6"}},
+  "options":{"rotation":"X_180"}},
+  {
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_end:dream_berry_head","properties":{"age":"6","berries":"true"}},
+  "options":{"rotation":"X_180"}}
+  ]}
+}

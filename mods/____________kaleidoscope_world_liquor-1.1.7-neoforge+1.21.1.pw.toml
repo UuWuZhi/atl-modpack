@@ -1,0 +1,13 @@
+name = "[森罗酒馆：世界名酒] kaleidoscope_world_liquor-1.1.7-neoforge+1.21.1"
+filename = "[森罗酒馆：世界名酒] kaleidoscope_world_liquor-1.1.7-neoforge+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ePVLCraM/versions/Oje5lZGr/kaleidoscope_world_liquor-1.1.7-neoforge%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "15abe78fc73436b058fdf761d1824266a17aab24"
+
+[update]
+[update.modrinth]
+mod-id = "ePVLCraM"
+version = "Oje5lZGr"

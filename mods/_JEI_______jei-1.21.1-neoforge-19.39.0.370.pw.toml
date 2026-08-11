@@ -1,0 +1,13 @@
+name = "[JEI物品管理器] jei-1.21.1-neoforge-19.39.0.370"
+filename = "[JEI物品管理器] jei-1.21.1-neoforge-19.39.0.370.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/u6dRKJwZ/versions/P6MOayB0/jei-1.21.1-neoforge-19.39.0.370.jar"
+hash-format = "sha1"
+hash = "b6d4e2b65720a50c82a6b4d52e00cefd561604e5"
+
+[update]
+[update.modrinth]
+mod-id = "u6dRKJwZ"
+version = "P6MOayB0"

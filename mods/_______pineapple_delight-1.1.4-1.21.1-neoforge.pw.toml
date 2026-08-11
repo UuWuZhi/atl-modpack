@@ -1,0 +1,13 @@
+name = "[凤梨乐事] pineapple_delight-1.1.4-1.21.1-neoforge"
+filename = "[凤梨乐事] pineapple_delight-1.1.4-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8wXnuOvg/versions/XW0ePPxE/pineapple_delight-1.1.4-1.21.1-neoforge.jar"
+hash-format = "sha1"
+hash = "24253d3d85daa925d2d3aaeea4aeb7cc9f39d3e7"
+
+[update]
+[update.modrinth]
+mod-id = "8wXnuOvg"
+version = "XW0ePPxE"

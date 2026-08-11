@@ -1,0 +1,12 @@
+name = "trade-cycling-neoforge-1.21.1-1.0.18"
+filename = "trade-cycling-neoforge-1.21.1-1.0.18.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/6497/876/trade-cycling-neoforge-1.21.1-1.0.18.jar"
+hash-format = "sha1"
+hash = "f0c95fb82f68f2c7402e0615a5d241e6097920cf"
+
+[update]
+[update.curseforge]
+file-id = 6497876

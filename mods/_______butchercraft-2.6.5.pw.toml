@@ -1,0 +1,13 @@
+name = "[屠宰工艺] butchercraft-2.6.5"
+filename = "[屠宰工艺] butchercraft-2.6.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MT2Xm0ih/versions/zv719GLo/butchercraft-2.6.5.jar"
+hash-format = "sha1"
+hash = "6e58dfdf94c997ba288dd12460d2746852147eba"
+
+[update]
+[update.modrinth]
+mod-id = "MT2Xm0ih"
+version = "zv719GLo"

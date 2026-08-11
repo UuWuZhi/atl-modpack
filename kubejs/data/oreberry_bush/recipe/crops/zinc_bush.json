@@ -1,0 +1,32 @@
+{
+  "type": "botanypots:crop",
+  "input": {
+    "item": "create:raw_zinc_block"
+  },
+  "soil": {
+    "tag": "botanypots:soil/sculk"
+  },
+  "grow_time": 1200,
+  "display": {
+    "type": "botanypots:simple",
+    "block_state": {
+      "block": "oreberriesreplanted:zinc_oreberry_bush"
+    }
+  },
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "oreberriesreplanted:zinc_oreberry_bush",
+            "count": 1
+          },
+          "chance": 0.06
+        }
+      ]
+    }
+  ],
+  "yield": 1.0,
+  "yield_scale": 1.0
+}

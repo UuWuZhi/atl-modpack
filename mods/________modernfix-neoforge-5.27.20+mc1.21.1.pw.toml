@@ -1,0 +1,13 @@
+name = "[现代化修复] modernfix-neoforge-5.27.20+mc1.21.1"
+filename = "[现代化修复] modernfix-neoforge-5.27.20+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nmDcB62a/versions/VsJnrw8k/modernfix-neoforge-5.27.20%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "bc1a70e72e7dba8a3ff41404765fdd03a7ac6575"
+
+[update]
+[update.modrinth]
+mod-id = "nmDcB62a"
+version = "VsJnrw8k"

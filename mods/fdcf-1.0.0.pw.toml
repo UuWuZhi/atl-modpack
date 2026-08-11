@@ -1,0 +1,12 @@
+name = "fdcf-1.0.0"
+filename = "fdcf-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8036/583/fdcf-1.0.0.jar"
+hash-format = "sha1"
+hash = "3ff64beeb2b600d1939c3ee1fb0e29a54e9f0eef"
+
+[update]
+[update.curseforge]
+file-id = 8036583

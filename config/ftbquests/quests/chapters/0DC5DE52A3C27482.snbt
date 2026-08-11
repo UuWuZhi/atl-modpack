@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0DC5DE52A3C27482"
+	group: "5C5E8013A499E5B0"
+	icon: {
+		id: "kaleidoscope_nether:soul_return_rice"
+	}
+	id: "0DC5DE52A3C27482"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "18BD1DAE529BCDB3"
+		tasks: [{
+			id: "0AB90D6A03619231"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: 3.5d
+	}]
+}

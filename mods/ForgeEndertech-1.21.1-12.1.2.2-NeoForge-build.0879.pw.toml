@@ -1,0 +1,13 @@
+name = "ForgeEndertech-1.21.1-12.1.2.2-NeoForge-build.0879"
+filename = "ForgeEndertech-1.21.1-12.1.2.2-NeoForge-build.0879.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/EgS8gGp8/versions/HtpCqEXI/ForgeEndertech-1.21.1-12.1.2.2-NeoForge-build.0879.jar"
+hash-format = "sha1"
+hash = "71267bbe37cc2bf78fedb06b0f16643c9b22d16c"
+
+[update]
+[update.modrinth]
+mod-id = "EgS8gGp8"
+version = "HtpCqEXI"

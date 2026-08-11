@@ -1,0 +1,19 @@
+{
+	id: "3DF3BA52F1DDDE84"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ id: "2944212D6AC58065", item: { count: 1, id: "trailandtales_delight:cherry_cheese_pie" } }
+		{ id: "0EE7DE578D954C8B", item: { count: 1, id: "extradelight:honey_cheesecake" } }
+		{ id: "374B9EAE4524C440", item: { count: 1, id: "extradelight:pumpkin_cheesecake" } }
+		{ id: "290C76A24EBC3FCF", item: { count: 1, id: "extradelight:apple_cheesecake" } }
+		{ id: "5DCCE541FD4ED4A4", item: { count: 1, id: "extradelight:cheese_souffle" } }
+		{ id: "70CF9050C017CFCD", item: { count: 1, id: "extradelight:cheesymite_scroll" } }
+		{ id: "015518DC2861C58F", item: { count: 1, id: "extradelight:cheeseburger_pickle" } }
+		{ id: "66AE6F6E8BB8F71D", item: { count: 1, id: "youkaishomecoming:sauce_grilled_fish" } }
+		{ id: "71CB61C56F8348ED", item: { count: 1, id: "extradelight:chili_con_carne" } }
+		{ id: "07A044542B725EDF", item: { count: 1, id: "extradelight:steak_pickled_onion_pie_item" } }
+		{ id: "3912956C0432C010", item: { count: 1, id: "extradelight:preserved_lemon_pasta" } }
+		{ id: "0AC889620F335F33", item: { count: 1, id: "aquaculturedelight:rollmops" } }
+	]
+}

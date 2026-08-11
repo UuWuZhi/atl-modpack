@@ -1,0 +1,407 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5361FF107A91B9AD"
+	group: "1E7E28265226F4DD"
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:textures/gui/advancements/icons/modpackroot.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "5361FF107A91B9AD"
+	images: [
+		{
+			height: 12.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/root.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 5.12d
+			image: "minecraft:textures/gui/title/minecraft.png"
+			rotation: 0.0d
+			width: 20.48d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:textures/gui/advancements/icons/modpackroot.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.0d
+			y: 3.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/advancements/icons/modpackroot.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "04B17A7BBDDBCC6B"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "51128DDDA389A2E1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04B17A7BBDDBCC6B"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/advancements/backgrounds/root.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "088B17D1CB907FD7"
+			tasks: [{
+				id: "23EAC1D8E7BC35F7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["60FF4F70B7DD6C43"]
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "4B175F680FED2EE0"
+			tasks: [{
+				id: "4B7E38524C24B818"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04B17A7BBDDBCC6B"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "60FF4F70B7DD6C43"
+			tasks: [{
+				id: "12300BC986BAB2B7"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["60FF4F70B7DD6C43"]
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "4348B5A67A563441"
+			tasks: [{
+				id: "28E414DCBC7BF6F8"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60FF4F70B7DD6C43"]
+			icon: {
+				id: "twilightforest:fiery_sword"
+			}
+			id: "23C5ACA48AD95FC0"
+			tasks: [{
+				id: "4E541441BFDC949C"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04B17A7BBDDBCC6B"]
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "462B5AB406F5C248"
+			tasks: [{
+				id: "13C3FA48E93E2CC5"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04B17A7BBDDBCC6B"]
+			icon: {
+				id: "create:cogwheel"
+			}
+			id: "757257A14FCFC58B"
+			tasks: [{
+				id: "2978A30E7868A536"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["757257A14FCFC58B"]
+			icon: {
+				id: "minecraft:bone_meal"
+			}
+			id: "1A57F4A5E4584B4A"
+			tasks: [
+				{
+					id: "1F88185A969FF9F7"
+					type: "checkmark"
+				}
+				{
+					id: "3E8BF7B62920E32D"
+					item: { count: 1, id: "kaleidoscope_cookery:sickle" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["757257A14FCFC58B"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "4E824632C2B6EBEA"
+			tasks: [{
+				id: "10737F823FAE9F07"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["757257A14FCFC58B"]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "6302CC49842D2512"
+			rewards: [{
+				id: "0D54ED87FB022E8C"
+				item: {
+					count: 1
+					id: "waystones:warp_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02CAA1B75A2DC328"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["757257A14FCFC58B"]
+			icon: {
+				id: "lootr:trophy"
+			}
+			id: "01D664925EE63377"
+			tasks: [{
+				id: "670DD1FED581B77A"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["757257A14FCFC58B"]
+			icon: {
+				id: "constructionstick:wooden_stick"
+			}
+			id: "556A8CC4271311DE"
+			rewards: [{
+				id: "1DA03212C33047C9"
+				item: {
+					count: 1
+					id: "constructionstick:wooden_stick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7876598485B95D44"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["757257A14FCFC58B"]
+			icon: {
+				id: "crafting_on_a_stick:crafting_table"
+			}
+			id: "01459EBF78228817"
+			tasks: [{
+				id: "7EE117C3C7B4C018"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["757257A14FCFC58B"]
+			icon: {
+				components: {
+					"sophisticatedcore:number_of_inventory_slots": 27
+					"sophisticatedcore:number_of_upgrade_slots": 1
+				}
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "051EC7C2E1D8D664"
+			tasks: [{
+				id: "01C27210948F12A1"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04B17A7BBDDBCC6B"]
+			icon: {
+				id: "rusticdelight:coffee"
+			}
+			id: "6350ED5B26F8C1CB"
+			tasks: [{
+				id: "2B2FF9F5F702C657"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04B17A7BBDDBCC6B"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "1E4DC8918D2E9369"
+			rewards: [
+				{
+					id: "0491E84A60A742E0"
+					item: {
+						count: 1
+						id: "minecraft:oak_boat"
+					}
+					type: "item"
+				}
+				{
+					id: "306F02FAC6DEA726"
+					item: {
+						count: 1
+						id: "comforts:sleeping_bag_red"
+					}
+					type: "item"
+				}
+				{
+					id: "5DC8800F18AB9EB5"
+					item: {
+						count: 1
+						id: "naturescompass:naturescompass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37499F18954D0605"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60FF4F70B7DD6C43"]
+			icon: {
+				id: "farmersdelight:cooked_rice"
+			}
+			id: "2AB8E98FCC9CF86C"
+			tasks: [{
+				id: "0F195C636FAB0E01"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60FF4F70B7DD6C43"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "3B53CDB8C981FC9B"
+			tasks: [{
+				id: "0C02E7A34CF62962"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04B17A7BBDDBCC6B"]
+			icon: {
+				id: "minecraft:lapis_lazuli"
+			}
+			id: "4B03BBA00CC5E516"
+			rewards: [{
+				id: "3398AD6B05B17E55"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "55D901FF29C436D0"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04B17A7BBDDBCC6B"]
+			icon: {
+				id: "minecraft:golden_axe"
+			}
+			id: "0F6BD24A80381782"
+			rewards: [
+				{
+					id: "03DAD6D95ED40F55"
+					item: {
+						count: 1
+						id: "minecraft:golden_axe"
+					}
+					type: "item"
+				}
+				{
+					id: "7CC3A53DEF878499"
+					item: {
+						count: 1
+						id: "minecraft:golden_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "4F6BA93996309986"
+					item: {
+						count: 1
+						id: "minecraft:golden_hoe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D303AAC983408C4"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+	]
+}

@@ -1,0 +1,12 @@
+name = "GlitchCore-neoforge-1.21.1-2.1.0.2"
+filename = "GlitchCore-neoforge-1.21.1-2.1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8109/792/GlitchCore-neoforge-1.21.1-2.1.0.2.jar"
+hash-format = "sha1"
+hash = "a31c3f36330f19aa538add3d727782a62c9c30ad"
+
+[update]
+[update.curseforge]
+file-id = 8109792

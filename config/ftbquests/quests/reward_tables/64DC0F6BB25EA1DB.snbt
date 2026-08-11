@@ -1,0 +1,61 @@
+{
+	id: "64DC0F6BB25EA1DB"
+	loot_size: 2
+	order_index: 8
+	rewards: [
+		{
+			count: 16
+			id: "173F3506CC7BD54B"
+			item: {
+				count: 1
+				id: "minecraft:raw_iron"
+			}
+			weight: 30.0f
+		}
+		{
+			count: 8
+			id: "07A4CBCC22B87681"
+			item: {
+				count: 1
+				id: "minecraft:raw_gold"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 4
+			id: "6346C8D8CC3564BE"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 24
+			id: "1442C50A5569D726"
+			item: {
+				count: 1
+				id: "minecraft:raw_copper"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 16
+			id: "2CBED86612C66FB6"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 16
+			id: "569840B9E7EE6D5C"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+			weight: 10.0f
+		}
+	]
+}

@@ -1,0 +1,12 @@
+name = "spawn_c2me_fix-1.21.1-1.0.0"
+filename = "spawn_c2me_fix-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8192/526/spawn_c2me_fix-1.21.1-1.0.0.jar"
+hash-format = "sha1"
+hash = "16d8c1ca3465da075fad370062bb6e926785a113"
+
+[update]
+[update.curseforge]
+file-id = 8192526

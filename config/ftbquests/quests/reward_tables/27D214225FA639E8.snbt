@@ -1,0 +1,33 @@
+{
+	id: "27D214225FA639E8"
+	loot_size: 3
+	order_index: 4
+	rewards: [
+		{ id: "58957FA7E02F9AAB", item: { count: 1, id: "croptopia:walnut_sapling" } }
+		{ id: "020E117650F02639", item: { count: 1, id: "croptopia:starfruit_sapling" } }
+		{ id: "4BCE0F9E5513BB87", item: { count: 1, id: "croptopia:plum_sapling" } }
+		{ id: "726F556ACE08443E", item: { count: 1, id: "croptopia:persimmon_sapling" } }
+		{ id: "497AC101DE4E40A0", item: { count: 1, id: "croptopia:pecan_sapling" } }
+		{ id: "7D480CA43BC9530A", item: { count: 1, id: "croptopia:pear_sapling" } }
+		{ id: "5F05DE8BF59CD571", item: { count: 1, id: "croptopia:peach_sapling" } }
+		{ id: "40E5FA048D3F2978", item: { count: 1, id: "croptopia:orange_sapling" } }
+		{ id: "473B10D4B0B783F8", item: { count: 1, id: "croptopia:nutmeg_sapling" } }
+		{ id: "609538C7C4928612", item: { count: 1, id: "croptopia:nectarine_sapling" } }
+		{ id: "2E36E9AC4F524463", item: { count: 1, id: "croptopia:mango_sapling" } }
+		{ id: "1881ED5059409231", item: { count: 1, id: "croptopia:lime_sapling" } }
+		{ id: "35C3A8D4EC2619E7", item: { count: 1, id: "croptopia:lemon_sapling" } }
+		{ id: "7E1007DA57863DB0", item: { count: 1, id: "croptopia:kumquat_sapling" } }
+		{ id: "25A43925890689EC", item: { count: 1, id: "croptopia:grapefruit_sapling" } }
+		{ id: "7062B1A1F472D6B1", item: { count: 1, id: "croptopia:fig_sapling" } }
+		{ id: "4F686D0FE48652E3", item: { count: 1, id: "croptopia:dragonfruit_sapling" } }
+		{ id: "38D3D65C701F853D", item: { count: 1, id: "croptopia:date_sapling" } }
+		{ id: "134B9F8EADC625A1", item: { count: 1, id: "croptopia:coconut_sapling" } }
+		{ id: "2A7D8C98CA2508F5", item: { count: 1, id: "croptopia:cherry_sapling" } }
+		{ id: "45FAC1C7B548A2F1", item: { count: 1, id: "croptopia:cashew_sapling" } }
+		{ id: "715525B228C0ED4E", item: { count: 1, id: "croptopia:banana_sapling" } }
+		{ id: "7F6999C085733CD6", item: { count: 1, id: "croptopia:avocado_sapling" } }
+		{ id: "7A67A73017ED60B1", item: { count: 1, id: "croptopia:apricot_sapling" } }
+		{ id: "62F550E872429B86", item: { count: 1, id: "croptopia:apple_sapling" } }
+		{ id: "7C51305A312B0C55", item: { count: 1, id: "croptopia:almond_sapling" } }
+	]
+}

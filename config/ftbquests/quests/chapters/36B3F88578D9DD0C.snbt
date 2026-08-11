@@ -1,0 +1,442 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "36B3F88578D9DD0C"
+	group: "6329DB23E72E5CA0"
+	icon: {
+		id: "minecraft:oak_hanging_sign"
+	}
+	id: "36B3F88578D9DD0C"
+	images: [{
+		height: 18.0d
+		image: "minecraft:textures/gui/advancements/backgrounds/root.png"
+		order: -9
+		rotation: 0.0d
+		width: 24.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farmersdelight:rice_panicle"
+			}
+			id: "319F262381C0636C"
+			rewards: [
+				{
+					id: "201E5742E58471D9"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:straw_hat_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "3DF22D7BE0AE796E"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:farmer_chest_plate"
+					}
+					type: "item"
+				}
+				{
+					id: "1C3840112FA6998B"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:farmer_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "5738EC96C9E3694A"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:farmer_boots"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5F63F2AAB8A91DF2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["319F262381C0636C"]
+			id: "2A9D690141B21DD1"
+			rewards: [{
+				count: 2
+				id: "7E19B4BC228B11E1"
+				item: {
+					count: 1
+					id: "cratedelightcroptopia:rice_bag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "69B2A5082438EF80"
+				item: { count: 1, id: "farmersdelight:rice" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["319F262381C0636C"]
+			id: "135417B1F69E9339"
+			rewards: [
+				{
+					count: 2
+					id: "4A391AFC4AEF86EC"
+					item: {
+						count: 1
+						id: "extradelight:flour_sack"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4EDBDF79B576E8D4"
+					item: {
+						count: 1
+						id: "cratedelight:wheat_seeds_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 24L
+				id: "569FD6D3553F137A"
+				item: { count: 1, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["319F262381C0636C"]
+			id: "39D782017DA729D8"
+			rewards: [{
+				id: "64E04012C3550CF4"
+				table_id: 2869378050454600168L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3DFBB111A769A199"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:fruit)item_tag(c:fruits))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["319F262381C0636C"]
+			id: "6B3AAA948D6A7678"
+			rewards: [{
+				count: 8
+				id: "3DABD9B32579CD14"
+				item: {
+					count: 1
+					id: "kaleidoscope_tavern:trellis"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17973725E1A2D9C4"
+				item: { count: 1, id: "kaleidoscope_tavern:grapevine" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["319F262381C0636C"]
+			id: "5E3AC1C9E6290493"
+			rewards: [{
+				count: 16
+				id: "6087365997DA4C31"
+				item: {
+					count: 1
+					id: "minecraft:brick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E6B13CCA52B3F83"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botanypots:botany_pots)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5E3AC1C9E6290493"]
+			id: "10F8E569F998ED61"
+			rewards: [{
+				id: "4CB21A200AB9D05E"
+				item: {
+					count: 1
+					id: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75C22F6EC1255361"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botanypotstiers:regular_hopper_botany_pots)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E3AC1C9E6290493"]
+			id: "4CB27861ACBB6682"
+			rewards: [{
+				id: "08E4FF32EAA4716C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "55D99B0F032D21D1"
+				item: { count: 1, id: "botanypotstiers:elite_upgrade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CB27861ACBB6682"]
+			id: "4066886F42A501B7"
+			rewards: [{
+				id: "7C85CE4ACEE3CF0D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "33258ACC86E2A993"
+				item: { count: 1, id: "botanypotstiers:ultra_upgrade" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["319F262381C0636C"]
+			id: "7C80063B4191E1D2"
+			rewards: [{
+				id: "53C3D6F8C16A8348"
+				item: {
+					count: 1
+					id: "kaleidoscope_cookery:scarecrow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "512A5D6209E36B23"
+				item: { count: 1, id: "farmersdelight:rich_soil" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B3AAA948D6A7678"]
+			id: "30C1482CE4728E66"
+			rewards: [
+				{
+					id: "31D2DB35D82E7EBF"
+					item: {
+						count: 1
+						id: "minecraft:magma_block"
+					}
+					type: "item"
+				}
+				{
+					id: "583922F185551C12"
+					item: {
+						count: 1
+						id: "minecraft:snow_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6100498E79B77B30"
+				item: { count: 1, id: "kaleidoscope_tavern:grape" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30C1482CE4728E66"]
+			id: "718ED3B5F1DC7DD7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E05D9F64CA21B99"
+					table_id: 4504003936956985464L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78D32206F49696C7"
+					table_id: 1785154364835567261L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "35D5BBBC1D05D89C"
+					item: { count: 1, id: "kaleidoscope_tavern:ice_grape" }
+					type: "item"
+				}
+				{
+					id: "20AB6F07E726AA7B"
+					item: { count: 1, id: "kaleidoscope_tavern:gold_grape" }
+					type: "item"
+				}
+				{
+					id: "7D346EF7933478AB"
+					item: { count: 1, id: "kaleidoscope_tavern:green_grape" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["319F262381C0636C"]
+			id: "38D1801799739B96"
+			rewards: [{
+				id: "44DEB2373CDB1100"
+				table_id: 7778746244118731316L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77ECD318A9EDC7C1"
+				item: { count: 1, id: "kaleidoscope_cookery:sickle" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["319F262381C0636C"]
+			id: "61508C66D8F777A5"
+			rewards: [{
+				id: "2CC2FCDE2726D2CC"
+				table_id: 7778746244118731316L
+				type: "random"
+			}]
+			tasks: [{
+				id: "60DA73DE2FEC5066"
+				item: { count: 1, id: "easy_villagers:farmer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["319F262381C0636C"]
+			id: "79B94D3D6128C8A6"
+			rewards: [{
+				id: "3C8D9BF75E827742"
+				table_id: 7778746244118731316L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A9DEF51532D613B"
+				item: { count: 1, id: "pylons:harvester_pylon" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C80063B4191E1D2"]
+			id: "2D2BF6AEDE4E6ABF"
+			rewards: [{
+				id: "61DD22A5C5E853C0"
+				item: {
+					count: 1
+					id: "kaleidoscope_twilight:glow_mushroom_pot_soup"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0196BD54B9A476ED"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:mushroom_colonies)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["319F262381C0636C"]
+			id: "440B3B101CA52C35"
+			rewards: [{
+				id: "61FD53D3F64D9F93"
+				table_id: 7778746244118731316L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E1D7CE53C18AFAF"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(extradelight:hanging_onion)item(extradelight:hanging_mint)item(extradelight:hanging_ham)item(extradelight:hanging_chili)item(extradelight:hanging_dried_chili)item(extradelight:hanging_corn)item(extradelight:hanging_garlic))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4066886F42A501B7"]
+			id: "75A6BA1F3C68D5A3"
+			tasks: [{
+				id: "32470C0FC269C82B"
+				item: { count: 1, id: "botanypotstiers:mega_upgrade" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1859E539EAA9A870"]
+			id: "45958791F4E6F586"
+			rewards: [{
+				id: "36C1FB3C044FF83A"
+				table_id: 7267700853897601499L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CBFF1A12AC07E6A"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(oreberriesreplanted:gold_oreberry_bush)item(oreberriesreplanted:iron_oreberry_bush)item(oreberriesreplanted:zinc_oreberry_bush)item(oreberriesreplanted:copper_oreberry_bush))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E3AC1C9E6290493"]
+			id: "1859E539EAA9A870"
+			rewards: [{
+				id: "3EB6593E825B6D76"
+				table_id: 7267700853897601499L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3FA1A39AA300B962"
+				item: { count: 1, id: "minecraft:sculk" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+	]
+}

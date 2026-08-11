@@ -1,0 +1,13 @@
+name = "[旷野之息高塔 ：再重制] totw_modded-neoforge-1.21-1.0.9"
+filename = "[旷野之息高塔 ：再重制] totw_modded-neoforge-1.21-1.0.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/54eqfZSC/versions/AxSm5PB9/totw_modded-neoforge-1.21-1.0.9.jar"
+hash-format = "sha1"
+hash = "c7b03934cce6eb7a8253ee0a8c416f137710f6ee"
+
+[update]
+[update.modrinth]
+mod-id = "54eqfZSC"
+version = "AxSm5PB9"

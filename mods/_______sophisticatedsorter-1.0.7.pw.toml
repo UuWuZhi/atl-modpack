@@ -1,0 +1,13 @@
+name = "[精妙整理] sophisticatedsorter-1.0.7"
+filename = "[精妙整理] sophisticatedsorter-1.0.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2LPywrDb/versions/Vbt1mjHA/sophisticatedsorter-1.0.7.jar"
+hash-format = "sha1"
+hash = "ca1f42b2b8a277016855a09a5f8957398ef80a33"
+
+[update]
+[update.modrinth]
+mod-id = "2LPywrDb"
+version = "Vbt1mjHA"

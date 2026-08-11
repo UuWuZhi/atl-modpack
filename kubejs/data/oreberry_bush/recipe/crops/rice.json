@@ -1,0 +1,18 @@
+{
+"bookshelf:load_conditions": [
+  {
+    "type": "bookshelf:block_exists",
+    "values": [
+    "kaleidoscope_cookery:rice_crop"
+    ]
+  }
+],
+"type": "botanypots:block_derived_crop",
+"block": "kaleidoscope_cookery:rice_crop",
+"input": {
+"item": "kaleidoscope_cookery:wild_rice"
+},
+"soil": {
+"tag": "botanypots:soil/water"
+}
+}

@@ -1,0 +1,13 @@
+name = "[简单备份] SimpleBackups-1.21-4.0.30"
+filename = "[简单备份] SimpleBackups-1.21-4.0.30.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fzSKSXVK/versions/tHyCDNNH/SimpleBackups-1.21-4.0.30.jar"
+hash-format = "sha1"
+hash = "fd9c1374463d2802b119fb5865e43f280573cb4c"
+
+[update]
+[update.modrinth]
+mod-id = "fzSKSXVK"
+version = "tHyCDNNH"

@@ -1,0 +1,13 @@
+name = "[装箱乐事：作物盛景] cratedelightcroptopia-24.12.27-1.21-neoforge"
+filename = "[装箱乐事：作物盛景] cratedelightcroptopia-24.12.27-1.21-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W6Xlp26Z/versions/nmXLo1IW/cratedelightcroptopia-24.12.27-1.21-neoforge.jar"
+hash-format = "sha1"
+hash = "47c973ee268ea774228488d68e5a920ca6b93b8e"
+
+[update]
+[update.modrinth]
+mod-id = "W6Xlp26Z"
+version = "nmXLo1IW"

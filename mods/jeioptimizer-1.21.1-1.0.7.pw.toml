@@ -1,0 +1,13 @@
+name = "jeioptimizer-1.21.1-1.0.7"
+filename = "jeioptimizer-1.21.1-1.0.7.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/GRvMb5oF/versions/ncScnSPe/jeioptimizer-1.21.1-1.0.7.jar"
+hash-format = "sha1"
+hash = "06869fb749e88c87568ad7ea81a3b2b9dcc3a744"
+
+[update]
+[update.modrinth]
+mod-id = "GRvMb5oF"
+version = "ncScnSPe"

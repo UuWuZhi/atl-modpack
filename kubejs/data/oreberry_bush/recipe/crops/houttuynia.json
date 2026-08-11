@@ -1,0 +1,15 @@
+{
+"bookshelf:load_conditions": [
+  {
+    "type": "bookshelf:block_exists",
+    "values": [
+    "kaleidoscope_grilling:houttuynia_crop"
+    ]
+  }
+],
+"type": "botanypots:block_derived_crop",
+"block": "kaleidoscope_grilling:houttuynia_crop",
+"input": {
+"item": "kaleidoscope_grilling:houttuynia"
+}
+}

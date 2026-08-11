@@ -1,0 +1,13 @@
+name = "floralis-17.0.0"
+filename = "floralis-17.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1Nde79GO/versions/Yx82UhBz/floralis-17.0.0.jar"
+hash-format = "sha1"
+hash = "9d082b3b730ac80ff62b7dc21295f50a30320b54"
+
+[update]
+[update.modrinth]
+mod-id = "1Nde79GO"
+version = "Yx82UhBz"

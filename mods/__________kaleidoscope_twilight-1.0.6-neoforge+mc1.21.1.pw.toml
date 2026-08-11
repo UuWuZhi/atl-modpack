@@ -1,0 +1,13 @@
+name = "[森罗物语：暮色] kaleidoscope_twilight-1.0.6-neoforge+mc1.21.1"
+filename = "[森罗物语：暮色] kaleidoscope_twilight-1.0.6-neoforge+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uSH79VEy/versions/LAjcRDde/kaleidoscope_twilight-1.0.6-neoforge%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "bdacbc1c8ff08819ee5795f68750a3fe49ddcd92"
+
+[update]
+[update.modrinth]
+mod-id = "uSH79VEy"
+version = "LAjcRDde"

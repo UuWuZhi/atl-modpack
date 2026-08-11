@@ -1,0 +1,30 @@
+{
+	icon: {
+		id: "kaleidoscope_tavern:mystery_cocktail"
+	}
+	id: "18C6246FC943169D"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "1E0A8709663BA586", item: { count: 1, id: "kaleidoscope_tavern:depth_charge" } }
+		{ id: "76E92DC458631B45", item: { count: 1, id: "kaleidoscope_tavern:nether_special" } }
+		{ id: "0796C7BFD629D4A6", item: { count: 1, id: "kaleidoscope_tavern:bloody_mary" } }
+		{ id: "3F5200A56481E7C5", item: { count: 1, id: "kaleidoscope_tavern:sculk_special" } }
+		{ id: "7FDF8F4A05EA9E99", item: { count: 1, id: "kaleidoscope_tavern:signature_cocktail" } }
+		{ id: "08CF03D5866175D0", item: { count: 1, id: "kaleidoscope_tavern:mystery_cocktail" } }
+		{ id: "7B83DC40C3B50F02", item: { count: 1, id: "kaleidoscope_tavern:white_lady" } }
+		{ id: "3D2ECB72B50339A2", item: { count: 1, id: "kaleidoscope_tavern:emerald" } }
+		{ id: "56BA3B75D11DC49C", item: { count: 1, id: "kaleidoscope_tavern:brass_heart" } }
+		{ id: "23DD84D5F6607BCD", item: { count: 1, id: "kaleidoscope_tavern:godfather" } }
+		{ id: "1D7B9EE753773AE4", item: { count: 1, id: "kaleidoscope_tavern:grasshopper" } }
+		{ id: "4C71947A43542A46", item: { count: 1, id: "kaleidoscope_tavern:screwdriver" } }
+		{ id: "1FB3CB47A8D4B79A", item: { count: 1, id: "kaleidoscope_tavern:mojito" } }
+		{ id: "04B6419BD38B4537", item: { count: 1, id: "kaleidoscope_tavern:allium_garden" } }
+		{ id: "1EBD07E15EB13AED", item: { count: 1, id: "kaleidoscope_world_liquor:jerk" } }
+		{ id: "219C4D10CD0BF2DF", item: { count: 1, id: "kaleidoscope_world_liquor:shrimp_cocktail" } }
+		{ id: "402A44AEEDBD4DEB", item: { count: 1, id: "kaleidoscope_world_liquor:around_the_world" } }
+		{ id: "729B07F08B057066", item: { count: 1, id: "kaleidoscope_world_liquor:long_island_iced_tea" } }
+		{ id: "07A610D6AF63BC00", item: { count: 1, id: "kaleidoscope_world_liquor:pine_colada" } }
+	]
+	use_title: true
+}

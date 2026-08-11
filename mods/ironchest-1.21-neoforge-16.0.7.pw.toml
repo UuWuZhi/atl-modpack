@@ -1,0 +1,13 @@
+name = "ironchest-1.21-neoforge-16.0.7"
+filename = "ironchest-1.21-neoforge-16.0.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P3iIrPH3/versions/Res1o1zf/ironchest-1.21-neoforge-16.0.7.jar"
+hash-format = "sha1"
+hash = "7064b4ea349f37d95a6448c3179dc0a2cad0c162"
+
+[update]
+[update.modrinth]
+mod-id = "P3iIrPH3"
+version = "Res1o1zf"

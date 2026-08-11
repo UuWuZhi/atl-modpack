@@ -1,0 +1,13 @@
+name = "[樱途旅事] trailandtales_delight-0.4"
+filename = "[樱途旅事] trailandtales_delight-0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Koee7vhY/versions/oJe8mlNE/trailandtales_delight-0.4.jar"
+hash-format = "sha1"
+hash = "8801b16d3f32a4ab0d317c365351842a0a700dfa"
+
+[update]
+[update.modrinth]
+mod-id = "Koee7vhY"
+version = "oJe8mlNE"

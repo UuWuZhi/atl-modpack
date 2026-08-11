@@ -1,0 +1,12 @@
+name = "fastboot-1.21.x-v1.3neo"
+filename = "fastboot-1.21.x-v1.3neo.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/6998/687/fastboot-1.21.x-v1.3neo.jar"
+hash-format = "sha1"
+hash = "1c9101baf7e4b111fc55e0b5a8687e67be2f626c"
+
+[update]
+[update.curseforge]
+file-id = 6998687

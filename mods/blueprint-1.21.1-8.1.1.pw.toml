@@ -1,0 +1,13 @@
+name = "blueprint-1.21.1-8.1.1"
+filename = "blueprint-1.21.1-8.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VsM5EDoI/versions/LMGtMapI/blueprint-1.21.1-8.1.1.jar"
+hash-format = "sha1"
+hash = "afe7842dbb10435917e5fb576be21883aaeba6f2"
+
+[update]
+[update.modrinth]
+mod-id = "VsM5EDoI"
+version = "LMGtMapI"

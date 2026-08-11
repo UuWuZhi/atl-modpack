@@ -1,0 +1,13 @@
+name = "Repurposed_Structures-Better_Monuments_v7"
+filename = "Repurposed_Structures-Better_Monuments_v7.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/XmBp1AVZ/versions/Z6IPtb5n/Repurposed_Structures-Better_Monuments_v7.jar"
+hash-format = "sha1"
+hash = "4833577d9ec3eef2a0e5b43cf37ca1e2aac018c6"
+
+[update]
+[update.modrinth]
+mod-id = "XmBp1AVZ"
+version = "Z6IPtb5n"

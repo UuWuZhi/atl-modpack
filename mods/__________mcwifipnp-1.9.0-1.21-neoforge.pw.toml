@@ -1,0 +1,13 @@
+name = "[更高级联机设置] mcwifipnp-1.9.0-1.21-neoforge"
+filename = "[更高级联机设置] mcwifipnp-1.9.0-1.21-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RTWpcTBp/versions/TQtrilwF/mcwifipnp-1.9.0-1.21-neoforge.jar"
+hash-format = "sha1"
+hash = "d03f342db41c738252cb9fa932c77616ac1d5ebc"
+
+[update]
+[update.modrinth]
+mod-id = "RTWpcTBp"
+version = "TQtrilwF"

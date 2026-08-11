@@ -1,0 +1,12 @@
+name = "Vanilla Mashup 1.4.1b"
+filename = "Vanilla Mashup 1.4.1b.zip"
+
+[download]
+url = "https://cdn.modrinth.com/data/leIFWh7a/versions/BB2pLooJ/Vanilla%20Mashup%201.4.1b.zip"
+hash-format = "sha1"
+hash = "019ab60d7964316d187e09168f50ec93e33b59ca"
+
+[update]
+[update.modrinth]
+mod-id = "leIFWh7a"
+version = "BB2pLooJ"

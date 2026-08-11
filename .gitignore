@@ -1,0 +1,79 @@
+# ============================================================
+# All The Leisures — packwiz 仓库 .gitignore
+# 原则:仓库只存元数据 (.pw.toml) 与原创内容,不存 mod jar 与运行时产物
+# ============================================================
+
+# ==== mod jar 本体(全部走 Modrinth/CurseForge CDN,不入库) ====
+/mods/*.jar
+/mods/**/*.jar
+/mods/**/libs/
+
+# ==== 导入包 / 构建产物 ====
+/导入包/
+/dist/
+*.mrpack
+*.jar
+!/bootstrap/*.jar
+
+# 资源包 zip:CDN 托管的走元数据,原创的(ResourcePacksJustForATL 等)需入库
+# 故不全局忽略 *.zip,仅忽略构建产物
+*.zip.orig
+/构建产物/
+
+# ==== 工具链 / 迁移中间产物 ====
+/tools/__pycache__/
+/tools/packwiz-cli/
+_tmp*/
+
+# ==== Minecraft 运行时生成(实例/客户端特有,不入库) ====
+saves/
+logs/
+crash-reports/
+reports/
+screenshots/
+*.log
+*.png
+*.jpg
+*.jpeg
+cache/
+local/
+downloads/
+simplebackups/
+backups/
+dynamic-data-pack-cache/
+dynamic-resource-pack-cache/
+lightspeed-cache/
+fancymenu_data/
+xaero/
+.mixin.out/
+.sable/
+oei/
+tlm_custom_pack/
+schematics/
+patchouli_books/
+patchouli_data.json
+ponders_watched.json
+TrashSlotSaveState.json
+usercache.json
+usernamecache.json
+options.txt
+servers.dat
+*_cache/
+*.tmp
+*.bak
+
+# ==== 服务器侧私有状态(不入库) ====
+whitelist.json
+ops.json
+banned-players.json
+banned-ips.json
+*.pid
+eula.txt
+
+# ==== 系统/编辑器 ====
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.swp

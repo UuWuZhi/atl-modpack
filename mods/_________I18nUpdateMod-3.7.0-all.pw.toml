@@ -1,0 +1,13 @@
+name = "[自动汉化更新] I18nUpdateMod-3.7.0-all"
+filename = "[自动汉化更新] I18nUpdateMod-3.7.0-all.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/PWERr14M/versions/4ihDUjWs/I18nUpdateMod-3.7.0-all.jar"
+hash-format = "sha1"
+hash = "d9c217b569345ae30a5271baa5e9482080c2e41d"
+
+[update]
+[update.modrinth]
+mod-id = "PWERr14M"
+version = "4ihDUjWs"

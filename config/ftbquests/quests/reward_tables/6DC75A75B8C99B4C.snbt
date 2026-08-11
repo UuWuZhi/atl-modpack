@@ -1,0 +1,16 @@
+{
+	id: "6DC75A75B8C99B4C"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ id: "35AFA9D9DB112BDC", item: { count: 1, id: "vinery:oak_wine_rack_big" } }
+		{ id: "16597FA6B60A01EF", item: { count: 1, id: "vinery:spruce_wine_rack_big" } }
+		{ id: "48EEFB86777FF310", item: { count: 1, id: "vinery:birch_wine_rack_big" } }
+		{ id: "17F41386C3A54789", item: { count: 1, id: "vinery:jungle_wine_rack_big" } }
+		{ id: "48597902B6E547D5", item: { count: 1, id: "vinery:acacia_wine_rack_big" } }
+		{ id: "3D46592BDC60CFDB", item: { count: 1, id: "vinery:dark_oak_wine_rack_big" } }
+		{ id: "1AC86A0F9821B492", item: { count: 1, id: "vinery:mangrove_wine_rack_big" } }
+		{ id: "7F724722D1CC43A7", item: { count: 1, id: "vinery:bamboo_wine_rack_big" } }
+		{ id: "1DD7F979EFF4B953", item: { count: 1, id: "vinery:cherry_wine_rack_big" } }
+	]
+}

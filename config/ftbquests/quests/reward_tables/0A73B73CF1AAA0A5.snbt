@@ -1,0 +1,36 @@
+{
+	id: "0A73B73CF1AAA0A5"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ id: "573B57BFDB91A888", item: { count: 1, id: "spawn:tuna_sandwich" } }
+		{ id: "0A68767804974C03", item: { count: 1, id: "aquaculturedelight:large_fish_with_vegetables" } }
+		{ id: "6C123E0E6959CC1D", item: { count: 1, id: "aquaculturedelight:halibut_with_tartar_sauce" } }
+		{
+			id: "204540CF855AE1AF"
+			item: {
+				count: 1
+				id: "extradelight:fish_stew_feast"
+			}
+			weight: 0.5f
+		}
+		{ id: "5168AC35DB6B73D8", item: { count: 1, id: "extradelight:fish_chips" } }
+		{ id: "50272BEDED50815B", item: { count: 1, id: "kaleidoscope_cookery:oil_splashed_fish" } }
+		{ id: "53A3B94EE36E2788", item: { count: 1, id: "youkaishomecoming:tomato_sauce_cod" } }
+		{ id: "5042650F8F469BEE", item: { count: 1, id: "kaleidoscope_cookery:seafood_miso_soup" } }
+		{ id: "48EBC13A23E19ABE", item: { count: 1, id: "crabbersdelight:seafood_gumbo" } }
+		{ id: "346AF62790599D3A", item: { count: 1, id: "crabbersdelight:crab_cakes" } }
+		{ id: "2871EFB75C112E84", item: { count: 1, id: "spawn:crab_boil_block" } }
+		{
+			id: "1DCA8C65B9D917C4"
+			item: {
+				count: 1
+				id: "extradelight:fish_stew_feast"
+			}
+			weight: 0.5f
+		}
+		{ id: "170EF967C538D848", item: { count: 1, id: "farmersdelight:baked_cod_stew" } }
+		{ id: "355FDDF933CD09EF", item: { count: 1, id: "youkaishomecoming:grilled_eel_over_rice" } }
+		{ id: "17C395522A1175E1", item: { count: 1, id: "youkaishomecoming:roasted_lamprey" } }
+	]
+}

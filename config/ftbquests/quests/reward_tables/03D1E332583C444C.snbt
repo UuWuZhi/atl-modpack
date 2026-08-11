@@ -1,0 +1,23 @@
+{
+	id: "03D1E332583C444C"
+	loot_size: 3
+	order_index: 2
+	rewards: [
+		{ id: "1E2271CBE3965174", item: { count: 1, id: "kaleidoscope_grilling:raw_beef_skewer" } }
+		{ id: "2F8AC200DDEA31E8", item: { count: 1, id: "kaleidoscope_grilling:raw_pork_belly_skewer" } }
+		{ id: "27C881070371F3E0", item: { count: 1, id: "kaleidoscope_grilling:raw_chicken_skin_skewer" } }
+		{ id: "01AC057A2F326FE3", item: { count: 1, id: "kaleidoscope_grilling:raw_mid_wing_skewer" } }
+		{ id: "5FF16B2D61290A27", item: { count: 1, id: "kaleidoscope_grilling:raw_squid_tentacle_skewer" } }
+		{ id: "0DF88D524D8E33F2", item: { count: 1, id: "kaleidoscope_grilling:raw_fish_skewer" } }
+		{ id: "125FD9C06225514C", item: { count: 1, id: "kaleidoscope_grilling:raw_sweet_potato_sheet_skewer" } }
+		{ id: "4C5A75F4F04AC448", item: { count: 1, id: "kaleidoscope_grilling:raw_potato_slice_skewer" } }
+		{ id: "45F0122E1DE3B0AC", item: { count: 1, id: "kaleidoscope_grilling:raw_caterpillar_skewer" } }
+		{ id: "3CB137AB03C64288", item: { count: 1, id: "kaleidoscope_grilling:raw_mushroom_skewer" } }
+		{ id: "1607D1EF42242CDB", item: { count: 1, id: "kaleidoscope_grilling:raw_bun_slice_skewer" } }
+		{ id: "5AFCC0AA18588DAA", item: { count: 1, id: "kaleidoscope_grilling:raw_ender_pearl_skewer" } }
+		{ id: "3F9B1A6105EE495F", item: { count: 1, id: "kaleidoscope_grilling:raw_meatball_skewer" } }
+		{ id: "6F1A95762B5F0506", item: { count: 1, id: "kaleidoscope_grilling:raw_slime_skewer" } }
+		{ id: "64E2ED1CB6EA7FEA", item: { count: 1, id: "kaleidoscope_grilling:raw_meat_and_bone_skewer" } }
+		{ id: "5D456864D3E8537F", item: { count: 1, id: "kaleidoscope_grilling:raw_fried_egg_skewer" } }
+	]
+}

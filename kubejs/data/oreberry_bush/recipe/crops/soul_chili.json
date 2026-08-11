@@ -1,0 +1,18 @@
+{
+"bookshelf:load_conditions": [
+  {
+    "type": "bookshelf:block_exists",
+    "values": [
+    "kaleidoscope_nether:soul_pepper"
+    ]
+  }
+],
+"type": "botanypots:block_derived_crop",
+"block": "kaleidoscope_nether:soul_pepper",
+"input": {
+"item": "kaleidoscope_nether:soul_pepper"
+},
+"soil": {
+"item": "minecraft:soul_soil"
+}
+}

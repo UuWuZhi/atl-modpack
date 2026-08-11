@@ -1,0 +1,12 @@
+name = "ftb-library-neoforge-2101.1.33"
+filename = "ftb-library-neoforge-2101.1.33.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8438/216/ftb-library-neoforge-2101.1.33.jar"
+hash-format = "sha1"
+hash = "a653118630fa17ed37d67b0beddc5984c760fc72"
+
+[update]
+[update.curseforge]
+file-id = 8438216

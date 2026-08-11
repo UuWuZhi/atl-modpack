@@ -1,0 +1,12 @@
+name = "NewGlowingOres-§6[Border]§r"
+filename = "NewGlowingOres-§6[Border]§r.zip"
+
+[download]
+url = "https://cdn.modrinth.com/data/oL18adaQ/versions/BG46xXmQ/NewGlowingOres-%C2%A76%5BBorder%5D%C2%A7r.zip"
+hash-format = "sha1"
+hash = "40d8c6748585e4585c8d1e54a28b8ea51cad080d"
+
+[update]
+[update.modrinth]
+mod-id = "oL18adaQ"
+version = "BG46xXmQ"

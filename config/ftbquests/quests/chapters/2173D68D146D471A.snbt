@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2173D68D146D471A"
+	group: "0BD499FB8EC31FBF"
+	icon: {
+		id: "tofucraft:tofudiamond"
+	}
+	id: "2173D68D146D471A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "2D1EE138FF021443"
+		tasks: [{
+			id: "31FF53B92766AEF8"
+			type: "checkmark"
+		}]
+		x: -12.5d
+		y: -1.5d
+	}]
+}

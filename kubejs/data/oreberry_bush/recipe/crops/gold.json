@@ -1,0 +1,53 @@
+{
+  "type": "botanypots:crop",
+  "input": {
+    "item": "oreberriesreplanted:gold_oreberry_bush"
+  },
+  "soil": {
+    "item": "minecraft:raw_gold_block"
+  },
+  "grow_time": 600,
+  "display": {
+    "type": "botanypots:simple",
+    "block_state": {
+      "block": "oreberriesreplanted:gold_oreberry_bush"
+    }
+  },
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "oreberriesreplanted:gold_oreberry",
+            "count": 1
+          },
+          "chance": 1
+        },
+        {
+          "result": {
+            "id": "oreberriesreplanted:essence_berry",
+            "count": 1
+          },
+          "chance": 0.125
+        },
+        {
+          "result": {
+            "id": "oreberriesreplanted:gold_oreberry",
+            "count": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "result": {
+            "id": "oreberriesreplanted:gold_oreberry_bush",
+            "count": 1
+          },
+          "chance": 0.06
+        }
+      ]
+    }
+  ],
+  "yield": 1.0,
+  "yield_scale": 1.0
+}

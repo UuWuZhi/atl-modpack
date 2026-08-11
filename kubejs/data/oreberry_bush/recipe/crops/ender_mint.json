@@ -1,0 +1,30 @@
+{
+"type":"botanypots:block_derived_crop",
+"block":"kaleidoscope_end:ender_mint",
+"input": {
+"item": "kaleidoscope_end:ender_mint"
+},
+"soil": {
+"tag": "botanypots:soil/end"
+},
+"display":{
+  "type":"botanypots:transitional",
+  "phases":[{
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_end:ender_mint","properties":{"age":"0"}}
+  },
+  {
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_end:ender_mint","properties":{"age":"2"}}
+  },
+  {
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_end:ender_mint","properties":{"age":"4"}}},
+  {
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_end:ender_mint","properties":{"age":"6"}}},
+  {
+  "type":"botanypots:simple",
+  "block_state":{"block":"kaleidoscope_end:ender_mint","properties":{"age":"7"}}}
+  ]}
+}

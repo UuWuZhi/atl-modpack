@@ -1,0 +1,16 @@
+{
+	id: "21A4B06E59344253"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ id: "754BDA32151AFF5D", item: { count: 1, id: "croptopia:grape_seed" } }
+		{ id: "034BA608744B6958", item: { count: 1, id: "vinery:red_grape_seeds" } }
+		{ id: "528B4A08C587456E", item: { count: 1, id: "vinery:white_grape_seeds" } }
+		{ id: "028D455830A4C299", item: { count: 1, id: "vinery:savanna_grape_seeds_red" } }
+		{ id: "3DDDDB5D7069EC9E", item: { count: 1, id: "vinery:savanna_grape_seeds_white" } }
+		{ id: "5DFBE7E3A88CBC71", item: { count: 1, id: "vinery:taiga_grape_seeds_red" } }
+		{ id: "72CBE910350FA784", item: { count: 1, id: "vinery:taiga_grape_seeds_white" } }
+		{ id: "2C2421B1F88FFEB8", item: { count: 1, id: "vinery:jungle_grape_seeds_red" } }
+		{ id: "3E2225E45F4BC10B", item: { count: 1, id: "vinery:jungle_grape_seeds_white" } }
+	]
+}

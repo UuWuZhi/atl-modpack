@@ -1,0 +1,13 @@
+name = "[大型矿床] AdLods-1.21.1-9.1.6.0-NeoForge-build.0996"
+filename = "[大型矿床] AdLods-1.21.1-9.1.6.0-NeoForge-build.0996.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Y3a9lWnU/versions/n4PsZvzI/AdLods-1.21.1-9.1.6.0-NeoForge-build.0996.jar"
+hash-format = "sha1"
+hash = "0444b2a8faeee5a24618dcad18f974bc1d062df8"
+
+[update]
+[update.modrinth]
+mod-id = "Y3a9lWnU"
+version = "n4PsZvzI"

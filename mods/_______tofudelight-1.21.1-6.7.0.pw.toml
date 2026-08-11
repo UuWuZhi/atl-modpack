@@ -1,0 +1,13 @@
+name = "[豆腐乐事] tofudelight-1.21.1-6.7.0"
+filename = "[豆腐乐事] tofudelight-1.21.1-6.7.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aRSw5ou4/versions/VSV1jgLU/tofudelight-1.21.1-6.7.0.jar"
+hash-format = "sha1"
+hash = "4e69e676fd17deb674c65dc2346d1e72c893c1c3"
+
+[update]
+[update.modrinth]
+mod-id = "aRSw5ou4"
+version = "VSV1jgLU"

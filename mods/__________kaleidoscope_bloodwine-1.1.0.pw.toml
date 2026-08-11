@@ -1,0 +1,13 @@
+name = "[森罗酒馆：血酒] kaleidoscope_bloodwine-1.1.0"
+filename = "[森罗酒馆：血酒] kaleidoscope_bloodwine-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CrMZMaFM/versions/uKmexHeV/kaleidoscope_bloodwine-1.1.0.jar"
+hash-format = "sha1"
+hash = "a6949c4262c7ccc77458eaf27513f1bfa0b47f56"
+
+[update]
+[update.modrinth]
+mod-id = "CrMZMaFM"
+version = "uKmexHeV"

@@ -1,0 +1,13 @@
+name = "[精妙核心] sophisticatedcore-1.21.1-1.4.79.2182"
+filename = "[精妙核心] sophisticatedcore-1.21.1-1.4.79.2182.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nmoqTijg/versions/OyktdpqD/sophisticatedcore-1.21.1-1.4.79.2182.jar"
+hash-format = "sha1"
+hash = "85238f3fdfcc819c47d6d0c5cb2813dee2366c5a"
+
+[update]
+[update.modrinth]
+mod-id = "nmoqTijg"
+version = "OyktdpqD"

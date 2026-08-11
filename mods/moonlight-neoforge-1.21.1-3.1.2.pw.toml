@@ -1,0 +1,12 @@
+name = "moonlight-neoforge-1.21.1-3.1.2"
+filename = "moonlight-neoforge-1.21.1-3.1.2.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8460/169/moonlight-neoforge-1.21.1-3.1.2.jar"
+hash-format = "sha1"
+hash = "933d522db79b3d19ec900c043a6282cd1123bf55"
+
+[update]
+[update.curseforge]
+file-id = 8460169

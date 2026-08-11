@@ -1,0 +1,13 @@
+name = "[增强攻击提示器] enhanced_attack_indicator-1.1.1+1.21-forge"
+filename = "[增强攻击提示器] enhanced_attack_indicator-1.1.1+1.21-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/eTy17BBS/versions/cmUdkoBd/enhanced_attack_indicator-1.1.1%2B1.21-forge.jar"
+hash-format = "sha1"
+hash = "6385328b41fedce7faedefe9c9e86b99b79e6918"
+
+[update]
+[update.modrinth]
+mod-id = "eTy17BBS"
+version = "cmUdkoBd"

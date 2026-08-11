@@ -1,0 +1,13 @@
+name = "sophisticated_emerald_upgrade-1.0.5"
+filename = "sophisticated_emerald_upgrade-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qkIuMMRF/versions/L6tCE9U5/sophisticated_emerald_upgrade-1.0.5.jar"
+hash-format = "sha1"
+hash = "ea27e787895ecce621c49b9cbff0151c0f679dd2"
+
+[update]
+[update.modrinth]
+mod-id = "qkIuMMRF"
+version = "L6tCE9U5"

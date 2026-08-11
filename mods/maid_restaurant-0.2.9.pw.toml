@@ -1,0 +1,13 @@
+name = "maid_restaurant-0.2.9"
+filename = "maid_restaurant-0.2.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RTiyYo0U/versions/vEgMAYm3/maid_restaurant-0.2.9.jar"
+hash-format = "sha1"
+hash = "a6e7157e9c22cf40080b083fdabc20f147b8b628"
+
+[update]
+[update.modrinth]
+mod-id = "RTiyYo0U"
+version = "vEgMAYm3"

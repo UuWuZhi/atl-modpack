@@ -1,0 +1,13 @@
+name = "flib-1.21.1-0.2.8"
+filename = "flib-1.21.1-0.2.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FAUSd09K/versions/Ba1H0eUh/flib-1.21.1-0.2.8.jar"
+hash-format = "sha1"
+hash = "fe2e09a0fda4dfe47061df10f418e8703649ca6b"
+
+[update]
+[update.modrinth]
+mod-id = "FAUSd09K"
+version = "Ba1H0eUh"
