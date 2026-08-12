@@ -1,0 +1,13 @@
+name = "KubeJS JEI"
+filename = "kubejei-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9b8e0f55b46bf252f6cd79507e08592ca8eb33de"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7704322
+project-id = 1476466
