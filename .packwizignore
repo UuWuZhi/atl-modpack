@@ -23,7 +23,7 @@
 # IDE 文件(JetBrains 打开工作区生成,不进 git 也不进分发)
 /.idea/
 /.venv/
-/.uv.lock
+/uv.lock
 
 # 游戏运行时生成的服务器配置(不在原始整合包内,不应下发)
 /config/inventoryprofilesnext/新的世界/
