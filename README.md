@@ -40,9 +40,9 @@ python tools/push.py --release --version 1.1.0  # 发布
 ```bash
 python tools/cli.py          # 交互式总入口(新手)
 python tools/push.py         # 推 dev / merge / tag / release(熟练)
+python tools/manage_external_resource.py  # 添加/移除/本地反查外部 mod/资源包
 python tools/setup_dev_link.py   # 工作区↔实例 符号链接
 python tools/build_import_pack.py  # 构建导入包
-python tools/release.py      # 构建导入包(纯构建)
 ```
 
 ## 架构

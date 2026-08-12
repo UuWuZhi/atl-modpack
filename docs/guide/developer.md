@@ -25,8 +25,8 @@
 参数式脚本(可单独调用):
 - `push.py` — 推 dev / merge 到 main / 打 tag / 一站式 release
 - `setup_dev_link.py` — 建立/断开符号链接
+- `manage_external_resource.py` — 交互式添加/移除/本地反查外部 mod 或资源包 / 设定 side
 - `build_import_pack.py` — 构建导入包
-- `release.py` — 构建导入包(纯构建)
 
 ---
 
@@ -90,7 +90,7 @@ python tools\setup_dev_link.py --remove "D:\Minecraft\.minecraft\versions\All Th
 
 通过符号链接,**直接在开发实例里编辑** → 工作区文件同步变化。
 
-### 改 mod(加/删/更新)
+### 改外部资源(mod / 资源包)
 
 ```bash
 packwiz modrinth install <slug>      # 加 mod(如 packwiz mr install create)
@@ -98,6 +98,16 @@ packwiz remove <slug>                # 删 mod
 packwiz update --all                 # 更新全部 mod 到最新
 packwiz update <slug>                # 更新单个
 ```
+
+或者直接用交互式入口:
+```bash
+python tools/cli.py                  # 选「6. 外部资源管理」
+python tools/manage_external_resource.py  # 直接运行
+```
+
+> 非原创资源只提交 `.pw.toml` 元数据,不要把第三方 jar/zip 放进仓库或 Pages。
+> 手上已有 jar/zip 时优先用「本地文件反查」,按 hash 精确匹配远端文件,避免搜索命中整合包或同名项目。
+> 直链 URL 缺少依赖解析和可靠更新信息,优先使用 Modrinth / CurseForge。
 
 > **标 side(客户端/服务端/双端)**:Modrinth 标记不可信,需人工确认。
 > 判断规则、常见坑、批量检查见 [side 判定手册](side-guide.md)。核心原则:不确定就标 `both`。
@@ -150,8 +160,8 @@ python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.m
 python tools/push.py --release -m "v1.1.0"
 python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.mrpack
 
-# 方式 B:release.py(纯构建 mrpack)
-python tools/release.py
+# 方式 B:build_import_pack.py(纯构建 mrpack)
+python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.mrpack
 ```
 
 **发布到 GitHub Release**(任选):
@@ -205,10 +215,10 @@ atl-modpack/
 ├── server/              # 服主脚本
 ├── tools/               # 工具链(python)
 │   ├── cli.py               # 交互式总入口
+│   ├── manage_external_resource.py # 添加/移除/本地反查外部资源
 │   ├── push.py              # 推 dev / merge / tag / release
 │   ├── setup_dev_link.py    # 工作区↔实例 符号链接
 │   ├── build_import_pack.py # 构建导入包
-│   ├── release.py           # 构建导入包(纯构建)
 │   ├── packwiz-cli/         # packwiz 可执行文件
 │   └── cache/seed.json      # 哈希缓存
 ├── docs/                # 文档
