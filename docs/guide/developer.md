@@ -25,7 +25,7 @@
 参数式脚本(可单独调用):
 - `push.py` — 推 dev / merge 到 main / 打 tag / 一站式 release
 - `setup_dev_link.py` — 建立/断开符号链接
-- `manage_external_resource.py` — 交互式添加/移除外部 mod 或资源包 / 设定 side
+- `manage_external_resource.py` — 交互式添加/移除/本地反查外部 mod 或资源包 / 设定 side
 - `build_import_pack.py` — 构建导入包
 
 ---
@@ -106,6 +106,7 @@ python tools/manage_external_resource.py  # 直接运行
 ```
 
 > 非原创资源只提交 `.pw.toml` 元数据,不要把第三方 jar/zip 放进仓库或 Pages。
+> 手上已有 jar/zip 时优先用「本地文件反查」,按 hash 精确匹配远端文件,避免搜索命中整合包或同名项目。
 > 直链 URL 缺少依赖解析和可靠更新信息,优先使用 Modrinth / CurseForge。
 
 > **标 side(客户端/服务端/双端)**:Modrinth 标记不可信,需人工确认。
@@ -214,7 +215,7 @@ atl-modpack/
 ├── server/              # 服主脚本
 ├── tools/               # 工具链(python)
 │   ├── cli.py               # 交互式总入口
-│   ├── manage_external_resource.py # 添加/移除外部 mod/资源包
+│   ├── manage_external_resource.py # 添加/移除/本地反查外部资源
 │   ├── push.py              # 推 dev / merge / tag / release
 │   ├── setup_dev_link.py    # 工作区↔实例 符号链接
 │   ├── build_import_pack.py # 构建导入包
