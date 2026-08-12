@@ -25,6 +25,7 @@
 参数式脚本(可单独调用):
 - `push.py` — 推 dev / merge 到 main / 打 tag / 一站式 release
 - `setup_dev_link.py` — 建立/断开符号链接
+- `add_mod.py` — 交互式添加 mod / 设定 side
 - `build_import_pack.py` — 构建导入包
 - `release.py` — 构建导入包(纯构建)
 
@@ -97,6 +98,12 @@ packwiz modrinth install <slug>      # 加 mod(如 packwiz mr install create)
 packwiz remove <slug>                # 删 mod
 packwiz update --all                 # 更新全部 mod 到最新
 packwiz update <slug>                # 更新单个
+```
+
+或者直接用交互式入口:
+```bash
+python tools/cli.py                  # 选「6. 交互式添加 mod」
+python tools/add_mod.py              # 直接运行
 ```
 
 > **标 side(客户端/服务端/双端)**:Modrinth 标记不可信,需人工确认。
@@ -205,6 +212,7 @@ atl-modpack/
 ├── server/              # 服主脚本
 ├── tools/               # 工具链(python)
 │   ├── cli.py               # 交互式总入口
+│   ├── add_mod.py           # 交互式添加 mod
 │   ├── push.py              # 推 dev / merge / tag / release
 │   ├── setup_dev_link.py    # 工作区↔实例 符号链接
 │   ├── build_import_pack.py # 构建导入包
