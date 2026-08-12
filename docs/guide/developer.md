@@ -27,7 +27,6 @@
 - `setup_dev_link.py` — 建立/断开符号链接
 - `add_mod.py` — 交互式添加 mod / 设定 side
 - `build_import_pack.py` — 构建导入包
-- `release.py` — 构建导入包(纯构建)
 
 ---
 
@@ -157,8 +156,8 @@ python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.m
 python tools/push.py --release -m "v1.1.0"
 python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.mrpack
 
-# 方式 B:release.py(纯构建 mrpack)
-python tools/release.py
+# 方式 B:build_import_pack.py(纯构建 mrpack)
+python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.mrpack
 ```
 
 **发布到 GitHub Release**(任选):
@@ -216,7 +215,6 @@ atl-modpack/
 │   ├── push.py              # 推 dev / merge / tag / release
 │   ├── setup_dev_link.py    # 工作区↔实例 符号链接
 │   ├── build_import_pack.py # 构建导入包
-│   ├── release.py           # 构建导入包(纯构建)
 │   ├── packwiz-cli/         # packwiz 可执行文件
 │   └── cache/seed.json      # 哈希缓存
 ├── docs/                # 文档

@@ -43,7 +43,6 @@ python tools/push.py         # 推 dev / merge / tag / release(熟练)
 python tools/add_mod.py      # 交互式添加 mod(packwiz)
 python tools/setup_dev_link.py   # 工作区↔实例 符号链接
 python tools/build_import_pack.py  # 构建导入包
-python tools/release.py      # 构建导入包(纯构建)
 ```
 
 ## 架构
