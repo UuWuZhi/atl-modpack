@@ -10,9 +10,9 @@
 	images: [
 		{
 			height: 18.0d
-			image: "minecraft:textures/gui/advancements/backgrounds/root.png"
+			image: "minecraft:textures/gui/advancements/backgrounds/quest_book.png"
 			rotation: 0.0d
-			width: 24.0d
+			width: 28.6d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -21,8 +21,8 @@
 			image: "exposure:item/camera/camera_gui_gold"
 			rotation: 0.0d
 			width: 5.0d
-			x: -8.5d
-			y: 6.0d
+			x: -9.5d
+			y: 5.0d
 		}
 		{
 			height: 4.0d

@@ -8,11 +8,11 @@
 	}
 	id: "548FCDD0B79656BE"
 	images: [{
-		height: 12.0d
-		image: "minecraft:textures/gui/advancements/backgrounds/root.png"
+		height: 9.0d
+		image: "minecraft:textures/gui/advancements/backgrounds/quest_book.png"
 		order: -9
 		rotation: 0.0d
-		width: 16.0d
+		width: 14.3d
 		x: 0.0d
 		y: 0.0d
 	}]
@@ -30,7 +30,7 @@
 				id: "77DA5B03AFBBB068"
 				type: "checkmark"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -46,7 +46,7 @@
 				item: { count: 1, id: "butchercraft:grinder_block_item" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -62,7 +62,7 @@
 				item: { count: 1, id: "butchercraft:butcher_block_block_item" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -100,7 +100,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -111,7 +111,7 @@
 				item: { components: { "ftbfiltersystem:filter": "only_one(item(butchercraft:extruder_tip)item(butchercraft:grinder_tip))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -156,7 +156,7 @@
 				item: { count: 1, id: "butchercraft:meat_hook_item" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -172,7 +172,7 @@
 				item: { count: 1, id: "butchercraft:soap" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -188,7 +188,7 @@
 				item: { components: { "ftbfiltersystem:filter": "only_one(item(butchercraft:pig_hide)item(butchercraft:cow_hide)item(butchercraft:sheep_hide)item(butchercraft:goat_hide))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -204,7 +204,7 @@
 				item: { components: { "ftbfiltersystem:filter": "only_one(item(butchercraft:black_bunny_tail)item(butchercraft:brown_bunny_tail)item(butchercraft:splotched_bunny_tail)item(butchercraft:gold_bunny_tail)item(butchercraft:salt_bunny_tail)item(butchercraft:white_bunny_tail)item(butchercraft:black_bunny_ears)item(butchercraft:brown_bunny_ears)item(butchercraft:splotched_bunny_ears)item(butchercraft:gold_bunny_ears)item(butchercraft:salt_bunny_ears)item(butchercraft:white_bunny_ears))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -227,7 +227,7 @@
 				item: { count: 1, id: "animal_feeding_trough:feeding_trough" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -243,7 +243,7 @@
 				item: { components: { "ftbfiltersystem:filter": "only_one(item(butchercraft:taxidermy_cow_item_block)item(butchercraft:taxidermy_sheep_item_block)item(butchercraft:taxidermy_goat_item_block)item(butchercraft:taxidermy_pig_item_block)item(butchercraft:taxidermy_chicken_item_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -259,7 +259,7 @@
 				item: { components: { "ftbfiltersystem:filter": "only_one(item(butchercraft:pig_hood)item(butchercraft:cow_hood)item(butchercraft:sheep_hood)item(butchercraft:goat_hood)item(butchercraft:chicken_mask))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -2.0d
 		}
 	]
