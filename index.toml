@@ -25,22 +25,6 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
-file = "config/ProjectE/client.toml"
-hash = "956ff6653ab0cf9d1c5d2f174b2ccdb5bbed229a7dc9708f03e45b41a531cb0a"
-
-[[files]]
-file = "config/ProjectE/common.toml"
-hash = "46b4f53eb479672ac9836dccbd669d54f7b948766637aa48305ca3c953cd0e85"
-
-[[files]]
-file = "config/ProjectE/custom_emc.json"
-hash = "1a93a0cf4e82a238415d1384ff754d62d5e444eecf80143d2172c9d20d273f39"
-
-[[files]]
-file = "config/ProjectE/projectextended.toml"
-hash = "de405dc87ce66fa5643a08d85c6dc73e97d80e2ea1e259a911159a0a6cf37cd5"
-
-[[files]]
 file = "config/addonslib-common.toml"
 hash = "1c11f6992b0e25fe8d30a2845a5b338f7681f4b911e0a42068b404d5e6cd4d93"
 
@@ -3017,6 +3001,11 @@ hash = "d19d20308a7878106038cb82ba5e5a8353281811aadbf251062e6e0bb953e97c"
 metafile = true
 
 [[files]]
+file = "mods/create-aeroworks.pw.toml"
+hash = "63204dbbd69f9fcd14b49f7e0a3fbeef04d9d3928fc3e9f77b45dd86c7afb299"
+metafile = true
+
+[[files]]
 file = "mods/createaddition-1.6.0.pw.toml"
 hash = "c8de0ac8c8640c663de6770c234d60acf20137ffa510e358d50360c473dcfd20"
 metafile = true
@@ -3362,6 +3351,11 @@ hash = "070dec7212e37b699652a12be7483d41f789588e5dea5659f591c0912cb4738f"
 metafile = true
 
 [[files]]
+file = "mods/starter-kit.pw.toml"
+hash = "afe1935ad353cf8fe41d4baab75c29247451d79a2398cc412d98b033edb48f24"
+metafile = true
+
+[[files]]
 file = "mods/storagenetwork-1.21.1-1.13.1.pw.toml"
 hash = "5e6b9c00717c9e36125bfaca06c6db1a930e0b86e16602a82626d593713ccfb3"
 metafile = true
@@ -3456,3 +3450,7 @@ hash = "6a8f64dea09ff07befeab22d9453496f7d6a895dc7e23180534c85a40930fe32"
 [[files]]
 file = "scripts/recipes/remove_recipes.zs"
 hash = "beb737eb740077fb859eea727a673930085089fe5f3b4bf78f3a22ce9ad1381c"
+
+[[files]]
+file = "uv.lock"
+hash = "9f94614d4b8a76abfaa04b983fe806c85ffcef3f15a77657d196acacad6f12e5"
