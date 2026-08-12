@@ -1,0 +1,18 @@
+{
+"bookshelf:load_conditions": [
+  {
+    "type": "bookshelf:block_exists",
+    "values": [
+    "ends_delight:chorus_succulent"
+    ]
+  }
+],
+"type": "botanypots:block_derived_crop",
+"block": "ends_delight:chorus_succulent",
+"input": {
+"item": "ends_delight:chorus_succulent"
+},
+"soil": {
+"item": "minecraft:end_stone"
+}
+}

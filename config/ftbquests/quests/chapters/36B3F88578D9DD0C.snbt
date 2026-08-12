@@ -7,15 +7,42 @@
 		id: "minecraft:oak_hanging_sign"
 	}
 	id: "36B3F88578D9DD0C"
-	images: [{
-		height: 18.0d
-		image: "minecraft:textures/gui/advancements/backgrounds/root.png"
-		order: -9
-		rotation: 0.0d
-		width: 24.0d
-		x: 0.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			height: 18.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/quest_book.png"
+			order: -9
+			rotation: 0.0d
+			width: 28.6d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 6.0d
+			image: "farmersdelight:block/rice_panicles_stage3"
+			rotation: 0.0d
+			width: 6.0d
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			height: 4.0d
+			image: "kaleidoscope_tavern:block/plant/wild_grapevine"
+			rotation: 0.0d
+			width: 4.0d
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			height: 2.0d
+			image: "kaleidoscope_tavern:item/gold_grape"
+			order: -1
+			rotation: -45.0d
+			width: 2.0d
+			x: -10.0d
+			y: -4.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -85,8 +112,8 @@
 				item: { count: 1, id: "farmersdelight:rice" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["319F262381C0636C"]
@@ -117,8 +144,8 @@
 				item: { count: 1, id: "minecraft:wheat" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["319F262381C0636C"]
@@ -133,8 +160,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:fruit)item_tag(c:fruits))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["319F262381C0636C"]
@@ -437,6 +464,116 @@
 			}]
 			x: 4.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["319F262381C0636C"]
+			id: "06AC9D1233DB7FFC"
+			tasks: [{
+				id: "0738B587E274EDC4"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06AC9D1233DB7FFC"]
+			id: "1E3358F2BDB5647E"
+			tasks: [{
+				id: "36EDF991680CADEA"
+				item: { count: 1, id: "kaleidoscope_nether:crimson_fruit" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["06AC9D1233DB7FFC"]
+			id: "701F24B5CE2ECAB6"
+			tasks: [{
+				id: "35461B62EDB46E69"
+				item: { count: 1, id: "kaleidoscope_nether:warped_fruit" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["06AC9D1233DB7FFC"]
+			id: "53B198245B3CA12E"
+			tasks: [{
+				id: "67852A0991D3BBC7"
+				item: { count: 1, id: "kaleidoscope_nether:soul_pepper" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["06AC9D1233DB7FFC"]
+			id: "6AFD219DDB077417"
+			tasks: [{
+				id: "7245C45AB558CD79"
+				item: { count: 1, id: "kaleidoscope_nether:poisonous_fruit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["46FD844E098720B3"]
+			id: "612D2B39943D292A"
+			tasks: [{
+				id: "3D7EDDA131FD083A"
+				item: { count: 1, id: "kaleidoscope_end:dream_berry" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46FD844E098720B3"]
+			id: "7BB4CF0AB94EF789"
+			tasks: [{
+				id: "005C012D11F0637C"
+				item: { count: 1, id: "kaleidoscope_end:ender_mint" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46FD844E098720B3"]
+			id: "505E1684411CF10B"
+			tasks: [{
+				id: "0E4AB424F1337EC4"
+				item: { count: 1, id: "kaleidoscope_end:chorus_petal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["319F262381C0636C"]
+			id: "46FD844E098720B3"
+			tasks: [{
+				id: "7C0C871026D13D4B"
+				item: { count: 1, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46FD844E098720B3"]
+			id: "13F89475357E834F"
+			tasks: [{
+				id: "3FB79187D9E82132"
+				item: { count: 1, id: "ends_delight:chorus_succulent" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
 		}
 	]
 }

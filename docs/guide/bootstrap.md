@@ -79,10 +79,10 @@ python tools/setup_dev_link.py D:\Code\atl-modpack "D:\Minecraft\.minecraft\vers
 
 ```bash
 # 1. 在实例里改 kubejs(符号链接 → 工作区同步)或用编辑器改工作区
-# 2. 推送(自动 refresh + 提交 + 推 dev)
+# 2. 推送(提交 + 推 dev,不刷新索引)
 python tools/push.py -m "改了什么"
 
-# 3. 发布(merge dev→main,玩家可见)
+# 3. 发布(dev→main,main 刷新索引,玩家可见)
 python tools/push.py --release --version 1.1.0
 ```
 

@@ -1,6 +1,6 @@
 name = "spawn_c2me_fix-1.21.1-1.0.0"
 filename = "spawn_c2me_fix-1.21.1-1.0.0.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://mediafilez.forgecdn.net/files/8192/526/spawn_c2me_fix-1.21.1-1.0.0.jar"

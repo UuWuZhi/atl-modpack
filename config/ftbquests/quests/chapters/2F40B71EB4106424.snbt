@@ -7,15 +7,593 @@
 		id: "minecraft:netherrack"
 	}
 	id: "2F40B71EB4106424"
+	images: [{
+		height: 18.0d
+		image: "minecraft:textures/gui/advancements/backgrounds/quest_book.png"
+		rotation: 0.0d
+		width: 28.6d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "5253067CB32A5A79"
-		tasks: [{
-			id: "4CFD7D50ED1EDDAC"
-			type: "checkmark"
-		}]
-		x: -12.5d
-		y: -1.5d
-	}]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "5253067CB32A5A79"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4CFD7D50ED1EDDAC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5253067CB32A5A79"]
+			id: "08365D533370C631"
+			tasks: [
+				{
+					id: "70BF5219C10F618E"
+					item: { count: 1, id: "tofucraft:blocktofugrilled" }
+					type: "item"
+				}
+				{
+					id: "048F37FA77117960"
+					item: { count: 1, id: "tofucraft:tofustick" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5253067CB32A5A79"]
+			id: "117F084A693F392A"
+			tasks: [{
+				id: "22AAA7DB261D1DFD"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5253067CB32A5A79"]
+			id: "0CE5EC5279BCF889"
+			tasks: [{
+				id: "6A97329A9419ABA0"
+				item: { count: 1, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072E5D5088211407"]
+			id: "03F37FF5C27AEDF4"
+			tasks: [{
+				id: "26B795D4004D58A4"
+				item: { count: 1, id: "kaleidoscope_end:raw_endermite_meat" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CE5EC5279BCF889"]
+			id: "7EB67647EA8ED47D"
+			rewards: [{
+				id: "2BD94C19BC08B9A0"
+				item: {
+					count: 1
+					id: "kaleidoscope_end:dragon_dust"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4892D9F6E7B601AB"
+					item: { count: 1, id: "kaleidoscope_end:raw_ender_dragon_meat" }
+					type: "item"
+				}
+				{
+					id: "016E5C36D7445771"
+					item: { count: 1, id: "ends_delight:dragon_leg" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EB67647EA8ED47D"]
+			id: "072E5D5088211407"
+			tasks: [
+				{
+					id: "3E77D0BF17A0AACE"
+					item: { count: 1, id: "ends_delight:ender_pearl_grain" }
+					type: "item"
+				}
+				{
+					id: "4EEC1C7B7CE547D5"
+					item: { count: 1, id: "ends_delight:enderman_gristle" }
+					type: "item"
+				}
+				{
+					id: "618FFEF7CE0C367A"
+					item: { count: 1, id: "kaleidoscope_end:optic_nerve" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7EB67647EA8ED47D"
+				"7B959EB380C186B6"
+			]
+			id: "27403252E037DE5E"
+			tasks: [{
+				id: "253BA88C63603823"
+				item: { count: 1, id: "kaleidoscope_end:dragon_dust" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0CE5EC5279BCF889"]
+			id: "7B959EB380C186B6"
+			tasks: [{
+				id: "180185F011E4D0C2"
+				item: { count: 1, id: "minecraft:dragon_breath" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5253067CB32A5A79"]
+			id: "047D370772C2E32C"
+			tasks: [{
+				id: "07CFFB4B70A65A5B"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(kaleidoscope_end:dragon_tooth_knife)item(ends_delight:dragon_tooth_knife))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27403252E037DE5E"]
+			id: "4C9009ECD02AC921"
+			tasks: [{
+				id: "24DB335D9E3F7433"
+				item: { count: 1, id: "ends_delight:non_hatchable_dragon_egg" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C9009ECD02AC921"]
+			id: "68BF35C8E7BF8972"
+			tasks: [
+				{
+					id: "0942956B02AEEB87"
+					item: { count: 1, id: "ends_delight:liquid_dragon_egg" }
+					type: "item"
+				}
+				{
+					id: "6B51236C021009DC"
+					item: { count: 1, id: "ends_delight:half_dragon_egg_shell" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27403252E037DE5E"]
+			id: "105ACCD109961704"
+			tasks: [{
+				id: "640233D0A9F12809"
+				item: { count: 1, id: "kaleidoscope_end:dragon_egg_shell" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68BF35C8E7BF8972"]
+			id: "1DAB505DED8B72A0"
+			tasks: [{
+				id: "1A1705E2E448C6AE"
+				item: { count: 1, id: "kaleidoscope_end:dragon_egg_liquid" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EB67647EA8ED47D"]
+			id: "527A43117D6E531E"
+			tasks: [
+				{
+					id: "7B62828018E436FB"
+					item: { count: 1, id: "kaleidoscope_end:chorus_petal" }
+					type: "item"
+				}
+				{
+					id: "188DCED4BE6F8EF3"
+					item: { count: 1, id: "kaleidoscope_end:chorus_seed" }
+					type: "item"
+				}
+				{
+					id: "66EA3738ADE4C092"
+					item: { count: 1, id: "ends_delight:chorus_fruit_grain" }
+					type: "item"
+				}
+				{
+					id: "2618CEF504DE07AC"
+					item: { count: 1, id: "ends_delight:chorus_succulent" }
+					type: "item"
+				}
+				{
+					id: "4FD57F8594517838"
+					item: { count: 1, id: "kaleidoscope_end:dream_berry" }
+					type: "item"
+				}
+				{
+					id: "148D007B631AFDE7"
+					item: { count: 1, id: "kaleidoscope_end:ender_mint" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27403252E037DE5E"]
+			id: "176D4AA94BF82355"
+			tasks: [{
+				id: "18AF0F248D5F47DD"
+				item: { count: 1, id: "kaleidoscope_end:void_conch" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03F37FF5C27AEDF4"]
+			id: "454E0B49AE3EBA68"
+			tasks: [
+				{
+					id: "7DACAB3D50ACC294"
+					item: { count: 1, id: "kaleidoscope_end:shulker_shell_meat" }
+					type: "item"
+				}
+				{
+					id: "2DB44B56A84EAF57"
+					item: { count: 1, id: "ends_delight:shulker_meat" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48828A80FDFAACB7"]
+			id: "0914FAB47D8C2DEA"
+			tasks: [
+				{
+					id: "015D44FCEBA2237C"
+					item: { count: 1, id: "kaleidoscope_nether:crimson_fruit" }
+					type: "item"
+				}
+				{
+					id: "647530CA37890B71"
+					item: { count: 1, id: "kaleidoscope_nether:warped_fruit" }
+					type: "item"
+				}
+				{
+					id: "29FCE8DDEBEAF8BD"
+					item: { count: 1, id: "kaleidoscope_nether:poisonous_fruit" }
+					type: "item"
+				}
+				{
+					id: "26E6F4E4E5599EBE"
+					item: { count: 1, id: "kaleidoscope_nether:soul_pepper" }
+					type: "item"
+				}
+				{
+					id: "596C451ED91007FB"
+					item: { count: 1, id: "minecraft:nether_wart" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5253067CB32A5A79"]
+			id: "1ABCDA81E0E06C91"
+			tasks: [{
+				id: "41A7A7F243D01863"
+				item: { count: 1, id: "kaleidoscope_nether:primitive_machete" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48828A80FDFAACB7"]
+			id: "3EA861059ED6B3A3"
+			tasks: [
+				{
+					id: "237753FCE91A260D"
+					item: { count: 1, id: "kaleidoscope_nether:hoglin_tusk" }
+					type: "item"
+				}
+				{
+					id: "6636DE204C2C6065"
+					item: { count: 1, id: "kaleidoscope_nether:hoglin_hide" }
+					type: "item"
+				}
+				{
+					id: "7F5FFCB3773C6731"
+					item: { count: 1, id: "kaleidoscope_nether:ham" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EA861059ED6B3A3"]
+			id: "63992F155852DC45"
+			tasks: [
+				{
+					id: "1F3BA0A666B29D48"
+					item: { count: 1, id: "kaleidoscope_nether:raw_strider_meat" }
+					type: "item"
+				}
+				{
+					id: "7050137177D859E3"
+					item: { count: 1, id: "kaleidoscope_nether:strider_rock_shell" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0914FAB47D8C2DEA"]
+			id: "02E35A0C36C27C81"
+			tasks: [{
+				id: "161AA2EA4832E769"
+				item: { count: 1, id: "kaleidoscope_nether:nether_caterpillar" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["527A43117D6E531E"]
+			id: "408CCA93CEB6B80C"
+			tasks: [{
+				id: "1FCFB38884DDCAA5"
+				item: { count: 1, id: "kaleidoscope_end:end_caterpillar" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63992F155852DC45"]
+			id: "612270427C628EE1"
+			tasks: [
+				{
+					id: "698C06524310C348"
+					item: { count: 1, id: "kaleidoscope_nether:ghast_tentacle" }
+					type: "item"
+				}
+				{
+					id: "4CCB8C4A59087E4A"
+					item: { count: 1, id: "kaleidoscope_nether:ghast_hide" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EA861059ED6B3A3"]
+			id: "23188EDD76C352F4"
+			tasks: [{
+				id: "5BB82FD446EEE12B"
+				item: { count: 1, id: "kaleidoscope_nether:wither_rib" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23188EDD76C352F4"]
+			id: "266459AE0425B2E1"
+			tasks: [{
+				id: "64D789AEF06320BB"
+				item: { count: 1, id: "kaleidoscope_nether:star_dust" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23188EDD76C352F4"]
+			id: "629A19F1D213FAE8"
+			tasks: [{
+				id: "33C6395875049D5D"
+				item: { count: 1, id: "kaleidoscope_nether:blaze_heart" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["612270427C628EE1"]
+			id: "155DE1B705C7A4A4"
+			tasks: [{
+				id: "11763885E5D2AB18"
+				item: { count: 1, id: "minecraft:magma_cream" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0914FAB47D8C2DEA"]
+			id: "007233DE87006E44"
+			tasks: [
+				{
+					id: "7DC32867A8EF2B79"
+					item: { count: 1, id: "tofucraft:seeds_soybeans_soul" }
+					type: "item"
+				}
+				{
+					id: "653FCB8A98729FA5"
+					item: { count: 1, id: "tofucraft:seeds_soybeans_nether" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["117F084A693F392A"]
+			id: "48828A80FDFAACB7"
+			tasks: [{
+				id: "013B6C55F7FD39D5"
+				item: { count: 1, id: "kaleidoscope_nether:raw_piglin_meat" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EA861059ED6B3A3"]
+			id: "2343F81FD6A3F1D1"
+			tasks: [{
+				id: "35DBB5B25D5B6242"
+				item: { count: 1, id: "kaleidoscope_nether:gilded_fragment" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["117F084A693F392A"]
+			id: "2527B62E3B1DC8C0"
+			tasks: [
+				{
+					id: "2B7A7934A9FAB3CD"
+					item: { count: 1, id: "minecraft:crimson_fungus" }
+					type: "item"
+				}
+				{
+					id: "283B178466340E1E"
+					item: { count: 1, id: "minecraft:warped_fungus" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08365D533370C631"]
+			id: "2CBBF481E30D8A77"
+			tasks: [{
+				id: "7DAF29ED314887E5"
+				item: { count: 1, id: "tofucraft:tofugem" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08365D533370C631"]
+			id: "0B63CEDC0B07F607"
+			tasks: [{
+				id: "4760D9EA2FC725F1"
+				item: { count: 1, id: "tofucraft:tofudiamond" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08365D533370C631"]
+			id: "0B34A2AAE3C71ED6"
+			tasks: [{
+				id: "35530CA98362746C"
+				item: { count: 1, id: "tofucraft:tofuzunda" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["08365D533370C631"]
+			id: "3F795A6596839A37"
+			tasks: [{
+				id: "540C024AE0435E27"
+				item: { count: 1, id: "tofucraft:leek" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["08365D533370C631"]
+			dependency_requirement: "one_completed"
+			id: "41514351676BD6C0"
+			tasks: [{
+				entity: "tofucraft:tofu_gandlem"
+				icon: {
+					id: "tofucraft:tofu_gandlem_spawnegg"
+				}
+				id: "6F12153A894A9653"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08365D533370C631"]
+			id: "213F4294A9A88526"
+			tasks: [{
+				id: "09769AF8D24ECC6B"
+				item: { count: 1, id: "tofucraft:raw_tofufish" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["08365D533370C631"]
+			id: "4F34B54C42181455"
+			tasks: [{
+				id: "1E89B3A1041C45E8"
+				item: { count: 1, id: "tofucraft:tofuhamburg_raw" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+	]
 }

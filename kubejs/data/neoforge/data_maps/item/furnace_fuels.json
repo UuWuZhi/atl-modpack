@@ -1,0 +1,10 @@
+{
+    "values": {
+        "kaleidoscope_nether:crimson_fruit": {
+            "burn_time": 2400
+        },
+        "minecraft:weeping_vines": {
+            "burn_time": 100
+        }
+    }
+}

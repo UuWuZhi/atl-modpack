@@ -10,10 +10,10 @@
 	images: [
 		{
 			height: 18.0d
-			image: "minecraft:textures/gui/advancements/backgrounds/root.png"
+			image: "minecraft:textures/gui/advancements/backgrounds/quest_book.png"
 			order: -9
 			rotation: 0.0d
-			width: 24.0d
+			width: 28.6d
 			x: 0.0d
 			y: 0.0d
 		}

@@ -9,11 +9,12 @@
 
 ```
 【开发】所有开发者 → 推 dev 分支(玩家不可见)
-【发布】维护人验证后 → merge dev→main(玩家增量更新)
+【发布】维护人验证后 → dev 合并到 main,main 刷新索引(玩家增量更新)
 ```
 
 - **Pages 只部署 main**:dev 分支的推送**不会**触发玩家更新
 - **开发随意,发布谨慎**:实验性改动留在 dev,确认无 bug 才发布
+- **索引只在 main 生成**:日常 dev 推送不刷新 `index.toml` / `pack.toml`,减少多人协作冲突;发布时合并到 main 后由工具统一刷新并提交。
 
 ### 工具总览
 
@@ -25,8 +26,8 @@
 参数式脚本(可单独调用):
 - `push.py` — 推 dev / merge 到 main / 打 tag / 一站式 release
 - `setup_dev_link.py` — 建立/断开符号链接
+- `manage_external_resource.py` — 交互式添加/移除/本地反查外部 mod 或资源包 / 设定 side
 - `build_import_pack.py` — 构建导入包
-- `release.py` — 构建导入包(纯构建)
 
 ---
 
@@ -90,7 +91,7 @@ python tools\setup_dev_link.py --remove "D:\Minecraft\.minecraft\versions\All Th
 
 通过符号链接,**直接在开发实例里编辑** → 工作区文件同步变化。
 
-### 改 mod(加/删/更新)
+### 改外部资源(mod / 资源包)
 
 ```bash
 packwiz modrinth install <slug>      # 加 mod(如 packwiz mr install create)
@@ -99,30 +100,42 @@ packwiz update --all                 # 更新全部 mod 到最新
 packwiz update <slug>                # 更新单个
 ```
 
+或者直接用交互式入口:
+```bash
+python tools/cli.py                  # 选「6. 外部资源管理」
+python tools/manage_external_resource.py  # 直接运行
+```
+
+> 非原创资源只提交 `.pw.toml` 元数据,不要把第三方 jar/zip 放进仓库或 Pages。
+> 手上已有 jar/zip 时优先用「本地文件反查」,按 hash 精确匹配远端文件,避免搜索命中整合包或同名项目。
+> 直链 URL 缺少依赖解析和可靠更新信息,优先使用 Modrinth / CurseForge。
+
 > **标 side(客户端/服务端/双端)**:Modrinth 标记不可信,需人工确认。
 > 判断规则、常见坑、批量检查见 [side 判定手册](side-guide.md)。核心原则:不确定就标 `both`。
 
 ### 推送(用 push.py 一键完成)
 
 ```bash
-python tools/push.py -m "改了什么"     # 自动 refresh + 提交 + 推 dev
+python tools/push.py -m "改了什么"     # 提交 + 推 dev,固定不 refresh
 ```
 
-> 推 dev = 玩家不可见。可放心推实验性改动。
+> 推 dev = 玩家不可见。dev 上不要提交日常 refresh 产生的 `index.toml` / `pack.toml` 变更;发布工具会在 main 上统一生成。
 
 ---
 
 ## 三、发布(维护人)
 
 ```bash
-python tools/push.py --release -m "版本说明"   # merge dev→main + 推 main
-python tools/push.py --release --version 1.1.0  # 发布时可选打 tag
+python tools/push.py --release -m "版本说明"   # dev→main + main refresh + 回灌 dev
+python tools/push.py --release --version 1.1.0  # main refresh 后打 tag,再回灌 dev
 ```
 
 作用:
-1. 切到 main,merge dev,push main → Pages 更新 → 玩家增量拉到(1~3 分钟)
-2. `--version` 打 git tag(供 Release 关联)
-3. 自动回到 dev 继续开发
+1. 确认 dev/main 可快进同步远端,否则停止并要求维护人手动处理分叉
+2. 推送 dev,切到 main,用 `--no-ff` 合并 dev
+3. 在 main 上执行 `packwiz refresh`,单独提交 `index.toml` / `pack.toml` 更新
+4. `--version` 在 main 的发布索引提交上打 git tag(供 Release 关联)
+5. 推送 main/tag,再切回 dev,用 `--no-ff` 把 main 发布结果合并回 dev
 
 > 发布 = 你确认无 bug、不损坏存档后的动作。发布前务必在实例里测试。
 
@@ -143,15 +156,15 @@ python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.m
 
 ## 五、发布新版本(release)
 
-**发布 = merge dev→main + 打 tag + 构建 mrpack**。
+**发布 = dev→main + main refresh + tag + 回灌 dev + 构建 mrpack**。
 
 ```bash
-# 方式 A(推荐):push.py 一步完成 merge+push,再手动构建 mrpack
-python tools/push.py --release -m "v1.1.0"
+# 方式 A(推荐):push.py 一步完成发布/tag/回灌,再手动构建 mrpack
+python tools/push.py --release --version 1.1.0 -m "v1.1.0"
 python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.mrpack
 
-# 方式 B:release.py(纯构建 mrpack)
-python tools/release.py
+# 方式 B:build_import_pack.py(纯构建 mrpack)
+python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.mrpack
 ```
 
 **发布到 GitHub Release**(任选):
@@ -172,14 +185,15 @@ gh release create v1.1.0 dist/modpack.mrpack --title "v1.1.0"
 | 场景 | 推哪 | 玩家如何收到 |
 |---|---|---|
 | 开发中改动(实验) | dev | 看不到 |
-| 确认可发布 | merge dev→main | 增量,无感(1~3 分钟) |
-| 更新 mod 版本 | dev→main | 增量拉到 |
+| 确认可发布 | release 到 main | 增量,无感(1~3 分钟) |
+| 更新 mod 版本 | dev 开发,main 发布 | 增量拉到 |
 | 大版本发布 | main + tag + mrpack | 重新导入 |
 
 ### 分支约定
 
 - **dev**:所有开发者日常推送,玩家不可见
-- **main**:只有发布时 merge,Pages 部署,玩家可见
+- **main**:只有发布时合并与 refresh,Pages 部署,玩家可见
+- 发布回灌:main 的索引提交会用 `--no-ff` 合并回 dev,保留明确同步点
 - 冲突解决:`git pull origin dev` 后手动 merge 或用 `git merge`
 
 ### 锁版本(可选)
@@ -205,10 +219,10 @@ atl-modpack/
 ├── server/              # 服主脚本
 ├── tools/               # 工具链(python)
 │   ├── cli.py               # 交互式总入口
+│   ├── manage_external_resource.py # 添加/移除/本地反查外部资源
 │   ├── push.py              # 推 dev / merge / tag / release
 │   ├── setup_dev_link.py    # 工作区↔实例 符号链接
 │   ├── build_import_pack.py # 构建导入包
-│   ├── release.py           # 构建导入包(纯构建)
 │   ├── packwiz-cli/         # packwiz 可执行文件
 │   └── cache/seed.json      # 哈希缓存
 ├── docs/                # 文档
@@ -222,7 +236,7 @@ atl-modpack/
 
 ### 改了 config 但玩家没更新到
 
-确认 `packwiz refresh` 已跑并 push;等 1~3 分钟 Pages 生效。
+确认已执行 `python tools/push.py --release`;只有 main 上 refresh 并 push 后玩家才会收到更新。等 1~3 分钟 Pages 生效。
 
 ### `packwiz update` 某 mod 失败
 
