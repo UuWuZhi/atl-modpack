@@ -3,7 +3,11 @@ import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.data.IData;
 import crafttweaker.api.util.random.Percentaged;
 import crafttweaker.api.recipe.CraftingTableRecipeManager;
+import crafttweaker.api.recipe.IRecipeManager;
+import crafttweaker.api.item.NeoForgeItemStack;
+import crafttweaker.api.item.MCItemStack;
 
+//增加燃烧物
 
 //增加工作台配方
 
@@ -18,6 +22,27 @@ craftingTable.addShapeless("extradelight_cheeseburger_1",<item:extradelight:chee
 craftingTable.remove(<item:croptopia:tofuburger>);
 craftingTable.addShapeless("croptopia_tofuburger",<item:croptopia:tofuburger>,
   [<item:minecraft:bread>,<item:croptopia:tofu>,<item:kaleidoscope_cookery:lettuce>,<item:extradelight:sliced_onion>]);
+
+//增加浇注配方
+<recipetype:create:filling>.addJsonRecipe("minecraft_redstone", {
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 125,
+      "fluid": "kaleidoscope_grilling:premium_chili_oil"
+    },
+    {
+      "item": "croptopia:flour"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "id": "minecraft:redstone"
+    }
+  ]}
+ );
 
 
 //增加烈焰人燃烧室配方
@@ -73,6 +98,35 @@ craftingTable.addShapeless("croptopia_tofuburger",<item:croptopia:tofuburger>,
     {
       "amount": 1,
       "id": "kaleidoscope_end:dragon_dust"
+    }
+  ]}
+ );
+
+<recipetype:create:milling>.addJsonRecipe("star_dust_mill", {
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "results": [
+    {
+      "amount": 4,
+      "id": "kaleidoscope_nether:star_dust"
+    }
+  ]}
+ );
+<recipetype:create:crushing>.addJsonRecipe("star_dust_crush", {
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "results": [
+    {
+      "amount": 4,
+      "id": "kaleidoscope_nether:star_dust"
     }
   ]}
  );
@@ -193,6 +247,30 @@ craftingTable.addShapeless("croptopia_tofuburger",<item:croptopia:tofuburger>,
   ]}
  );
 //增加搅拌机配方
+<recipetype:create:mixing>.addJsonRecipe("create_human_honey", {
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {"item": "rusticdelight:syrup"},
+    {"item": "extradelight:yeast"},
+    {"tag": "minecraft:flowers"},
+    {"tag": "minecraft:flowers"},
+    {"tag": "minecraft:flowers"},
+    {"tag": "minecraft:flowers"},
+    {"tag": "c:slime_balls"},
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    },
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "create:honey"
+    }
+  ]}
+ );
 <recipetype:create:mixing>.addJsonRecipe("non_hatchable_dragon_egg", {
   "type": "create:mixing",
   "heat_requirement": "superheated",

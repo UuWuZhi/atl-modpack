@@ -1961,6 +1961,10 @@ file = "kubejs/data/createaddition/recipe/liquid_burning/secret_chili_oil.json"
 hash = "6e2d7cb2adb10d04cc6ad3b17f9187dd3c166d5836b05a2a991ee66756c46f1f"
 
 [[files]]
+file = "kubejs/data/neoforge/data_maps/item/furnace_fuels.json"
+hash = "f0c938e8fc3a4d17c1e4d345ec7fdae0c49c08446c8f1050f71708a1168105ed"
+
+[[files]]
 file = "kubejs/data/oei/replacements/resources_0.json"
 hash = "5bd4528c4e3078fa390d6725ac66fabfe08845d878260996c50e3257277013cf"
 
@@ -1982,7 +1986,7 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "f454bdceddc7209dd4972a1e8a6e4f30c6582d0496abf1d28c992ed5592dea9d"
+hash = "f8fb809153a21ec896b9609b4795ca18ceb3c197ab6300e59c2ecba0fc7b6d78"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -3463,7 +3467,7 @@ metafile = true
 
 [[files]]
 file = "scripts/recipes/recipes.zs"
-hash = "739a0950d28efece7f45f340cb3b3300b5dbb59be90e17c3da7f0a7bc222c341"
+hash = "4845b72866949c0ddb3351e5450a2be532d7acb4daabefb9e85928b4e6bbc35b"
 
 [[files]]
 file = "scripts/recipes/remove_recipes.zs"

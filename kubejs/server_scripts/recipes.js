@@ -45,7 +45,31 @@ ServerEvents.recipes(event => {
   },
   "soup_base": "minecraft:water"
     });
-
+    event.custom({
+  "type": "kaleidoscope_cookery:stockpot",
+  "carrier": {
+    "item": "kaleidoscope_nether:star_dust"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:nether_star"
+  },
+  "soup_base": "minecraft:lava"
+    });
 
 
     event.custom({
