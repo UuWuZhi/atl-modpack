@@ -8,7 +8,7 @@
 
 - **管理**:285 个 mod + 原创内容(config/kubejs/scripts)以 packwiz 元数据存于 git
 - **分发**:GitHub Pages 托管索引,客户端增量更新(只下变化文件)
-- **开发/发布分离**:dev 分支开发(玩家不可见),merge 到 main 即发布
+- **开发/发布分离**:dev 分支开发(玩家不可见),发布时合并到 main 并刷新索引
 
 ## 文档
 
@@ -31,8 +31,8 @@
 git clone https://github.com/UuWuZhi/atl-modpack.git
 cd atl-modpack && git checkout dev
 python tools/cli.py          # 交互式菜单;或参数式见下
-python tools/push.py -m "改动"        # 推 dev(开发,默认不刷新索引)
-python tools/push.py --release --version 1.1.0  # 发布(刷新索引)
+python tools/push.py -m "改动"        # 推 dev(开发,不刷新索引)
+python tools/push.py --release --version 1.1.0  # 发布(main 刷新索引并打 tag)
 ```
 
 ### 工具一览
@@ -49,7 +49,7 @@ python tools/build_import_pack.py  # 构建导入包
 
 ```
 开发者/维护人(改仓库)
-   │ git push dev(开发) / merge main(发布)
+   │ git push dev(开发) / release 到 main(发布时刷新索引)
    ▼
 GitHub Pages(1~3 分钟)
    ├──► 玩家:双击 仅更新.bat → 增量更新

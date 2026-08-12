@@ -67,7 +67,13 @@ side = "both"    # 或 "client" / "server"
 python tools/push.py -m "fix: 调整 xx mod side"
 ```
 
-push.py 会**自动 `packwiz refresh`** 更新 index hash(已修复,发布前会校验一致性)。
+这只会推送到 dev,不会刷新 `index.toml`。确认可发布后再运行:
+
+```bash
+python tools/push.py --release
+```
+
+发布工具会在 main 上执行 `packwiz refresh`,更新 index hash 后再推送给玩家。
 
 ---
 

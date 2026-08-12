@@ -9,12 +9,12 @@
 
 ```
 【开发】所有开发者 → 推 dev 分支(玩家不可见)
-【发布】维护人验证后 → merge dev→main(玩家增量更新)
+【发布】维护人验证后 → dev 合并到 main,main 刷新索引(玩家增量更新)
 ```
 
 - **Pages 只部署 main**:dev 分支的推送**不会**触发玩家更新
 - **开发随意,发布谨慎**:实验性改动留在 dev,确认无 bug 才发布
-- **索引发布时生成**:日常 dev 推送默认不刷新 `index.toml` / `pack.toml`,减少多人协作冲突;发布到 main 前由工具统一刷新。
+- **索引只在 main 生成**:日常 dev 推送不刷新 `index.toml` / `pack.toml`,减少多人协作冲突;发布时合并到 main 后由工具统一刷新并提交。
 
 ### 工具总览
 
@@ -116,25 +116,26 @@ python tools/manage_external_resource.py  # 直接运行
 ### 推送(用 push.py 一键完成)
 
 ```bash
-python tools/push.py -m "改了什么"     # 提交 + 推 dev,默认不 refresh
-python tools/push.py --refresh -m "改了什么"  # 确实需要更新 dev 索引时才用
+python tools/push.py -m "改了什么"     # 提交 + 推 dev,固定不 refresh
 ```
 
-> 推 dev = 玩家不可见。可放心推实验性改动。
+> 推 dev = 玩家不可见。dev 上不要提交日常 refresh 产生的 `index.toml` / `pack.toml` 变更;发布工具会在 main 上统一生成。
 
 ---
 
 ## 三、发布(维护人)
 
 ```bash
-python tools/push.py --release -m "版本说明"   # refresh + merge dev→main + 推 main
-python tools/push.py --release --version 1.1.0  # refresh + 发布时可选打 tag
+python tools/push.py --release -m "版本说明"   # dev→main + main refresh + 回灌 dev
+python tools/push.py --release --version 1.1.0  # main refresh 后打 tag,再回灌 dev
 ```
 
 作用:
-1. 切到 main,merge dev,push main → Pages 更新 → 玩家增量拉到(1~3 分钟)
-2. `--version` 打 git tag(供 Release 关联)
-3. 自动回到 dev 继续开发
+1. 确认 dev/main 可快进同步远端,否则停止并要求维护人手动处理分叉
+2. 推送 dev,切到 main,用 `--no-ff` 合并 dev
+3. 在 main 上执行 `packwiz refresh`,单独提交 `index.toml` / `pack.toml` 更新
+4. `--version` 在 main 的发布索引提交上打 git tag(供 Release 关联)
+5. 推送 main/tag,再切回 dev,用 `--no-ff` 把 main 发布结果合并回 dev
 
 > 发布 = 你确认无 bug、不损坏存档后的动作。发布前务必在实例里测试。
 
@@ -155,11 +156,11 @@ python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.m
 
 ## 五、发布新版本(release)
 
-**发布 = merge dev→main + 打 tag + 构建 mrpack**。
+**发布 = dev→main + main refresh + tag + 回灌 dev + 构建 mrpack**。
 
 ```bash
-# 方式 A(推荐):push.py 一步完成 merge+push,再手动构建 mrpack
-python tools/push.py --release -m "v1.1.0"
+# 方式 A(推荐):push.py 一步完成发布/tag/回灌,再手动构建 mrpack
+python tools/push.py --release --version 1.1.0 -m "v1.1.0"
 python tools/build_import_pack.py --seed tools/cache/seed.json -o dist/modpack.mrpack
 
 # 方式 B:build_import_pack.py(纯构建 mrpack)
@@ -184,14 +185,15 @@ gh release create v1.1.0 dist/modpack.mrpack --title "v1.1.0"
 | 场景 | 推哪 | 玩家如何收到 |
 |---|---|---|
 | 开发中改动(实验) | dev | 看不到 |
-| 确认可发布 | merge dev→main | 增量,无感(1~3 分钟) |
-| 更新 mod 版本 | dev→main | 增量拉到 |
+| 确认可发布 | release 到 main | 增量,无感(1~3 分钟) |
+| 更新 mod 版本 | dev 开发,main 发布 | 增量拉到 |
 | 大版本发布 | main + tag + mrpack | 重新导入 |
 
 ### 分支约定
 
 - **dev**:所有开发者日常推送,玩家不可见
-- **main**:只有发布时 merge,Pages 部署,玩家可见
+- **main**:只有发布时合并与 refresh,Pages 部署,玩家可见
+- 发布回灌:main 的索引提交会用 `--no-ff` 合并回 dev,保留明确同步点
 - 冲突解决:`git pull origin dev` 后手动 merge 或用 `git merge`
 
 ### 锁版本(可选)
@@ -234,7 +236,7 @@ atl-modpack/
 
 ### 改了 config 但玩家没更新到
 
-确认 `packwiz refresh` 已跑并 push;等 1~3 分钟 Pages 生效。
+确认已执行 `python tools/push.py --release`;只有 main 上 refresh 并 push 后玩家才会收到更新。等 1~3 分钟 Pages 生效。
 
 ### `packwiz update` 某 mod 失败
 
