@@ -14,6 +14,7 @@
 
 - **Pages 只部署 main**:dev 分支的推送**不会**触发玩家更新
 - **开发随意,发布谨慎**:实验性改动留在 dev,确认无 bug 才发布
+- **索引发布时生成**:日常 dev 推送默认不刷新 `index.toml` / `pack.toml`,减少多人协作冲突;发布到 main 前由工具统一刷新。
 
 ### 工具总览
 
@@ -115,7 +116,8 @@ python tools/manage_external_resource.py  # 直接运行
 ### 推送(用 push.py 一键完成)
 
 ```bash
-python tools/push.py -m "改了什么"     # 自动 refresh + 提交 + 推 dev
+python tools/push.py -m "改了什么"     # 提交 + 推 dev,默认不 refresh
+python tools/push.py --refresh -m "改了什么"  # 确实需要更新 dev 索引时才用
 ```
 
 > 推 dev = 玩家不可见。可放心推实验性改动。
@@ -125,8 +127,8 @@ python tools/push.py -m "改了什么"     # 自动 refresh + 提交 + 推 dev
 ## 三、发布(维护人)
 
 ```bash
-python tools/push.py --release -m "版本说明"   # merge dev→main + 推 main
-python tools/push.py --release --version 1.1.0  # 发布时可选打 tag
+python tools/push.py --release -m "版本说明"   # refresh + merge dev→main + 推 main
+python tools/push.py --release --version 1.1.0  # refresh + 发布时可选打 tag
 ```
 
 作用:

@@ -4,15 +4,16 @@
 极简推送/发布脚本 — 开发/发布分离
 
 参数式用法(熟练开发者/AI):
-  python push.py                     # refresh + 提交 + 推 dev
+  python push.py                     # 提交 + 推 dev(默认不 refresh)
   python push.py -m "说明"            # 带提交说明
+  python push.py --refresh           # refresh + 提交 + 推 dev
   python push.py --merge             # 合并 dev→main 并推送(发布,不打 tag)
   python push.py --tag 1.1.0         # 打 tag(不合并)
   python push.py --release           # 一站式发布:合并 dev→main
   python push.py --release --version 1.1.0   # 发布 + 打 tag
 
 流程:
-  开发:改代码 → python push.py(推 dev,玩家不可见)
+  开发:改代码 → python push.py(推 dev,玩家不可见,不刷新索引)
   发布:验证 OK → python push.py --release --version 1.1.0
 """
 
@@ -47,11 +48,34 @@ def git(cmd, cwd=ROOT, check=True):
 
 
 def do_refresh():
-    """packwiz refresh(总是)"""
+    """packwiz refresh"""
     if os.path.exists(PACKWIZ):
         run([PACKWIZ, "refresh"])
     else:
         run(["packwiz", "refresh"])
+
+
+def has_conflict_markers():
+    """阻止提交 Git 冲突标记,尤其是 index.toml/pack.toml。"""
+    markers = ("<<<<<<<", "=======", ">>>>>>>")
+    candidates = []
+    for name in ["pack.toml", "index.toml"]:
+        path = os.path.join(ROOT, name)
+        if os.path.exists(path):
+            candidates.append(path)
+
+    found = []
+    for path in candidates:
+        with open(path, encoding="utf-8", errors="replace") as fh:
+            for lineno, line in enumerate(fh, 1):
+                if line.startswith(markers):
+                    found.append(f"{os.path.relpath(path, ROOT)}:{lineno}: {line.strip()}")
+    if found:
+        print("[错误] 检测到 Git 冲突标记,请先解决后再继续:")
+        for item in found[:20]:
+            print(f"  - {item}")
+        return True
+    return False
 
 
 def verify_index_consistency():
@@ -130,6 +154,7 @@ def do_tag(version):
 def main():
     ap = argparse.ArgumentParser(description="极简推送/发布(开发/发布分离)")
     ap.add_argument("-m", "--message", default=None, help="提交说明")
+    ap.add_argument("--refresh", action="store_true", help="开发推送前也执行 packwiz refresh")
     ap.add_argument("--merge", action="store_true", help="合并 dev→main 并推送(发布)")
     ap.add_argument("--tag", default=None, metavar="VER", help="打 tag(如 1.1.0),不合并")
     ap.add_argument("--release", action="store_true", help="一站式发布:合并 dev→main")
@@ -141,8 +166,18 @@ def main():
         print("[错误] --merge / --release / --tag 只能选一个")
         sys.exit(1)
 
-    # 1. refresh + 提交(总是,除了纯 tag 模式)
-    do_refresh()
+    if has_conflict_markers():
+        sys.exit(1)
+
+    # 开发推送默认不 refresh,避免多人协作时 index.toml/pack.toml 频繁冲突。
+    # 发布/合并必须 refresh,因为 main 是玩家实际拉取的索引源。
+    should_refresh = args.refresh or args.release or args.merge
+    if should_refresh:
+        do_refresh()
+        if has_conflict_markers():
+            sys.exit(1)
+    else:
+        print("[*] 跳过 packwiz refresh(开发推送默认行为;发布时会自动 refresh)")
 
     # 2. 校验 index 一致性(发布前必须)
     if args.release or args.merge:

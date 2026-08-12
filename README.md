@@ -31,8 +31,8 @@
 git clone https://github.com/UuWuZhi/atl-modpack.git
 cd atl-modpack && git checkout dev
 python tools/cli.py          # 交互式菜单;或参数式见下
-python tools/push.py -m "改动"        # 推 dev(开发)
-python tools/push.py --release --version 1.1.0  # 发布
+python tools/push.py -m "改动"        # 推 dev(开发,默认不刷新索引)
+python tools/push.py --release --version 1.1.0  # 发布(刷新索引)
 ```
 
 ### 工具一览
