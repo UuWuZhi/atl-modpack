@@ -746,11 +746,6 @@ hash = "b833185f96bfcc5c002ba408f6fbddbd700a7a3e322e55115f51bce7afcf1f5b"
 metafile = true
 
 [[files]]
-file = "mods/______Terralith____dtterralith-1.3.0.pw.toml"
-hash = "7a44f4f92154d40884c3f55a8d39549a4cb732439e439aac19733b3956f7196a"
-metafile = true
-
-[[files]]
 file = "mods/_______AdLods-1.21.1-9.1.6.0-NeoForge-build.0996.pw.toml"
 hash = "fa25b63f8af276ea7b567ecb800ce03d36aec9071e4df9c13f8b231f7e60793f"
 metafile = true
@@ -826,18 +821,8 @@ hash = "ebcfd5b8f641b8a16e87eeb3de642e22c5b28888d169c594a3ef1e02300d393c"
 metafile = true
 
 [[files]]
-file = "mods/_________ShoulderSurfing-NeoForge-1.21.1-5.0.7.pw.toml"
-hash = "182464749aadd1cdd73c1ae2831d8c215689fdaf62322d822c53f2e2fe6474d3"
-metafile = true
-
-[[files]]
 file = "mods/__________BetterThanMending-2.2.0.pw.toml"
 hash = "e1e26193775aa4f0b2f457985fc8a67e9afbb3cfa6513f13f56b236f772dabcd"
-metafile = true
-
-[[files]]
-file = "mods/__________DynamicTreesPlus-neoforge-1.21.1-1.3.2.pw.toml"
-hash = "b89fd228ffbad78319b4121681ea88fa5d20a9e55ea07e04bce033a889b731ba"
 metafile = true
 
 [[files]]
@@ -858,11 +843,6 @@ metafile = true
 [[files]]
 file = "mods/_______________NaturesCompass-1.21.1-3.4.0-neoforge.pw.toml"
 hash = "4e66cb9f757529342b1c875e843c5cce19933592cdcbf7ab0377c45479d1c1a6"
-metafile = true
-
-[[files]]
-file = "mods/_______________dynamictrees-neoforge-1.21.1-1.7.2.pw.toml"
-hash = "3e6a78b6842509ffda43e26f87d125941f757e3517bf5a75d35c024a1437aae1"
 metafile = true
 
 [[files]]
