@@ -7,14 +7,20 @@
   python push.py                     # 提交 + 推 dev(默认不 refresh)
   python push.py -m "说明"            # 带提交说明
   python push.py --refresh           # refresh + 提交 + 推 dev
-  python push.py --merge             # 合并 dev→main 并推送(发布,不打 tag)
-  python push.py --tag 1.1.0         # 打 tag(不合并)
-  python push.py --release           # 一站式发布:合并 dev→main
+  python push.py --merge             # --no-ff 合并 dev→main,再将 main 快进回 dev
+  python push.py --tag 1.1.0         # 在当前提交打 tag(不合并)
+  python push.py --release           # 一站式发布:refresh + --no-ff 合并 dev→main
   python push.py --release --version 1.1.0   # 发布 + 打 tag
 
 流程:
   开发:改代码 → python push.py(推 dev,玩家不可见,不刷新索引)
   发布:验证 OK → python push.py --release --version 1.1.0
+
+发布策略:
+  - 只允许从 dev 发布到 main。
+  - 发布前用 --ff-only 同步远端,本地落后时快进,本地/远端分叉时停止。
+  - dev→main 使用 --no-ff,即使可快进也保留明确的发布合并点。
+  - main 推送成功后再快进合并回 dev,让 dev 包含发布合并提交。
 """
 
 import argparse
@@ -45,6 +51,33 @@ def git(cmd, cwd=ROOT, check=True):
         print(f"[错误] git {' '.join(cmd)}: {r.stderr.strip()}")
         sys.exit(1)
     return r
+
+
+def current_branch():
+    return git(["git", "branch", "--show-current"]).stdout.strip()
+
+
+def ensure_clean_worktree():
+    r = git(["git", "status", "--porcelain"], check=False)
+    if r.stdout.strip():
+        print("[错误] 工作区仍有未提交改动,无法切换/合并分支:")
+        for line in r.stdout.splitlines()[:30]:
+            print(f"  {line}")
+        sys.exit(1)
+
+
+def checkout(branch):
+    if current_branch() != branch:
+        git(["git", "checkout", branch])
+
+
+def fetch_origin():
+    git(["git", "fetch", "origin", "--prune"])
+
+
+def pull_ff_only(branch):
+    checkout(branch)
+    git(["git", "pull", "--ff-only", "origin", branch])
 
 
 def do_refresh():
@@ -125,19 +158,29 @@ def do_push_dev():
 
 
 def do_merge():
-    """合并 dev→main 并推送。"""
-    # 确认当前在 dev,发布基于 dev
-    cur = git(["git", "branch", "--show-current"]).stdout.strip()
+    """发布 dev→main,保留合并点,并将发布合并点回灌到 dev。"""
+    cur = current_branch()
     if cur != "dev":
         print(f"[错误] 当前在 {cur} 分支,发布需在 dev 分支执行")
         print("  请先: git checkout dev")
         sys.exit(1)
-    git(["git", "checkout", "main"])
-    git(["git", "pull", "origin", "main"])
-    git(["git", "merge", "dev", "--no-edit"])
+
+    ensure_clean_worktree()
+    fetch_origin()
+
+    # 发布前只接受快进同步。若 dev/main 与远端已分叉,交给维护人手动解决。
+    pull_ff_only("dev")
+    pull_ff_only("main")
+
+    git(["git", "merge", "--no-ff", "--no-edit", "dev"])
     git(["git", "push", "origin", "main"])
     print("[✓] 已发布到 main,玩家将增量更新(1~3 分钟)")
-    git(["git", "checkout", "dev"])  # 回到 dev
+
+    # main 的发布合并提交需要回到 dev,否则下一次发布时 dev 会长期缺少 main 的合并点。
+    checkout("dev")
+    git(["git", "merge", "--ff-only", "main"])
+    git(["git", "push", "origin", "dev"])
+    print("[✓] 已将 main 的发布合并点快进同步回 dev")
 
 
 def do_tag(version):
@@ -155,7 +198,7 @@ def main():
     ap = argparse.ArgumentParser(description="极简推送/发布(开发/发布分离)")
     ap.add_argument("-m", "--message", default=None, help="提交说明")
     ap.add_argument("--refresh", action="store_true", help="开发推送前也执行 packwiz refresh")
-    ap.add_argument("--merge", action="store_true", help="合并 dev→main 并推送(发布)")
+    ap.add_argument("--merge", action="store_true", help="--no-ff 合并 dev→main,再快进同步回 dev")
     ap.add_argument("--tag", default=None, metavar="VER", help="打 tag(如 1.1.0),不合并")
     ap.add_argument("--release", action="store_true", help="一站式发布:合并 dev→main")
     ap.add_argument("--version", default=None, help="配合 --release 打 tag")
