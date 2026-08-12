@@ -256,6 +256,18 @@ def write_report(name, title, rows, extra=None):
     return path
 
 
+def report_keys(name):
+    path = REPORT_DIR / name
+    if not path.exists():
+        return set()
+    keys = set()
+    for line in path.read_text(encoding="utf-8").splitlines():
+        match = re.match(r"- `([^`]+)`", line)
+        if match:
+            keys.add(match.group(1).casefold())
+    return keys
+
+
 def remove_files(paths):
     removed = []
     for path in paths:
@@ -300,6 +312,8 @@ def condition2():
 
 def condition3():
     _work, instance, _identical, _modified, instance_only, _workspace_only = compare()
+    already_removed_defaults = report_keys("01-identical-removed.md")
+    instance_only = [key for key in instance_only if key.casefold() not in already_removed_defaults]
     rows = []
     unconfirmed = []
     for key in instance_only:
