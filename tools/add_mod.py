@@ -17,6 +17,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+from packwiz_lf_guard import ensure_lf_before_refresh
+
 try:
     import tomllib
 except ImportError:  # pragma: no cover - Python 3.10 fallback
@@ -103,14 +105,13 @@ def pick_candidate(paths):
 
 def set_side(path, side):
     text = path.read_text(encoding="utf-8")
-    newline = "\r\n" if "\r\n" in text else "\n"
     lines = text.splitlines()
     side_line = f'side = "{side}"'
 
     for idx, line in enumerate(lines):
         if line.strip().startswith("side = "):
             lines[idx] = side_line
-            path.write_text(newline.join(lines) + newline, encoding="utf-8")
+            path.write_text("\n".join(lines) + "\n", encoding="utf-8")
             return
 
     insert_at = len(lines)
@@ -120,7 +121,13 @@ def set_side(path, side):
             break
 
     lines.insert(insert_at, side_line)
-    path.write_text(newline.join(lines) + newline, encoding="utf-8")
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def refresh():
+    print("\n刷新 packwiz 索引 ...")
+    ensure_lf_before_refresh()
+    run(resolve_packwiz() + ["refresh"])
 
 
 def choose_side():
@@ -182,7 +189,7 @@ def add_with_packwiz():
     changed = detect_changed_metadata(before)
     if not changed:
         print("\n未检测到新增的 .pw.toml 文件,跳过 side 设置。")
-        run(resolve_packwiz() + ["refresh"])
+        refresh()
         return
 
     target = pick_candidate(changed)
@@ -192,8 +199,7 @@ def add_with_packwiz():
             set_side(target, side)
             print(f"\n已更新 {target.relative_to(ROOT)} 的 side = \"{side}\"")
 
-    print("\n刷新 packwiz 索引 ...")
-    run(resolve_packwiz() + ["refresh"])
+    refresh()
     print("完成。")
 
 

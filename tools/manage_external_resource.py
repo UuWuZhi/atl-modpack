@@ -19,6 +19,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+from packwiz_lf_guard import ensure_lf_before_refresh
+
 try:
     import tomllib
 except ImportError:  # pragma: no cover - Python 3.10 fallback
@@ -244,14 +246,13 @@ def pick_candidate(paths, prompt):
 
 def set_side(path, side):
     text = path.read_text(encoding="utf-8")
-    newline = "\r\n" if "\r\n" in text else "\n"
     lines = text.splitlines()
     side_line = f'side = "{side}"'
 
     for idx, line in enumerate(lines):
         if line.strip().startswith("side = "):
             lines[idx] = side_line
-            path.write_text(newline.join(lines) + newline, encoding="utf-8")
+            path.write_text("\n".join(lines) + "\n", encoding="utf-8")
             return
 
     insert_at = len(lines)
@@ -261,7 +262,7 @@ def set_side(path, side):
             break
 
     lines.insert(insert_at, side_line)
-    path.write_text(newline.join(lines) + newline, encoding="utf-8")
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def choose_side(default_side):
@@ -676,6 +677,7 @@ def remove_resource():
 
 def refresh():
     print("\n刷新 packwiz 索引 ...")
+    ensure_lf_before_refresh()
     run(resolve_packwiz() + ["refresh"])
 
 

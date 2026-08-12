@@ -31,6 +31,8 @@ import os
 import subprocess
 import sys
 
+from packwiz_lf_guard import ensure_lf_before_refresh
+
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
@@ -85,6 +87,7 @@ def pull_ff_only(branch):
 
 def do_refresh():
     """packwiz refresh"""
+    ensure_lf_before_refresh()
     if os.path.exists(PACKWIZ):
         run([PACKWIZ, "refresh"])
     else:
