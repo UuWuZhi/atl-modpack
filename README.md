@@ -53,7 +53,7 @@ python tools/build_import_pack.py  # 构建导入包
    ▼
 GitHub Pages(1~3 分钟)
    ├──► 玩家:双击 仅更新.bat → 增量更新
-   └──► 服主:双击 同步mods.bat → server 侧同步
+   └──► 服主:双击 更新服务端.bat → server 侧更新
 ```
 
 - mod jar 走 Modrinth/CurseForge CDN
