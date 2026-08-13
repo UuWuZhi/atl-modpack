@@ -1,0 +1,230 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "596E92C20B0FBABB"
+	group: "2931292971EB3BE8"
+	icon: {
+		id: "ordertocook:food_plate"
+	}
+	id: "596E92C20B0FBABB"
+	images: [
+		{
+			height: 13.5d
+			image: "minecraft:textures/gui/advancements/backgrounds/shop_quest_book.png"
+			rotation: 0.0d
+			width: 21.45d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "create_currency_shops:item/netherite_coin"
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -5.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create_currency_shops:gold_coin"
+			}
+			id: "5479DAEFB7D7E793"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "15DE4C9B2AEF1E3A"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04EB6967DD0CB2DB"]
+			id: "39B64C3FC985AA86"
+			tasks: [{
+				id: "435DF0D1D11942E9"
+				item: { count: 1, id: "create_currency_shops:coin_safe" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FDFB782128AFE81"]
+			id: "04EB6967DD0CB2DB"
+			tasks: [
+				{
+					id: "2BC59AF70E36FC61"
+					item: { count: 1, id: "create_currency_shops:wallet" }
+					type: "item"
+				}
+				{
+					id: "051CFBC65CD32AC2"
+					item: { count: 1, id: "create_currency_shops:credit_card" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5479DAEFB7D7E793"]
+			id: "1501C31B5ADFD03A"
+			tasks: [{
+				id: "66ED504F8D5E3C1C"
+				item: { count: 1, id: "ordertocook:board" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C0866A6F6B16EFA"]
+			id: "62E18AABDDA0852B"
+			tasks: [
+				{
+					id: "388F783661283518"
+					item: { count: 1, id: "ordertocook:clean_plate" }
+					type: "item"
+				}
+				{
+					id: "7D9B3F8FC94BB2BB"
+					item: { count: 1, id: "ordertocook:shelf" }
+					type: "item"
+				}
+				{
+					id: "045F37DB4A9DBD9B"
+					item: { count: 1, id: "ordertocook:plate_shelf" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62E18AABDDA0852B"]
+			id: "04424C7A4FD22102"
+			tasks: [{
+				id: "5606172491F9BF9C"
+				item: { count: 1, id: "ordertocook:countertop" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AD8B22400FDBCEA"]
+			id: "4FDFB782128AFE81"
+			tasks: [{
+				id: "58D7605AAFCD3629"
+				item: { count: 1, id: "create_currency_shops:copper_coin" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04424C7A4FD22102"]
+			id: "3AD8B22400FDBCEA"
+			tasks: [{
+				id: "194B2C1551D9306D"
+				item: { count: 1, id: "ordertocook:chair" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FDFB782128AFE81"]
+			id: "3BBEC851B7F237C5"
+			tasks: [
+				{
+					id: "2D1A1773AFEDDEBF"
+					item: { count: 1, id: "ordertocook:dirty_plate" }
+					type: "item"
+				}
+				{
+					id: "624F7C9FD5A2AA24"
+					item: { count: 1, id: "ordertocook:washingtable" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FDFB782128AFE81"]
+			id: "149C343A0921B907"
+			tasks: [{
+				id: "04F8446F9A966C7D"
+				item: { count: 1, id: "ordertocook:motorcycle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BBEC851B7F237C5"]
+			id: "6297548E5D48739D"
+			tasks: [{
+				id: "7EC92F5D54D3A9C5"
+				item: { count: 1, id: "ordertocook:dishwasher" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["149C343A0921B907"]
+			icon: {
+				id: "ordertocook:helmet"
+			}
+			id: "388BD95B532470F4"
+			tasks: [{
+				id: "2459381248A58502"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6297548E5D48739D"]
+			id: "5079B94C2EF5EAE5"
+			tasks: [{
+				id: "149BC801DECD591D"
+				item: { count: 1, id: "create_currency_shops:gold_coin" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1501C31B5ADFD03A"]
+			icon: {
+				id: "twilightforest:hydra_chop"
+			}
+			id: "232D4DCFC1D00A5A"
+			tasks: [{
+				id: "2A859D766D1C7306"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1501C31B5ADFD03A"]
+			id: "7C0866A6F6B16EFA"
+			tasks: [{
+				id: "79A6F94916B9B80C"
+				item: { count: 1, id: "ordertocook:order_machine" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+}

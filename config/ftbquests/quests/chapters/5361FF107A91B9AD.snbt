@@ -13,7 +13,7 @@
 	images: [
 		{
 			height: 9.0d
-			image: "minecraft:textures/gui/advancements/backgrounds/quest_book.png"
+			image: "minecraft:textures/gui/advancements/backgrounds/root_quest_book.png"
 			rotation: 0.0d
 			width: 14.3d
 			x: 0.0d
@@ -26,14 +26,6 @@
 			width: 20.48d
 			x: 0.0d
 			y: -4.5d
-		}
-		{
-			height: 4.0d
-			image: "minecraft:textures/gui/advancements/icons/modpackroot.png"
-			rotation: 0.0d
-			width: 4.0d
-			x: 7.0d
-			y: 1.5d
 		}
 	]
 	order_index: 0
@@ -82,8 +74,8 @@
 				id: "4B7E38524C24B818"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: -0.5d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["04B17A7BBDDBCC6B"]
@@ -121,21 +113,8 @@
 				id: "4E541441BFDC949C"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["04B17A7BBDDBCC6B"]
-			icon: {
-				id: "minecraft:diamond"
-			}
-			id: "462B5AB406F5C248"
-			tasks: [{
-				id: "13C3FA48E93E2CC5"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: -3.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["04B17A7BBDDBCC6B"]
@@ -323,19 +302,6 @@
 		{
 			dependencies: ["60FF4F70B7DD6C43"]
 			icon: {
-				id: "farmersdelight:cooked_rice"
-			}
-			id: "2AB8E98FCC9CF86C"
-			tasks: [{
-				id: "0F195C636FAB0E01"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["60FF4F70B7DD6C43"]
-			icon: {
 				id: "minecraft:nether_star"
 			}
 			id: "3B53CDB8C981FC9B"
@@ -361,47 +327,39 @@
 				id: "55D901FF29C436D0"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -2.0d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["04B17A7BBDDBCC6B"]
 			icon: {
-				id: "minecraft:golden_axe"
+				components: {
+					"ftbquests:icon": "ftbquests:item/book"
+				}
+				id: "ftbquests:custom_icon"
 			}
-			id: "0F6BD24A80381782"
-			rewards: [
-				{
-					id: "03DAD6D95ED40F55"
-					item: {
-						count: 1
-						id: "minecraft:golden_axe"
-					}
-					type: "item"
-				}
-				{
-					id: "7CC3A53DEF878499"
-					item: {
-						count: 1
-						id: "minecraft:golden_pickaxe"
-					}
-					type: "item"
-				}
-				{
-					id: "4F6BA93996309986"
-					item: {
-						count: 1
-						id: "minecraft:golden_hoe"
-					}
-					type: "item"
-				}
-			]
+			icon_scale: 2.0d
+			id: "352A9C023C03217B"
+			shape: "none"
+			size: 4.0d
 			tasks: [{
-				id: "2D303AAC983408C4"
+				id: "08485CABFEE645D9"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: -6.809523809523817d
+			y: 2.7140476190476193d
+		}
+		{
+			dependencies: ["60FF4F70B7DD6C43"]
+			icon: {
+				id: "create_currency_shops:gold_coin"
+			}
+			id: "121AAAD39B9DF2AD"
+			tasks: [{
+				id: "3520C0BFC261199D"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -0.5d
 		}
 	]
 }
