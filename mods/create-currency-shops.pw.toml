@@ -1,0 +1,13 @@
+name = "Create: Currency Shops"
+filename = "create_currency_shops-1.21.1-0.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BdlILXeV/versions/es6cmiau/create_currency_shops-1.21.1-0.1.1.jar"
+hash-format = "sha512"
+hash = "41ee45aed786a790243f44eecc8c83bec4dcdf7be37c984b5a12a481b0ddf746f30561447d6a046555871ab1739793443f834936d250aa92bf6c8534c9814820"
+
+[update]
+[update.modrinth]
+mod-id = "BdlILXeV"
+version = "es6cmiau"

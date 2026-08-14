@@ -42,55 +42,47 @@ hash = "ec024428f50996c46fb9177118404f38ba422ab3ded399bf17aea4ef491d5876"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "dd7e3ebb90a4a8a9b0b15c8314651e42f731399fe65cb67fecf5269ed8ed90a9"
+hash = "0b83c0efef103dea9bf4f66bfd930b71bcdbb60390df33b125c0d8c61c48eab3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/0466DB778F9F58D7.snbt"
-hash = "a368fc41443c0f8b856ab5317e8228ca913174bb6eefe9ec8a78f0bfe420ca7d"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/0DC5DE52A3C27482.snbt"
-hash = "332b750876b51f309d12ded40999d252adf340320c9a5a4232a0c8126e7919ea"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/15074BF41F662561.snbt"
-hash = "2e34801ec91d0ab529a71d2c81799b26393874b0bacb5bfd2706cca1bb317b98"
+hash = "bbe650223dda798b5d60e00c0503a8869a4841da3e041fcf58a48099ec220114"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/28EE13D73B957A78.snbt"
-hash = "8635beae8029acd1e93dced81dbb061586da6d318d28519c24baa5d6d112ad47"
+hash = "83c7d7fdc0c98c6e708835c3db0955eb7c2f90c269ce52dd0ccf148e2b2f1831"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2F40B71EB4106424.snbt"
-hash = "12cc7133c92f69b31120fac289e3423734658f56d3c71cd27df055f93287ed5f"
+hash = "77b49b8b69ae81924fd05009e834979afcf5a79c7bdb3ba0985eeb0fefe68a1c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/354D57C9800A9E9A.snbt"
-hash = "004b1918e62b16738a6ce7a8976ae206dbaa17ad87c9ceec00ef9eab1eddf606"
+hash = "7bb7b283129600d1d2713a2d45c421536768c914339f7fe28b8e3950d1cfe1a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/36B3F88578D9DD0C.snbt"
-hash = "84f62d47f621f9402def1763fe8e6dbde3d4db9f8151343ef086a135236bbba1"
+hash = "9752ffefa27d4ae8693e4bbef71fb4d3cc7ef2ba2c48e96f92fad3bce570013f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3DF993C7EE724A2D.snbt"
-hash = "3a0eda0cc203021152a199d4a4ef36a2ec94d33fe6cf40c284ada47e37e7444d"
+hash = "433e0cb25d10eb4dfad97a3c17bffb20d5d87ca2aa3feb378e14f20998a2756f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5361FF107A91B9AD.snbt"
-hash = "b6fc9feefaf78619b0e2607a4edde7d106fe79ce1763a2f38d906a46ed79488a"
+hash = "7c1833af5817abfb4c97f0d0630648287e7d95cbd08f6585bbaad87c42a4a5aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/548FCDD0B79656BE.snbt"
-hash = "33fbe3a95d582dea3fd10e06ce6c538a01e03cb3d3e1b42cd54db527fd2bd101"
+hash = "febd1d34f7951ad73d25764b8e0ea5cbb12f32c0f7022e9ed087d81e80fe80b1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/596E92C20B0FBABB.snbt"
+hash = "fe7cb39713e0d9c67951a310eaf595859e5346e1cf93422632bfee4c47d79542"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6338D9D84DB6C6CA.snbt"
-hash = "e23c58a43f7a440de34b613987e8592e129305f8d9cd9d653f3e1a22992cbb14"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/78DF2D437A293EC9.snbt"
-hash = "24ac2afbb066a78e2d3956261a52400bc421921e8334363bf0ce93a3df6d2413"
+hash = "b0c84dcbe1cdda63355ea96d481c3acfba523c3b9831e70eba2bd47f268e0523"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -102,7 +94,7 @@ hash = "1d6faa9e1a76d13f3ab8558a3640158b1f0a54f624a4e37ddc3ef41ed4191058"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "cd2658ba10d468dd24e1e4fcb4b938a21287cd5049bbb6275d346b3f7952e5dc"
+hash = "cf19f4087f9137d278d565f7272d191cf2810229534b8c2169d6727cb1cc1ee4"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/037130DABF7531A4.snbt"
@@ -169,6 +161,14 @@ file = "config/notenoughanimations.json"
 hash = "59b692e0194eec20f223a9ffbb4305b532b48e53b2393a29625f370f1845a61b"
 
 [[files]]
+file = "config/ordertocook/custom_menu_items.json5"
+hash = "a275aa1c0224cc1d7dc40ce6a34ede734584e0f52f971e3a775b6994c329190b"
+
+[[files]]
+file = "config/ordertocook/ordertocook.json5"
+hash = "ae95d6a9b4958fac49f5a174a9ae9e40f54d6861fe043135245eed8791eea6ac"
+
+[[files]]
 file = "config/oreberriesreplanted-common.toml"
 hash = "c8a66d6419d64b953aed2ef7dbece75fbeec458af3daac4fd54d96b8a2a44179"
 
@@ -179,6 +179,14 @@ hash = "9ba2d0b25855436b6ef2ba1323a5e8bfe2d3b4736ba8cb0de82f646e6e7a6d65"
 [[files]]
 file = "config/squatgrow-common.yaml"
 hash = "387535c89ef6a14d5a9c23b0d7616ca6d61c484df58b5c05f9501f6771f44281"
+
+[[files]]
+file = "config/starterkit/descriptions/quest_chicken_book_.txt"
+hash = "58e1804318a4670531220327733e1e6f25c31ade7f4f0eb0f95a57d0cfd987a9"
+
+[[files]]
+file = "config/starterkit/kits/quest_chicken_book.txt"
+hash = "5985f6c445db798ab8b6c4e8d76974f095b02fcee7da775cee92a97380242788"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -293,6 +301,10 @@ file = "kubejs/data/botanypot/recipe/crops/lettuce.json"
 hash = "0cde0e6e2d458fdb64d8decd029203a291790ba8c35186c63bed0ffd6d6c6af7"
 
 [[files]]
+file = "kubejs/data/botanypot/recipe/crops/liveroot.json"
+hash = "7f29b7db21a6ce223ac0b63b51c942d4fd5edae04a31f78cc55fb382d33aecb3"
+
+[[files]]
 file = "kubejs/data/botanypot/recipe/crops/poisonous_fruit.json"
 hash = "96720f62e7b83e5b670587d745a5f6311ea2ffe2cfa17eb5b84ab43fe35a1227"
 
@@ -303,6 +315,10 @@ hash = "1b7141e2d1f311b92770299ba0f71942e93ec11169ce2335724c5de90b914025"
 [[files]]
 file = "kubejs/data/botanypot/recipe/crops/soul_chili.json"
 hash = "d6b146c132ee64cbea7a967deacd390a385401fc13a421091084e41ea4c1a142"
+
+[[files]]
+file = "kubejs/data/botanypot/recipe/crops/twilight_fern.json"
+hash = "4205a84a99e490f50ec8792ef57816edecc68a3d83cdd9994307c89e0ceca560"
 
 [[files]]
 file = "kubejs/data/botanypot/recipe/crops/twisting_cave_vines.json"
@@ -1356,6 +1372,11 @@ hash = "41ddd787f1fae32a022a01f43a1fd84680598d1f77d366146939d8420f38518e"
 metafile = true
 
 [[files]]
+file = "mods/coin-to-shop.pw.toml"
+hash = "1678bfe16987e0a58855f8673f8f7829045d5d52f91d3a72582ecf90af8fc71b"
+metafile = true
+
+[[files]]
 file = "mods/collective-1.21.1-8.39.pw.toml"
 hash = "9d02ba03e26b5370525086f9ad79057c9beee176c83377dd9f41213b8cbf07ec"
 metafile = true
@@ -1383,6 +1404,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeroworks.pw.toml"
 hash = "8bc79b14b3fa74bbb49550cf543a1f4b6303e8e09c1f73125a022783e9d02711"
+metafile = true
+
+[[files]]
+file = "mods/create-currency-shops.pw.toml"
+hash = "12ec5d206e2eaf971310288ea6f5dbc1382a442a459cb330b5eb2bc1e55e2d1d"
 metafile = true
 
 [[files]]
@@ -1656,8 +1682,18 @@ hash = "b09f123a001cd39aa955085d957e9e9022134e62b2e783efc89b369fe2f2f076"
 metafile = true
 
 [[files]]
+file = "mods/neocontinuity.pw.toml"
+hash = "8f35cebc29e664e9a3d840f6ce716e266470813c72b8ad2f2b64521e49739e2e"
+metafile = true
+
+[[files]]
 file = "mods/oneenoughitem-neoforge-1.21.1-1.0.8.pw.toml"
 hash = "af30b037c9191a8379e7919961723cd7a742ae4eeeee46c41cbd8bc5344940b9"
+metafile = true
+
+[[files]]
+file = "mods/order-to-cook.pw.toml"
+hash = "8a52e9172dfd4bea9c5f8ed485f910058caa8034d270a8db6e6a737d5f48f106"
 metafile = true
 
 [[files]]
@@ -1822,7 +1858,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/ResourcePacksJustForATL.zip"
-hash = "229bf29f64851fb88ae6c79ee3c65e3a985512141469b6bac19e5aabbc77ee02"
+hash = "b8503069f17121f9f333d6cc03768fe27ad58a7685a33b2212fed9e51d5691db"
 
 [[files]]
 file = "resourcepacks/Simple_Grass_Flowers_v1.9.6.pw.toml"
@@ -1855,7 +1891,3 @@ hash = "faea6f5d3f87adcb57cd4219ab53a973fc17bcebd87609454a994f6935276b56"
 [[files]]
 file = "scripts/recipes/remove_recipes.zs"
 hash = "beb737eb740077fb859eea727a673930085089fe5f3b4bf78f3a22ce9ad1381c"
-
-[[files]]
-file = "uv.lock"
-hash = "9f94614d4b8a76abfaa04b983fe806c85ffcef3f15a77657d196acacad6f12e5"
