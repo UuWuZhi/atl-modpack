@@ -147,6 +147,19 @@ def choose_side():
         print("无效选择。")
 
 
+def append_curseforge_add_args(cmd, query, category=None, game=None):
+    cmd += ["curseforge", "add"]
+    if query.isdigit():
+        cmd += ["--addon-id", query]
+    if category:
+        cmd += ["--category", category]
+    if game:
+        cmd += ["--game", game]
+    if not query.isdigit():
+        cmd.append(query)
+    return cmd
+
+
 def add_with_packwiz():
     print("=" * 52)
     print("  交互式 Mod 添加")
@@ -176,12 +189,7 @@ def add_with_packwiz():
     else:
         category = input("CurseForge category(回车默认 mods): ").strip()
         game = input("CurseForge game(回车默认 minecraft): ").strip()
-        cmd += ["curseforge", "add"]
-        if category:
-            cmd += ["--category", category]
-        if game:
-            cmd += ["--game", game]
-        cmd.append(query)
+        cmd = append_curseforge_add_args(cmd, query, category, game)
 
     print()
     run(cmd)

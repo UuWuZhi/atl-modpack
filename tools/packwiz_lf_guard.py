@@ -63,8 +63,30 @@ def find_non_lf_files():
     return bad
 
 
+def normalize_lf_required_files():
+    """Convert refresh-sensitive text files to LF before packwiz hashes them."""
+    changed = []
+    for path in iter_lf_required_files():
+        data = path.read_bytes()
+        if b"\r\n" not in data and b"\r" not in data:
+            continue
+        normalized = data.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+        if normalized != data:
+            path.write_bytes(normalized)
+            changed.append(path.relative_to(ROOT).as_posix())
+    return changed
+
+
 def ensure_lf_before_refresh():
-    """Stop before packwiz refresh if indexed text files are not LF-only."""
+    """Normalize indexed text files to LF, then stop if any CR remains."""
+    changed = normalize_lf_required_files()
+    if changed:
+        print(f"[*] 已将 {len(changed)} 个 refresh 敏感文本文件统一为 LF。")
+        for item in changed[:20]:
+            print(f"  - {item}")
+        if len(changed) > 20:
+            print(f"  ... 以及 {len(changed) - 20} 个文件")
+
     bad = find_non_lf_files()
     if not bad:
         return
