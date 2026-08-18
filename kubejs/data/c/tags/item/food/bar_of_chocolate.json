@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "create:bar_of_chocolate",
+    "croptopia:chocolate",
+    "neapolitan:chocolate_bar"
+  ]
+}

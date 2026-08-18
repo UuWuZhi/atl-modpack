@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "create:wheat_flour",
+    "extradelight:flour",
+    "croptopia:flour",
+    "kaleidoscope_cookery:flour"
+  ]
+}
