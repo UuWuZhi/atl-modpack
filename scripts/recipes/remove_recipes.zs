@@ -28,6 +28,8 @@ craftingTable.remove(<item:croptopia:sausage>);
 //删除拆解台等
 craftingTable.remove(<item:twilightforest:uncrafting_table>);
 craftingTable.remove(<item:ends_delight:non_hatchable_dragon_egg>);
+craftingTable.remove(<item:ordertocook:otc_upgrade_box>);
+craftingTable.remove(<item:ordertocook:motorcycle>);
 
 //删除其他配方
 
