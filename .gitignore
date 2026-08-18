@@ -14,6 +14,7 @@
 *.mrpack
 *.jar
 !/bootstrap/*.jar
+extern/
 
 # 资源包 zip:CDN 托管的走元数据,原创的(ResourcePacksJustForATL 等)需入库
 # 故不全局忽略 *.zip,仅忽略构建产物
