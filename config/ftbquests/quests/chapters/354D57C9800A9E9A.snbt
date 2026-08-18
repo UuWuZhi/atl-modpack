@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 18.0d
-			image: "minecraft:textures/gui/advancements/backgrounds/quest_book.png"
+			image: "minecraft:textures/gui/advancements/backgrounds/machine_quest_book.png"
 			rotation: 0.0d
 			width: 28.6d
 			x: 0.0d
@@ -343,7 +343,7 @@
 				item: { count: 1, id: "create:railway_casing" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -488,7 +488,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["01A2D72E71ECD828"]
@@ -508,7 +508,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -600,7 +600,7 @@
 				item: { count: 1, id: "create:track_station" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 4.5d
 		}
 		{
@@ -616,7 +616,7 @@
 				item: { count: 1, id: "create:controls" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -632,7 +632,7 @@
 				item: { count: 1, id: "create:wrench" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: 4.5d
 		}
 		{
@@ -650,6 +650,39 @@
 			}]
 			x: -7.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["40DB66A5038E3579"]
+			id: "11B621802BADB30B"
+			tasks: [{
+				id: "58FF54A12C6AE30F"
+				item: { count: 1, id: "create:chain_conveyor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40E1DE602542EB7A"]
+			id: "033286B1C53F9945"
+			tasks: [{
+				id: "6ECE0ED878ECDB46"
+				item: { count: 1, id: "aeroworks:gyroscope" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["11B621802BADB30B"]
+			id: "3CA61E26A0CB1306"
+			tasks: [{
+				id: "42BCE95054BA5BC9"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
 		}
 	]
 }

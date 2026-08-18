@@ -7,6 +7,7 @@
   python cli.py          # 双击或命令行运行,进入菜单
 
 所有操作最终调用 tools/ 下的参数式脚本:
+  - 拉取远程更新      -> pull.py
   - 推送到 dev        -> push.py
   - 发布到 main        -> push.py --release
   - 打 tag            -> push.py --tag
@@ -39,52 +40,73 @@ def run_py(script, args=None):
     subprocess.run(cmd)
 
 
+def has_uncommitted_changes():
+    result = subprocess.run(
+        ["git", "status", "--porcelain"],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+    if result.returncode != 0:
+        print("[警告] 无法检测工作区状态,将按有改动处理。")
+        return True
+    return bool(result.stdout.strip())
+
+
+def ask_message_if_changed(prompt):
+    if not has_uncommitted_changes():
+        print("[*] 未检测到未提交改动,跳过提交说明输入。")
+        return []
+    msg = input(prompt).strip()
+    return ["-m", msg] if msg else []
+
+
 def main():
     while True:
         print("=" * 52)
         print("  All The Leisures 整合包工具")
         print("=" * 52)
-        print("  1. 推送到 dev(开发中,玩家不可见,不刷新索引)")
-        print("  2. 发布到 main(main 刷新索引,再回灌 dev)")
-        print("  3. 在当前提交打 tag")
-        print("  4. 一站式发布(release = 发布 + tag + 回灌 dev)")
-        print("  5. 建立/断开开发符号链接")
-        print("  6. 外部资源管理(添加/移除 mod/资源包)")
-        print("  7. 构建导入包(mrpack)")
+        print("  1. 拉取远程更新(可处理冲突提示)")
+        print("  2. 推送到 dev(开发中,玩家不可见,不刷新索引)")
+        print("  3. 发布到 main(main 刷新索引,再回灌 dev)")
+        print("  4. 在当前提交打 tag")
+        print("  5. 一站式发布(release = 发布 + tag + 回灌 dev)")
+        print("  6. 建立/断开开发符号链接")
+        print("  7. 外部资源管理(添加/移除 mod/资源包)")
+        print("  8. 构建导入包(mrpack)")
         print("  0. 退出")
         print("-" * 52)
         choice = input("请选择: ").strip()
 
         if choice == "1":
-            msg = input("提交说明(回车用默认): ").strip()
-            args = ["-m", msg] if msg else []
-            run_py("push.py", args)
+            run_py("pull.py")
         elif choice == "2":
-            msg = input("发布说明(回车用默认): ").strip()
-            args = ["--release"]
-            if msg:
-                args += ["-m", msg]
+            args = ask_message_if_changed("提交说明(回车用默认): ")
             run_py("push.py", args)
         elif choice == "3":
+            args = ["--release"]
+            args += ask_message_if_changed("发布说明(回车用默认): ")
+            run_py("push.py", args)
+        elif choice == "4":
             ver = input("版本号(如 1.1.0): ").strip()
             if ver:
                 run_py("push.py", ["--tag", ver])
             else:
                 print("已取消。")
-        elif choice == "4":
+        elif choice == "5":
             ver = input("版本号(如 1.1.0): ").strip()
-            msg = input("发布说明(回车用默认): ").strip()
             args = ["--release"]
             if ver:
                 args += ["--version", ver]
-            if msg:
-                args += ["-m", msg]
+            args += ask_message_if_changed("发布说明(回车用默认): ")
             run_py("push.py", args)
-        elif choice == "5":
-            run_py("setup_dev_link.py")
         elif choice == "6":
-            run_py("manage_external_resource.py")
+            run_py("setup_dev_link.py")
         elif choice == "7":
+            run_py("manage_external_resource.py")
+        elif choice == "8":
             run_py("build_import_pack.py", ["--seed", os.path.join(TOOLS, "cache", "seed.json"),
                                             "-o", os.path.join(ROOT, "dist", "modpack.mrpack")])
         elif choice == "0":

@@ -11,7 +11,7 @@
 | 文件 | 来源 |
 |---|---|
 | `packwiz-installer-bootstrap.jar` | 从导入包 / 仓库 `bootstrap/` 目录获取 |
-| `同步mods.bat` | 从仓库 `server/` 目录获取 |
+| `更新服务端.bat` | 从仓库 `server/` 目录获取 |
 | `run.bat`(已有) | 原有开服脚本 |
 
 > 服务器**不需要**装 packwiz、不需要 git、不需要理解版本控制。只需双击脚本。
@@ -22,10 +22,10 @@
 
 每次维护/开服前:
 
-1. **双击 `同步mods.bat`**
-   - 自动从 GitHub Pages 拉取 **server/both 侧** mods 到服务器 `mods/`
+1. **双击 `更新服务端.bat`**
+   - 自动从 GitHub Pages 拉取 **server/both 侧** mod,并同步被 packwiz 追踪的 `config/`、`kubejs/`、`scripts/`
    - 纯客户端 mod(小地图、JEI 等)自动跳过,不会上服务器
-   - 完成后提示「mods 已同步」
+   - 完成后提示服务端文件已更新
 2. **双击 `run.bat` 开服**(原有脚本)
 
 > 就这么简单。服主唯一要做的事 = 开服前双击同步脚本。
@@ -35,15 +35,15 @@
 ## 工作原理
 
 ```
-服务器双击 同步mods.bat
+服务器双击 更新服务端.bat
         ↓
 bootstrap 读 Pages 的 pack.toml + index.toml
         ↓
-按 side 过滤(只要 server/both 侧)
+按 side 过滤 mod(只要 server/both 侧),同步普通配置/脚本文件
         ↓
 对比本地 mods/ → 下载变化的部分
         ↓
-mods 就绪 → 开服
+服务端文件就绪 → 开服
 ```
 
 - mod jar 从 Modrinth/CurseForge CDN 下载
@@ -60,22 +60,22 @@ mods 就绪 → 开服
 
 ### 提示「缺少 packwiz-installer-bootstrap.jar」
 
-把 bootstrap jar 复制到服务器根目录(与 `同步mods.bat` 同级)。
+把 bootstrap jar 复制到服务器根目录(与 `更新服务端.bat` 同级)。
 
 ### 玩家进服报 mod 版本不符
 
 服务器 mods 和玩家不同步了:
-1. 确认服务器跑过 `同步mods.bat`
+1. 确认服务器跑过 `更新服务端.bat`
 2. 让玩家双击 `仅更新.bat` 更新到最新
 
 ### 想查看当前服务器 mods
 
-看 `mods/` 文件夹里的 jar。`同步mods.bat` 只管理整合包内的 mod,你自己额外加的 mod 不受影响(但可能导致玩家不同步)。
+看 `mods/` 文件夹里的 jar。`更新服务端.bat` 会管理整合包内的 mod 与被 packwiz 追踪的服务端配置/脚本;你自己额外加的 mod 不受影响(但可能导致玩家不同步)。
 
 ---
 
 ## 建议
 
-- **维护前先同步**:改 mod 前先 `同步mods.bat`,避免开着旧版改。
+- **维护前先同步**:改 mod 前先 `更新服务端.bat`,避免开着旧版改。
 - **保留备份**:`simplebackups` 或自建备份,防止同步出问题。
-- **只同步不改**:不要在服务器 `mods/` 手动增删 mod,否则会被 `同步mods.bat` 覆盖或导致不一致。
+- **只同步不改**:不要在服务器 `mods/` 手动增删 mod,否则会被 `更新服务端.bat` 覆盖或导致不一致。

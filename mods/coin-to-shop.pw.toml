@@ -1,0 +1,13 @@
+name = "Coin to shop消费了！"
+filename = "cointoshop-neoforge-1.21.1-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WFoF1B9s/versions/V8X9gUkh/cointoshop-neoforge-1.21.1-1.1.1.jar"
+hash-format = "sha512"
+hash = "541d907ab91f4ba9ead59413d0af4b0d5f2c773c95ecd6778131e1311081b14afcc11802c63ab25dd95d06bb900ecf9a22ed5b103a60bcd0aa177f5c70e55584"
+
+[update]
+[update.modrinth]
+mod-id = "WFoF1B9s"
+version = "V8X9gUkh"

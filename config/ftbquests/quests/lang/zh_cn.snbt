@@ -1,10 +1,6 @@
 {
 	chapter.0466DB778F9F58D7.chapter_subtitle: ["什么叫你把米诺陶做成菜了？"]
-	chapter.0466DB778F9F58D7.title: "暮色美食(未来更新)"
-	chapter.0DC5DE52A3C27482.chapter_subtitle: ["&m&7不是美食的俘虏"]
-	chapter.0DC5DE52A3C27482.title: "传说美味！(未来更新)"
-	chapter.15074BF41F662561.chapter_subtitle: ["世界如此巨大！"]
-	chapter.15074BF41F662561.title: "主世界(未来更新)"
+	chapter.0466DB778F9F58D7.title: "暮色美食"
 	chapter.28EE13D73B957A78.chapter_subtitle: ["万人称我——美食家！"]
 	chapter.28EE13D73B957A78.title: "烹饪"
 	chapter.2F40B71EB4106424.chapter_subtitle: ["&m异界，异世，所以你知道我想写什么"]
@@ -12,21 +8,25 @@
 	chapter.354D57C9800A9E9A.chapter_subtitle: ["相机，和一堆有的没的装饰品之类的玩意"]
 	chapter.354D57C9800A9E9A.title: "工艺"
 	chapter.36B3F88578D9DD0C.chapter_subtitle: ["锄大地！"]
-	chapter.36B3F88578D9DD0C.title: "种植(未来更新)"
+	chapter.36B3F88578D9DD0C.title: "种植"
 	chapter.3DF993C7EE724A2D.chapter_subtitle: ["不只是某个赚钱的大业..."]
 	chapter.3DF993C7EE724A2D.title: "酿造"
 	chapter.5361FF107A91B9AD.chapter_subtitle: ["整合包的第一套任务！"]
 	chapter.5361FF107A91B9AD.title: "开始"
 	chapter.548FCDD0B79656BE.chapter_subtitle: ["我说动物产品是对的有没有说法"]
 	chapter.548FCDD0B79656BE.title: "屠宰"
+	chapter.596E92C20B0FBABB.chapter_subtitle: ["快餐店还是炒菜馆？"]
+	chapter.596E92C20B0FBABB.title: "开店风云"
 	chapter.6338D9D84DB6C6CA.chapter_subtitle: ["血压与空军并存？"]
 	chapter.6338D9D84DB6C6CA.title: "渔业"
-	chapter.78DF2D437A293EC9.title: "测试版——正式版不可见"
 	chapter_group.0BD499FB8EC31FBF.title: "探索"
 	chapter_group.1E7E28265226F4DD.title: "序章"
+	chapter_group.2931292971EB3BE8.title: "开店风云"
 	chapter_group.56DC7E32459FC237.title: "工匠"
-	chapter_group.5C5E8013A499E5B0.title: "人生菜单"
 	chapter_group.6329DB23E72E5CA0.title: "农业"
+	quest.00096175B6DA2AA0.quest_desc: ["余烬之灯可用于燃烧那座白色城堡附近的荆棘。\\n但进入终焉城堡，你也无法迎来最终的决战。"]
+	quest.00096175B6DA2AA0.quest_subtitle: "但是没有灯灵"
+	quest.00096175B6DA2AA0.title: "神灯神灯"
 	quest.007233DE87006E44.quest_desc: ["下界有两种大豆——地狱大豆和灵魂大豆，你可以用它们制作料理，或制作成豆腐来制作更多料理！"]
 	quest.007233DE87006E44.quest_subtitle: "一个辣，一个更辣"
 	quest.007233DE87006E44.title: "\"辣\"豆"
@@ -42,9 +42,18 @@
 	quest.01D664925EE63377.quest_desc: ["整合包添加了lootr模组——这意味着你探索过的遗迹，其他后来者就不会空手而归了...\\n好吧，对单人游戏确实没什么作用，但对于多人游戏，这个模组就有作用了。\\n&m你也不想你探索一个遗迹，却发现别人已经探索过了吧？\\n&r按住潜行可以挖掉战利品箱子..."]
 	quest.01D664925EE63377.quest_subtitle: "薅羊毛呢"
 	quest.01D664925EE63377.title: "独立战利品"
+	quest.023186F2FA75371C.quest_desc: ["巫妖王的魔法让你可以在沼泽中前进，通过迷宫，你就可以遇到米诺...菇？\\n米诺菇会掉落特殊的沙拉酱肉，这是一种美味的汤——你也可以用它的肉制作其他料理。"]
+	quest.023186F2FA75371C.quest_subtitle: "沙拉酱"
+	quest.023186F2FA75371C.title: "菌生牛头人"
+	quest.02C9554C5A5FB03C.quest_desc: ["你可以在暮色的树木上发现这种虫类...经过简单的处理，它们也可以食用，当然，相关的特色料理并不多——并没有猪儿虫多。"]
+	quest.02C9554C5A5FB03C.quest_subtitle: "尾部发光的一种虫"
+	quest.02C9554C5A5FB03C.title: "今夜星光闪闪"
 	quest.02E35A0C36C27C81.quest_desc: ["主世界你就可以找到猪儿虫，下界的下界疣上也能找到。\\n它的口感估计比主世界的亲戚好一点...我可能饿死也不会吃这种虫..."]
 	quest.02E35A0C36C27C81.quest_subtitle: "熔岩版本的变种"
 	quest.02E35A0C36C27C81.title: "熔岩蠕虫"
+	quest.033286B1C53F9945.quest_desc: ["你的载具难以保持平衡，或者说你想在空中制作厨房？\\n这个陀螺仪可以帮你！只需要提供应力，它就可以尽力让物理结构保持水平。"]
+	quest.033286B1C53F9945.quest_subtitle: "陀螺仪的力量是有限度的"
+	quest.033286B1C53F9945.title: "自动平衡"
 	quest.03C0976899870E73.quest_desc: ["你可以钓上如上锁盒或财宝箱这样的摸彩袋，不过它们其实是不需要锁就能打开的。\\n和盒子一样，右键它们可以获得物品，但它们的奖品可比盒子好一些——当然，比起最稀有的摸彩袋，它们也不算很好！"]
 	quest.03C0976899870E73.quest_subtitle: "里面有什么呢？"
 	quest.03C0976899870E73.title: "正经奖品"
@@ -57,12 +66,18 @@
 	quest.043D2C80F2562E51.quest_desc: ["当然，你可以用航空学的基本原理——物理模拟制造一艘船。\\n船也可以使用螺旋桨等工具产生动力，并且相对于车辆，船不必担心障碍物，只是需要担心搁浅和翻船。"]
 	quest.043D2C80F2562E51.quest_subtitle: "飞机和船是一个原理对吧"
 	quest.043D2C80F2562E51.title: "船"
+	quest.04424C7A4FD22102.quest_desc: ["打单机会生成订单，你需要使用操作台来打包餐食上菜。\\n操作台内可以直接放好菜单上的所有食物，每次完成订单并不会消耗菜单外的食物。"]
+	quest.04424C7A4FD22102.quest_subtitle: "上菜"
+	quest.04424C7A4FD22102.title: "打包餐食"
 	quest.047D370772C2E32C.quest_desc: ["使用龙齿或龙牙为材料，你可以制作出这两种菜刀。\\n龙之刃的伤害更高，且对末地生物有加伤，但修复需要使用龙的巨牙，即龙牙，而龙齿刀只需要使用龙齿，相对龙牙，你更容易获得更多的龙齿。\\n有一把更好的菜刀会方便你后面处理其他末地生物。"]
 	quest.047D370772C2E32C.quest_subtitle: "用龙的牙齿为原材料"
 	quest.047D370772C2E32C.title: "终极菜刀"
-	quest.04B17A7BBDDBCC6B.quest_desc: ["感谢你帮忙测试\"万般闲暇\"整合包！\\n本整合包中你可以在这里种菜，钓鱼，或者就像其他休闲包或水槽包一样玩，另一方面，整合包还有一个夜雀食堂，可以做菜去开店！\\n作为测试者，如果你在游玩过程中发现了任务、难度、bug等任何不合适的问题，请在群里反馈！\\n这一页的内容主要是告知你，本整合包的可玩内容，以及辅助模组！\\n&a&l再次感谢你的测试！\\n&5任务目前处于测试阶段，部分设计极有可能不合理。如有建议，欢迎指出。"]
+	quest.04B17A7BBDDBCC6B.quest_desc: ["欢迎游玩\"万般闲暇\"整合包！\\n别看整合包内的章节并不多，不算本章节仅有9章，算上本章节任务也仅有200个左右...但本整合包安装了非常丰富的模组供大家游玩！\\n你可以在这里种菜，钓鱼，或者，就像其他休闲包或水槽包一样，你可以做任何你想做的事，怎么舒服就怎么来！\\n如果你需要一个目标，那就是完成终章的\"开店风云\"。\\n这一页的内容主要是告知你，本整合包的可玩内容，以及辅助模组。\\n&a&l话不多说，现在就开始吧！"]
 	quest.04B17A7BBDDBCC6B.quest_subtitle: "All The Leisures v1.0.0"
 	quest.04B17A7BBDDBCC6B.title: "欢迎来到万般闲暇！"
+	quest.04EB6967DD0CB2DB.quest_desc: ["你可以制作钱包和信用卡来方便货币的使用。\\n但这些货币仅能用于桌布商店，系统商店只收背包里的现金。"]
+	quest.04EB6967DD0CB2DB.quest_subtitle: "老板刷卡！"
+	quest.04EB6967DD0CB2DB.title: "经济存储"
 	quest.051EC7C2E1D8D664.quest_desc: ["整合包添加了精妙背包、精妙存储以及tom的存储，来方便你存储和携带物品！\\n关于这几个模组的相关内容，在此就不赘述了~"]
 	quest.051EC7C2E1D8D664.quest_subtitle: "不那么专业的物流系统..."
 	quest.051EC7C2E1D8D664.title: "存储"
@@ -123,6 +138,9 @@
 	quest.0B8EC6D0A3B5AB39.quest_desc: ["要制作烤串，你还需要调味料——调味料可以由你自行调制！\\n任务中给出了所有可作为调料的粉末，使用这些粉末制成的调味料可以给烤肉增加特殊的效果。\\n调味料可自由放置于调料瓶中，但你必须放有绿辣椒粉、洋葱粉和花椒，放满后拿起调料瓶，手持右键摇晃完成后，你就制作出了你的秘制调料！\\n撒上你的调料，你就可以拿出你的烤串大快朵颐了！"]
 	quest.0B8EC6D0A3B5AB39.quest_subtitle: "三种基本材料"
 	quest.0B8EC6D0A3B5AB39.title: "调味料"
+	quest.0BD3D6A221E491ED.quest_desc: ["你可以在蕨菜中发现猪儿虫的暮色森林亲戚——是的，在暮色你也可以享受到猪儿虫的美味。\\n与其他的生物相比，真正的赢家说是猪儿虫也不为过。"]
+	quest.0BD3D6A221E491ED.quest_subtitle: "猪儿虫无处不在了对吗"
+	quest.0BD3D6A221E491ED.title: "暮光蠕虫"
 	quest.0CE5EC5279BCF889.quest_desc: ["在末地，你可以找到一堆意想不到的食材，也可以从你早已熟悉的紫颂果上得到新的材料。\\n末地的食材相对于复杂的下界，反而更难获取——因为你必须先击败末影龙！"]
 	quest.0CE5EC5279BCF889.quest_subtitle: "为啥这么荒凉还有吃的啊！"
 	quest.0CE5EC5279BCF889.title: "薄荷原产地"
@@ -137,14 +155,11 @@
 	quest.0F2D5D7F1207B076.quest_desc: ["彩色胶卷是一个伟大的发明——而你并不需要用科技什么的去做这个。\\n用较为简单的方法就可以制作一个彩色胶卷，但彩色胶卷的冲洗会更加麻烦。"]
 	quest.0F2D5D7F1207B076.quest_subtitle: "代替双眼"
 	quest.0F2D5D7F1207B076.title: "世界的色彩"
-	quest.0F6BD24A80381782.quest_desc: [
-		"砍树为什么很慢？这是因为模组有活力的树将树整体化所致，所以开局空手撸树可能会很不容易，你可以通过这个任务获得一些初始工具帮助你度过前期。"
-		"对于动态的树，砍伐时请不要使用连锁采集，这会消耗双倍的斧头耐久!"
-	]
-	quest.0F6BD24A80381782.quest_subtitle: "空手撸树？过时啦！"
-	quest.0F6BD24A80381782.title: "初始工具"
 	quest.0F78FF1EFE4316F1.quest_subtitle: "西域的黑色黄金"
 	quest.0F78FF1EFE4316F1.title: "胡椒粉"
+	quest.0F9B27500B5188F6.quest_desc: ["你可以用一些原料在锅中制作转换粉。\\n转换粉可用于转换主世界生物为暮色生物，你可以用这个方法更容易地获得渡鸦羽毛和鹿肉等特色食材。"]
+	quest.0F9B27500B5188F6.quest_subtitle: "不是分解物品"
+	quest.0F9B27500B5188F6.title: "暮光嬗变"
 	quest.105ACCD109961704.quest_desc: ["你可以用龙尘制作大型的龙蛋壳，用这种龙蛋装食物可以让你认为你真在用龙蛋做食物...\\n别灰心...也许真正的龙蛋确实不好吃呢？"]
 	quest.105ACCD109961704.quest_subtitle: "末影龙蛋风味™"
 	quest.105ACCD109961704.title: "半边空蛋"
@@ -154,6 +169,12 @@
 	quest.117F084A693F392A.quest_desc: ["前往下界之后，你可以找到一些独特的食材。\\n有趣的是，作为极热的维度，在这里你不仅可以找到一些炽热的食物，还可以在灵魂的地盘找到令人汗毛倒立的寒冷食材！"]
 	quest.117F084A693F392A.quest_subtitle: "站在这我就感觉要中暑了"
 	quest.117F084A693F392A.title: "到处都是蘑菇"
+	quest.11B621802BADB30B.quest_desc: ["你可以制作锁链传动轮来远距离传输应力！\\n整合包的锁链传动轮可以在200多格的距离下正常运作，你可以用它方便地制作交通路线！"]
+	quest.11B621802BADB30B.quest_subtitle: "远距离动力传输"
+	quest.11B621802BADB30B.title: "滑索"
+	quest.121AAAD39B9DF2AD.quest_desc: ["你可以使用\"下单了\"mod来开你的餐馆！\\n开餐馆获得的经济可用于在商店购买各类道具！"]
+	quest.121AAAD39B9DF2AD.quest_subtitle: "个体商户"
+	quest.121AAAD39B9DF2AD.title: "开店风云"
 	quest.135417B1F69E9339.quest_desc: [
 		"世界上超过1/3的人以面食为主食，小麦的重要性无论游戏内外都不言而喻。"
 		"作为原版就拥有的作物，整合包内提供了更多用到小麦的食物配方，你终于可以用小麦去做新的美食！"
@@ -170,15 +191,21 @@
 	quest.13F89475357E834F.title: "多肉植物"
 	quest.145BD791E9D19AA8.quest_subtitle: "和黄油不一样"
 	quest.145BD791E9D19AA8.title: "奶油"
+	quest.149C343A0921B907.quest_desc: ["如果不想用航空学的直升机送外卖——你可以制作小电驴！\\n小电驴是一种很方便的载具，但它不能在越肩视角下使用。"]
+	quest.149C343A0921B907.quest_subtitle: "万一客人有满减券怎么办"
+	quest.149C343A0921B907.title: "外送"
+	quest.1501C31B5ADFD03A.quest_desc: ["要开店，首先，你需要一块立牌，离你的操控空间尽量靠近即可。\\n立牌可以理解为菜单，你必须在其中放置售卖的食物才能开店。在其中放置足够的食物提升总饱食度，即可升级餐厅。\\n食物的获取难度以及它们的饱食度并不会影响订单的价格——订单的价格仅与其品质和餐厅等级相关。"]
+	quest.1501C31B5ADFD03A.quest_subtitle: "取之于民"
+	quest.1501C31B5ADFD03A.title: "开店！"
+	quest.150E2AC97BF01E1C.quest_desc: ["在一些树的下面，你可以发现这种绿色的活根。\\n活根可以用于制作一些特色料理，也可以酿造酒。\\n更好的用处是，它可以培育出森林里极度稀有的蕨菜——一种鲜嫩的蔬菜。"]
+	quest.150E2AC97BF01E1C.quest_subtitle: "挺新鲜，这还是活的"
+	quest.150E2AC97BF01E1C.title: "树根"
 	quest.155DE1B705C7A4A4.quest_desc: ["你可以在猪灵堡垒或野外遇到一些岩浆怪，它们会掉落粘液球的炽热变体：岩浆膏。\\n岩浆膏在下界料理中常用于增稠，毕竟下界没有面粉。&m(余烬面粉：真的没有吗？)"]
 	quest.155DE1B705C7A4A4.quest_subtitle: "也能用来做布丁"
 	quest.155DE1B705C7A4A4.title: "炽热膏状物"
 	quest.166D3F4BA31D59A0.quest_desc: ["也许你可能会使用失误，把你的位面投影器炸掉——这个任务告诉了你一个方法让你补救。\\n你只需要将破碎的位面投影器与一个末影之眼合成，你就可以获得一个仍可用的位面投影器。"]
 	quest.166D3F4BA31D59A0.quest_subtitle: "ERR_PATH"
 	quest.166D3F4BA31D59A0.title: "路径损坏"
-	quest.16E25FE124352105.quest_desc: ["为所有食物设定价格(未完成)。"]
-	quest.16E25FE124352105.quest_subtitle: "价格全设定"
-	quest.16E25FE124352105.title: "夜雀食堂"
 	quest.176D4AA94BF82355.quest_desc: ["末地的力量将一些末地石变成了可疑的末地石，这其中栖息着虚空海螺。\\n在末地主岛及外岛都会刷新这种末地石，你可以用刷子处理它们，虽然露天也能看见，但地下会更多...它们如果从高处落下就会破碎。\\n虚空海螺喜欢温度更高的环境，这意味着你可以在汤锅里面人工养殖虚空海螺，但培养的基础相当昂贵，你需要使用龙尘！"]
 	quest.176D4AA94BF82355.quest_subtitle: "还能找得到吗"
 	quest.176D4AA94BF82355.title: "神奇海螺"
@@ -197,12 +224,18 @@
 	quest.1A57F4A5E4584B4A.quest_desc: ["前期植物生长太慢怎么办？丰收之舞可以帮助你！\\n手持镰刀，站在种植物旁狂按潜行，你的作物就可以神奇般地生长了！\\n会催熟任何可以撒骨粉的方块...&7而且你最好关掉粘滞键..."]
 	quest.1A57F4A5E4584B4A.quest_subtitle: "生物混合气动催熟机制"
 	quest.1A57F4A5E4584B4A.title: "丰收之舞"
+	quest.1A7EDBA8D7E7C9C3.quest_desc: ["娜迦身上的肉可以盐焗，也可浇汁做成一次盛宴。\\n当然，这块多汁的肉排并不是你能在这片森林获得的最好的肉。"]
+	quest.1A7EDBA8D7E7C9C3.quest_subtitle: "一条虫子而已？"
+	quest.1A7EDBA8D7E7C9C3.title: "丛林肉排"
 	quest.1ABCDA81E0E06C91.quest_desc: ["杀死疣猪兽可以获得它的獠牙——这些獠牙可用于制作砍刀。\\n对标末地的龙之刃显然还是稍逊一些，但同样很好用。"]
 	quest.1ABCDA81E0E06C91.quest_subtitle: "这东西居然要下界合金!?"
 	quest.1ABCDA81E0E06C91.title: "大砍刀"
 	quest.1B2AB1E0BAE644EE.quest_desc: ["用屠刀右键动物可将其宰杀，宰杀会获得对应的动物尸体。\\n将动物尸体挂在肉钩上，按照顺序使用屠宰工具右键挂起的尸体即可处理。屠宰处理可获得更多的素材。\\n但这个过程很真实...屠宰过程中你会获得恶臭效果。"]
 	quest.1B2AB1E0BAE644EE.quest_subtitle: "吊起一块肉"
 	quest.1B2AB1E0BAE644EE.title: "肉钩"
+	quest.1B4244B08DCCED3E.quest_desc: ["在击败幻影骑士后，你可以前往中心的高塔，与暮初恶魂战斗。\\n暮初恶魂已经哭泣了不知多少年。"]
+	quest.1B4244B08DCCED3E.quest_subtitle: "日出与日落之塔"
+	quest.1B4244B08DCCED3E.title: "暮色之初的恶魂"
 	quest.1B79F6B0202704D7.quest_desc: ["汤锅可以制作厨锅的大部分配方，也有一些独特的配方——如炖汤！\\n汤锅可以制作小鸡炖蘑菇之类的炖菜，也可以制作一些特殊的汤品。厨锅则无需多说，农夫乐事最强大的厨具，能够制作最多的菜谱。\\n将两个厨锅套在一起，你就可以制作一个熔锅，熔化一些容易熔化的食材。\\n这些食材可以用于加工制成其他的食物，如熔化巧克力制作其他甜品。"]
 	quest.1B79F6B0202704D7.quest_subtitle: "煮的骨头都软烂"
 	quest.1B79F6B0202704D7.title: "炖煮"
@@ -236,16 +269,13 @@
 	quest.206808E39E14E384.quest_desc: ["来制作烤串吧！想必你如果常吃烤串，对这方面应该不太陌生；如果你制作过烤串，那应该会更加熟悉！\\n首先，你需要在副手手持一根木棍，再在主手手持想要串上的食材，就可以制作出一串烤串了。\\n使用固定配方会制作出固定的烤串，但如果使用非固定配方，则会制作出秘制烤串。\\n但烤串即使你使用了熟食材，也依然是生的，你需要在烤架上烤制。"]
 	quest.206808E39E14E384.quest_subtitle: "我寻思这能吃"
 	quest.206808E39E14E384.title: "秘制烤串"
-	quest.20BA8DAA338972EC.quest_desc: ["完成主线任务的编写，开始启动支线任务。"]
-	quest.20BA8DAA338972EC.quest_subtitle: "完成所有主线的编写"
-	quest.20BA8DAA338972EC.title: "基本任务"
 	quest.213F4294A9A88526.quest_desc: ["豆奶中可以钓上豆腐鱼，这是豆腐世界为数不多的\"素肉\"之一。\\n神奇的是，它真的有鱼的口感，而不是豆腐的。"]
 	quest.213F4294A9A88526.quest_subtitle: "过滤系统过载"
 	quest.213F4294A9A88526.title: "在豆奶里遨游"
 	quest.21A47CCF503E09A6.quest_desc: ["煎锅可以用于制作一些特殊的烤制食材——但煎炒的重点是炒。\\n炒锅可以进行翻炒，这意味着相对于厨锅，它还可以制作各式炒菜，但炒的过程相对比较繁琐，需要严格地按照食谱制作。"]
 	quest.21A47CCF503E09A6.quest_subtitle: "大火猛炒"
 	quest.21A47CCF503E09A6.title: "煎炒"
-	quest.224DF69D733609B2.quest_desc: ["酿酒，首先你需要获得些原料...\\n通过使用葡萄藤盆可以将葡萄踩成对应的果汁，通过使用苹果压榨机可以将苹果制成苹果果汁——但怎么取出它们呢？\\n很简单，只需要用该mod的葡萄酒瓶就可以将这些果汁取出来了！\\n&4如果你在该mod中发现了不对劲的汉化，请反馈！"]
+	quest.224DF69D733609B2.quest_desc: ["酿酒，首先你需要获得些原料...\\n通过使用葡萄藤盆可以将葡萄踩成对应的果汁，通过使用苹果压榨机可以将苹果制成苹果果汁——但怎么取出它们呢？\\n很简单，只需要用该mod的葡萄酒瓶就可以将这些果汁取出来了！"]
 	quest.224DF69D733609B2.quest_subtitle: "多地的果汁"
 	quest.224DF69D733609B2.title: "酿酒原料"
 	quest.2265B3BB9E39300E.quest_desc: ["制作列车的基础之一就是列车机壳，其造价并不是很便宜。\\n在制作它的过程中可以先制作接下来的物品。"]
@@ -260,6 +290,15 @@
 	quest.23188EDD76C352F4.quest_desc: ["在下界堡垒，你可以遇到这种焦黑的骷髅，它们会掉落一种骨头。\\n这种骨头的作用较少，但可用于煮一种汤。\\n当然，真正的重头戏可是凋零骷髅所不能碰瓷的。"]
 	quest.23188EDD76C352F4.quest_subtitle: "烧成炭都还有骨髓可以喝"
 	quest.23188EDD76C352F4.title: "焦炭玩偶"
+	quest.231F48E677963943.quest_desc: ["对于一个很多东西都能吃的暮色，巫妖王倒是还会掉落一些特别的武器。\\n你可以用砧板处理它的奖杯，这有概率让你获得巫妖王的武器。"]
+	quest.231F48E677963943.quest_subtitle: "不可食用"
+	quest.231F48E677963943.title: "高塔上的骷髅"
+	quest.232D4DCFC1D00A5A.quest_desc: ["你可以将所有带有饱食度的食物放入菜单，并以此提升餐厅的等级。\\n你已经知道了，饱食度和获取难度并不会影响食物的价格，乍一看，沙拉店似乎比快餐店，甚至说售卖九头蛇肉排等超级食物的高级餐厅都能赚钱...\\n但你也知道了，饱食度会影响餐厅的等级。如果你使用更多的高饱食度食物，实际上可以降低你备餐的难度。\\n毕竟相同等级的餐厅，高级餐厅可能只需要准备六道菜，沙拉餐厅则可能需要准备数十道菜——备菜会更加麻烦。"]
+	quest.232D4DCFC1D00A5A.quest_subtitle: "沙拉店和快餐店亦有差距"
+	quest.232D4DCFC1D00A5A.title: "餐厅的不同"
+	quest.2343B6DA63571F5C.quest_desc: ["幻影骑士会掉落这种幻影之魂，看上去不能吃——但实际上可以作为一些菜的灵魂使用...\\n真正地给菜注入灵魂。"]
+	quest.2343B6DA63571F5C.quest_subtitle: "战斗大师之魂"
+	quest.2343B6DA63571F5C.title: "幻影的灵魂"
 	quest.2343F81FD6A3F1D1.quest_desc: ["猪灵蛮兵会掉落这种碎片，当然，它是不能食用的...\\n但你可以用这个碎片制作下界合金碎片。\\n这或许是猪灵蛮兵强大的原因之一吧。"]
 	quest.2343F81FD6A3F1D1.quest_subtitle: "居然和远古残骸有关"
 	quest.2343F81FD6A3F1D1.title: "镀金的护甲"
@@ -290,6 +329,9 @@
 	quest.29753A3D1BFB01D7.quest_desc: ["本整合包内钓鱼的一大关键就是钓竿的升级。\\n这里的升级并不是单指材料的不同，还包括鱼钩、鱼线、饵料等对钓鱼的影响，而要使用这些配件，你就需要使用钓具箱。"]
 	quest.29753A3D1BFB01D7.quest_subtitle: "给钓竿上配件？"
 	quest.29753A3D1BFB01D7.title: "升级鱼竿"
+	quest.297CC600784BA7A1.quest_desc: ["九头蛇的肉排营养成分极高，吃下后就能进入黑暗森林，而它的血液也可用于制作炽铁或酱汁。\\n作为猎杀九头蛇的猎人，吃下一顿炽汁蛇宴想必会非常满足！"]
+	quest.297CC600784BA7A1.quest_subtitle: "九头蛇猎人的大餐"
+	quest.297CC600784BA7A1.title: "滚烫的肉和血"
 	quest.29A0DBFE068A39AD.quest_desc: ["你需要制造一个列车驾驶台才能操控列车。\\n操纵杆的位置应该对着列车站点在轨道上定义的反方向，否则无法组装列车。\\n组装好列车前，你还需要放置一个坐垫，不然你就得\"车长站票\"了。\\n操控列车靠近站台时，按住空格键即可将列车停在站台上。"]
 	quest.29A0DBFE068A39AD.quest_subtitle: "控制前行"
 	quest.29A0DBFE068A39AD.title: "驾驶列车"
@@ -303,12 +345,12 @@
 	]
 	quest.2A9D690141B21DD1.quest_subtitle: "最重要的作物"
 	quest.2A9D690141B21DD1.title: "水稻先生"
-	quest.2AB8E98FCC9CF86C.quest_desc: ["整合包内大部分食物都对夜雀食堂做了兼容——这意味着你做的大部分食物，不管是农夫乐事的食物还是森罗物语的食物，都可以在夜雀食堂中售卖。"]
-	quest.2AB8E98FCC9CF86C.quest_subtitle: "开一家食堂"
-	quest.2AB8E98FCC9CF86C.title: "个体商户(WIP)"
 	quest.2B5236280EBCE95E.quest_desc: ["相机需要胶卷才能拍摄——至少上世纪是这样的。\\n黑白胶卷是最容易合成的胶卷，当然，你也只能拍摄出黑白的照片，但总比没有好。"]
 	quest.2B5236280EBCE95E.quest_subtitle: "黑白照片的时代"
 	quest.2B5236280EBCE95E.title: "感光"
+	quest.2BAB61BDE06A96A4.quest_desc: ["雪怪同样会掉落肉排，但与其他肉排不同，你无法用它制作特色料理。\\n但毛皮却挺有用，制作的雪怪套装的性能也很不错。\\n还有冰霜炸弹，可以制作特别的蛋糕！"]
+	quest.2BAB61BDE06A96A4.quest_subtitle: "没有想象中的好吃"
+	quest.2BAB61BDE06A96A4.title: "雪怪肉排"
 	quest.2C56ACB15B5EF9E2.quest_desc: ["相机可以让你记录下游戏内的风景(支持光影)！\\n使用比较便宜的材料，你就可以制作一个相机，拍摄上世纪风格的老相片。\\n相机还支持安装滤镜、镜头等配件，在拍摄时按下shift可调整拍摄参数。"]
 	quest.2C56ACB15B5EF9E2.quest_subtitle: "CMOS不存在的世界"
 	quest.2C56ACB15B5EF9E2.title: "记录生活"
@@ -362,6 +404,15 @@
 	quest.337C2873EBE102FA.quest_desc: ["你制作出了你的第一串固定配方烧烤！\\n但固定配方的烧烤可没有你亲手制作的秘制烤串有意思...对吗？"]
 	quest.337C2873EBE102FA.quest_subtitle: "烧烤店"
 	quest.337C2873EBE102FA.title: "烤串"
+	quest.35055B2EAF5D00D9.quest_desc: ["四叶冰晶可以作为一种调味料使用，用于制作特别的蛋糕和酒。\\n制作出这些，意味着你的暮色之旅已经接近尾声..."]
+	quest.35055B2EAF5D00D9.quest_subtitle: "冰之勇者"
+	quest.35055B2EAF5D00D9.title: "公主调味品"
+	quest.352A9C023C03217B.quest_desc: ["哎呀，你发现这个图片可以点击了呢...这是整合包的吉祥物——店员鸡！(都说了我是鸽子！o((>ω< ))o)\\n你可以看到，大部分章节完成后会有一个隐藏任务同时完成——即当前章节的结章任务。\\n对于人生菜单前的任务，完成这种任务会给予你一张银色鸡卡片，集齐种植、渔业、屠宰、烹饪、酿造、工艺的全部银色鸡卡片，即可制作银色鸡奖杯，探索不会给予鸡卡片。\\n人生菜单章节则是金色鸡卡片和金色鸡奖杯。\\n当你完成了这个整合包，你就可以获得钻石鸡奖杯和一张钻石鸡卡片！"]
+	quest.352A9C023C03217B.quest_subtitle: "其实我是鸽子啦"
+	quest.352A9C023C03217B.title: "哎呀，被发现了"
+	quest.3572BE99E72BE36A.quest_desc: ["欢迎来到暮色篇章！\\n在暮色森林中，你可以找到一些特殊的食材。\\n暮色的食物内容相当丰富，甚至超过了下界和末地的总和！"]
+	quest.3572BE99E72BE36A.quest_subtitle: "都十年了还是黄昏"
+	quest.3572BE99E72BE36A.title: "暮色之地"
 	quest.35AFF6C5E72B55FA.quest_desc: ["你有时候会钓上漂流瓶——你可以右键读取其中的消息。\\n其中一些消息很有用，但不要相信所有消息！\\n&m比如按下组合键获得奖励..."]
 	quest.35AFF6C5E72B55FA.quest_subtitle: "邮箱的远古功能"
 	quest.35AFF6C5E72B55FA.title: "远洋而来"
@@ -371,12 +422,18 @@
 	quest.36EB3D83373C13B0.quest_desc: ["你可以制作一些咖啡——但你需要一个摩卡壶。\\n只要你有原料，摩卡壶可以制作几乎所有的咖啡！"]
 	quest.36EB3D83373C13B0.quest_subtitle: "一杯深棕色的能量浓缩液"
 	quest.36EB3D83373C13B0.title: "咖啡"
+	quest.388BD95B532470F4.quest_desc: ["外送和常规订单不同的是，外送不仅有更高的小费，还有50%的价格加成(配送费∑( 口 ||)，长途外卖的价格加成更高。\\n下雨天时配送费不会变化，但客人会给比平时外送更高的小费。\\n外送时，客人有概率会生成失败——这会直接导致超时，但收入基本不会受到影响。"]
+	quest.388BD95B532470F4.quest_subtitle: "自带GPS的包装袋"
+	quest.388BD95B532470F4.title: "很难跑外卖"
 	quest.38D1801799739B96.quest_desc: ["镰刀可以让你快速清除一大块地方的杂草——如果你不想用太多饱食度去使用连锁割草的话。\\n镰刀不能替代锄头使用。但手持镰刀按下潜行，你就可以向一片区域内的所有方块施加一次骨粉效果。\\n镰刀可用于收割一片范围内的作物。"]
 	quest.38D1801799739B96.quest_subtitle: "虽然空手也能做到"
 	quest.38D1801799739B96.title: "收割"
 	quest.38F9CDBB8C8CEB27.quest_desc: ["使用酒柜和酒架可以让你利用你的名酒制作装饰！\\n同时，酒架在通入红石信号时，会将放置在其上的酒瓶抛射出去，可以用这个方法让一瓶酒给多人提供效果..."]
 	quest.38F9CDBB8C8CEB27.quest_subtitle: "收藏柜"
 	quest.38F9CDBB8C8CEB27.title: "展示实力"
+	quest.39B64C3FC985AA86.quest_desc: ["你可以将你获得的钱币存入硬币保险箱中。\\n通过思索操作，在这里面中的硬币基本上只有你可以操控。"]
+	quest.39B64C3FC985AA86.quest_subtitle: "炸金库"
+	quest.39B64C3FC985AA86.title: "银行"
 	quest.39D782017DA729D8.quest_desc: [
 		"在野外没食物吃怎么办？如果运气好你可以找到一棵果树，通过长了果子的树叶获得对应的水果，解决你的燃眉之急。"
 		"坏消息是，除了特殊群系果园，果树的生成率并不高，当你拥有任一水果&m（不止水果）&r后可通过此任务获得随机的三棵果树树苗，使你的水果储备更加丰富。"
@@ -387,15 +444,27 @@
 	quest.39E411533FBF39DA.quest_desc: ["在蛤蜊中有50%的几率获得一颗珍珠，使用热带鱼或河豚作为诱饵可以获得珊瑚碎片——它们都是装饰用的道具。\\n(WIP)或许将来可以用于制作什么..."]
 	quest.39E411533FBF39DA.quest_subtitle: "热带鱼和运气"
 	quest.39E411533FBF39DA.title: "珍稀物品"
+	quest.3AD8B22400FDBCEA.quest_desc: ["你需要制作这种特殊的椅子，在操作台附近放置这种椅子即可接客。\\n客人有两种：第一种是随机客人，这个留到下一任务再详细描述；第二种是打单机产生的客人。\\n打单机生成的订单如果不是需配送的订单，则会在附近生成一个客人。如果附近有空位置，客人就会坐在椅子上，否则会站在附近等待取餐，没有座位的客人只接受打包餐食，而有座位的客人两者均接受。\\n你可以在椅子前面放置任何方块来上菜。"]
+	quest.3AD8B22400FDBCEA.quest_subtitle: "特殊的椅子"
+	quest.3AD8B22400FDBCEA.title: "餐馆座位"
 	quest.3B4652716AF39CD0.quest_desc: ["使用搅拌碗，你可以将一些食材进行混合。\\n如果你要制作部分酱料或奶昔，就需要使用它了。要使用搅拌碗，你需要一把勺子。"]
 	quest.3B4652716AF39CD0.quest_subtitle: "制作冰淇淋和酱"
 	quest.3B4652716AF39CD0.title: "搅拌"
 	quest.3B53CDB8C981FC9B.quest_desc: ["整合包为大部分相同功能的食材进行了统一，如稻米、生菜等蔬菜，以及各种食物产品。\\n因此，大部分情况下你只需要制作类似的一种材料即可制作它原来的配方，如三个模组的奶酪均已统一，额外乐事的奶酪就可用于樱途乐事的合成。"]
 	quest.3B53CDB8C981FC9B.quest_subtitle: "没那么多食材了，但也没少"
 	quest.3B53CDB8C981FC9B.title: "万象统一"
+	quest.3BBEC851B7F237C5.quest_desc: ["客人用餐结束后会留下脏餐盘——你需要在洗碗池内将它们进行清洗才能再次使用。"]
+	quest.3BBEC851B7F237C5.quest_subtitle: "不需要洗洁精"
+	quest.3BBEC851B7F237C5.title: "沙拉也会有残渣"
 	quest.3C8A2CD83D23E843.quest_desc: ["在酒桶中陈酿的酒会慢慢提升效果——这意味着你可以通过陈酿获得品质极佳的酒！\\n那么，来酿造一瓶经典的酒，拉菲，作为你的名酒起点如何？"]
 	quest.3C8A2CD83D23E843.quest_subtitle: "来一瓶82年的拉菲"
 	quest.3C8A2CD83D23E843.title: "典藏美酒"
+	quest.3CA61E26A0CB1306.quest_desc: ["便捷式引擎需要手动供给燃料，蒸汽引擎用在载具上又不方便——因此，你可以使用电动马达！\\n你可以使用熔炉或交流发电机发电，电动马达有足足16384su的最大输出，足以供给一架直升机！"]
+	quest.3CA61E26A0CB1306.quest_subtitle: "只是不直接烧煤而已"
+	quest.3CA61E26A0CB1306.title: "便捷式应力源"
+	quest.3D036EEEB137F3D5.quest_desc: ["击败暮初恶魂后，你就有了进入雪怪巢穴的能力。\\n雪怪会掉落毛皮，是很好的装备——击败雪怪，你就可以朝着极光前进。"]
+	quest.3D036EEEB137F3D5.quest_subtitle: "雪怪之谜"
+	quest.3D036EEEB137F3D5.title: "洞穴里的怪物"
 	quest.3D71E833E45E5432.quest_desc: ["对于一部分材料，你需要使用砧板来进行初步处理。\\n比如肉类，你就需要使用砧板处理才可以制作一些食物。同时，使用砧板处理过的一些材料可以比处理前合成更多的食物，如卷心菜。\\n你可以用大部分的木材制作砧板。"]
 	quest.3D71E833E45E5432.quest_subtitle: "飞机场"
 	quest.3D71E833E45E5432.title: "砧板"
@@ -408,6 +477,9 @@
 	quest.3F795A6596839A37.quest_desc: ["除毛豆泥森林，大部分豆腐世界群系的草都由葱组成。\\n它本身就是一种功能广泛的植物，还可以用骨粉催熟。\\n葱也并非豆腐世界专属，你可以在钓鱼的时候钓上一些——但你不能种植它。"]
 	quest.3F795A6596839A37.quest_subtitle: "豆腐上的草"
 	quest.3F795A6596839A37.title: "甩甩葱"
+	quest.3F80EBD7C094802C.quest_desc: ["鬼臼果相当常见，你可以在地上找到一堆这样的植物。\\n它可以用于酿造一些特色饮品。"]
+	quest.3F80EBD7C094802C.quest_subtitle: "开个玩笑"
+	quest.3F80EBD7C094802C.title: "鬼(gui)臼果(guo)"
 	quest.4066886F42A501B7.quest_desc: ["使用下界之星可以制作超级植物盆栽！\\n这个盆栽十分强大，一个盆栽绝对足够你所有的消耗！"]
 	quest.4066886F42A501B7.quest_subtitle: "这才是终极奉献"
 	quest.4066886F42A501B7.title: "超级盆栽"
@@ -425,6 +497,9 @@
 	quest.40E1DE602542EB7A.title: "飞机"
 	quest.41514351676BD6C0.quest_desc: ["豆腐世界也有一个地牢，内部有一个boss——豆腐战神。\\n不过它比起暮色森林的那群家伙，当然还是简单得多。\\n且击败它是你获得豆腐能核心的唯一途径。"]
 	quest.41514351676BD6C0.quest_subtitle: "它简直是个战神"
+	quest.42BA679E037F78A4.quest_desc: ["巫妖王会掉落骨头...这种骨头似乎带有特殊的魔力。\\n你可以使用它的骨头制作特色料理，并可以获得一些巫术的力量。"]
+	quest.42BA679E037F78A4.quest_subtitle: "巫妖给自己也上了魔法"
+	quest.42BA679E037F78A4.title: "蕴魔骸骨"
 	quest.4348B5A67A563441.quest_desc: ["本整合包的农业并不单指种植这一个项目，而是集种植、畜牧、渔业于一体的\"广义农业\"，也正因此，本整合包的农业玩法也是相当丰富的，添加了很多相关的模组！"]
 	quest.4348B5A67A563441.quest_subtitle: "多合一！"
 	quest.4348B5A67A563441.title: "农业"
@@ -445,9 +520,12 @@
 	quest.45958791F4E6F586.quest_desc: ["用幽匿块种植粗矿块，你有很低的概率获得一种矿莓。\\n矿莓可以在暗处自然生长，也可以采集后放置在亮处培育或使用盆栽种植！\\n矿莓丛也有概率自我繁殖，同时产出可处理成矿石的矿莓，还会产出经验莓——每个经验莓可提供10点经验。\\n矿莓可以像葡萄酒一样处理，也可以通过机械动力自动化，但机械动力的自动化利用只能产出最低值。\\n你也可能在暮色森林遇到矿莓——那是另一个品种的矿莓，不能人工在盆栽种植，且只能在暗处生长。"]
 	quest.45958791F4E6F586.quest_subtitle: "矿物莓"
 	quest.45958791F4E6F586.title: "矿石菌种"
-	quest.462B5AB406F5C248.quest_desc: ["整合包的任务系统通过使用圆形、菱形、方形、六边形来代表不同的任务！\\n圆形，是常规任务，即最常见的任务节点；\\n菱形，是隐藏任务，一般在你完成部分特殊条件后会显示；\\n方形，是支线任务，即完全可选的任务；\\n六边形，是重要任务，即当前任务章节的重要节点，一般位于首尾——\\n但这是个休闲包，任务只起引导作用！\\n所以，你可以完全不进行任务，玩的尽兴才是最重要的！"]
-	quest.462B5AB406F5C248.quest_subtitle: "几何的艺术？"
-	quest.462B5AB406F5C248.title: "任务种类"
+	quest.4620F6B97BA8C934.quest_desc: ["是的——截至现实的2026年8月，终焉城堡还是没有完成！\\n你的暮色之旅在这里已经结束了...实际上击败冰雪女王后，就已经没有多少新的食材给你了！\\n暮色森林甚至把灾厄都肘赢了，都还没更新终焉城堡！\\n压力棍木甚至都出不来了，终焉城堡的领主还没更新！\\n暮色都13年了啊喂！"]
+	quest.4620F6B97BA8C934.quest_subtitle: "结束了...暮色之旅"
+	quest.4620F6B97BA8C934.title: "终焉"
+	quest.46B25B0459DC8356.quest_desc: ["炽铁可以制作厨具，这种厨具可以脱离炉灶进行烹饪！"]
+	quest.46B25B0459DC8356.quest_subtitle: "九头蛇严选"
+	quest.46B25B0459DC8356.title: "炽铁厨具"
 	quest.46FD844E098720B3.quest_desc: ["你可以在末地找到特色食材！\\n末地的食材相对来说更加清凉，或者更加劲爆..."]
 	quest.46FD844E098720B3.quest_subtitle: "下界就不说了...末地石也有养分？"
 	quest.46FD844E098720B3.title: "异界植物"
@@ -460,6 +538,9 @@
 	quest.478129F9898E82C2.quest_desc: ["收集足够的珍珠，你可以制作这串项链。\\n穿戴这条项链，你就可以获得在水下呼吸以及快速游泳的能力！\\n但它的能力生效时会消耗耐久。"]
 	quest.478129F9898E82C2.quest_subtitle: "虽然这是河里甚至水沟里的珍珠"
 	quest.478129F9898E82C2.title: "海的女儿"
+	quest.47F96C146614AC55.quest_desc: ["你可以在暮色森林中找到这种散发微光的蘑菇。\\n它可以作为普通蘑菇用在一些地方，但也可以制作自己的特色菜。"]
+	quest.47F96C146614AC55.quest_subtitle: "没有辐射"
+	quest.47F96C146614AC55.title: "辐光蘑菇"
 	quest.48828A80FDFAACB7.quest_desc: ["猪灵会掉落猪灵肉，这种肉没有什么好说的，就是猪肉，烹饪方式都相同。\\n不过猪灵不能养殖，猪灵肉尝个新鲜还可以。"]
 	quest.48828A80FDFAACB7.quest_subtitle: "只是普通的猪肉吗"
 	quest.48828A80FDFAACB7.title: "猪人口粮"
@@ -469,6 +550,9 @@
 	]
 	quest.48C676A7532EC764.quest_subtitle: "狐狸怎么叫？"
 	quest.48C676A7532EC764.title: "把动物戴在头上"
+	quest.493D4C0A89A9C957.quest_desc: ["黑暗森林中，你可以找到一些迷宫。\\n将你击败过的敌人的奖杯放在门口，迷宫的大门就会打开。\\n你需要击败幻影骑士。"]
+	quest.493D4C0A89A9C957.quest_subtitle: "幻影骑士前情提要"
+	quest.493D4C0A89A9C957.title: "守护者的幻影"
 	quest.4944031212711105.quest_desc: ["通过多种多样的酿造配方，你可以酿造出你的第一瓶酒！\\n酒在酒桶中存放的时间越长，其品质就越高，效果也会更强。\\n从酒桶中直接酿造获取到的酒可被称为\"基底\"：你可以将这些\"基底\"混合，来制作特色饮品——各类鸡尾酒。\\n&m奖励的莫洛托夫鸡尾酒不可饮用...请确保在开阔且无易燃物的地区开盖..."]
 	quest.4944031212711105.quest_subtitle: "&m不是在造私酒"
 	quest.4944031212711105.title: "你的第一批酒！"
@@ -502,12 +586,15 @@
 	quest.4D0BD22E6C16F7E7.quest_desc: ["你可以制作浮空水晶来使你的结构浮空。但浮空水晶正如其名，它无法使结构向上飞行，你需要额外的力才能让结构向上移动。"]
 	quest.4D0BD22E6C16F7E7.quest_subtitle: "这东西在晃！"
 	quest.4D0BD22E6C16F7E7.title: "反重力"
-	quest.4D90C906C3F52815.quest_desc: ["熔岩辣椒油可以加强你的烤串的热气腾腾效果，同时，它可以用于烈焰人燃烧室获得超级加热效果！\\n每桶熔岩辣椒油可以燃烧越50秒。"]
+	quest.4D90C906C3F52815.quest_desc: ["熔岩辣椒油可以加强你的烤串的热气腾腾效果，同时，它可以用于烈焰人燃烧室获得超级加热效果！\\n每桶熔岩辣椒油可以燃烧足足40分钟。"]
 	quest.4D90C906C3F52815.quest_subtitle: "烈焰人都受不了"
 	quest.4D90C906C3F52815.title: "超辣"
+	quest.4DD1B2B30028CFEA.quest_desc: ["在暮色的地下随处可见这种发光的浆果。\\n部分情况下，它可以像寻常水果一样烹饪，也可以制作暮色特色料理。\\n与其他的大部分植物不同，火炬浆果不能在盆栽培育。"]
+	quest.4DD1B2B30028CFEA.quest_subtitle: "当然没有绯红果烫"
+	quest.4DD1B2B30028CFEA.title: "炽热的水果"
 	quest.4E2B107969611257.quest_subtitle: "再处理过的糖"
 	quest.4E2B107969611257.title: "焦糖"
-	quest.4E824632C2B6EBEA.quest_desc: ["整合包添加了机械动力——当然，这并不是一个工业整合包，因此机械动力几乎仅有最基本的功能，也足够用于很多地方，比如树场、农田等。整合包还添加了航空学，也就是说，你可以开着你自定义的载具四处移动！"]
+	quest.4E824632C2B6EBEA.quest_desc: ["整合包添加了机械动力——当然，这并不是一个工业整合包，因此机械动力几乎仅有最基本的功能，也足够用于很多地方，比如树场、农田等。整合包还添加了航空学，也就是说，你可以开着你自定义的载具四处移动！\\n本整合包内的机械动力甚至可以在一些资源的获取中派上大用场，如矿物莓的自动处理。"]
 	quest.4E824632C2B6EBEA.quest_subtitle: "机械动力...以及飞船！"
 	quest.4E824632C2B6EBEA.title: "动力！"
 	quest.4F34B54C42181455.quest_desc: ["豆腐牛会掉落这种豆腐素肉。\\n你甚至可以用它制作豆腐汉堡，足以展示它的口感和风味如何。\\n当然，还有豆腐猪，但它掉落的素肉并不是豆腐世界专属。"]
@@ -516,6 +603,12 @@
 	quest.4F69A8C714A9A31B.quest_desc: ["你需要一些动力来驱动你的结构。螺旋桨是一个不错的选择！\\n这种单方块螺旋桨的力较小，但部分情况下也够用了。"]
 	quest.4F69A8C714A9A31B.quest_subtitle: "但它实际上是产生力而已"
 	quest.4F69A8C714A9A31B.title: "螺旋升天"
+	quest.4FDFB782128AFE81.quest_desc: ["接待客人可以获得铜币。\\n货币可用于在商店购买各种有用的工具，也可以用来升级你的餐厅。\\n升级餐厅可以给你的餐厅提升\"知名度\"：你的餐厅不升级(0级)时不会有随机客人前来，在升级后每隔一段时间都有概率会有一位随机客人前来，等级越高客人越容易入座，且订单的价格和品质均有一定上升。\\n在座位满时，随机客人不会生成。随机客人需要你右键他们来获取对应的菜单。"]
+	quest.4FDFB782128AFE81.quest_subtitle: "铸币权"
+	quest.4FDFB782128AFE81.title: "第一桶金"
+	quest.5079B94C2EF5EAE5.quest_desc: ["你赚够了金币后，就有了真正的进入商店的能力。\\n按下J键可以进入整合包的商店，在这里你可以买到从各类种子到创造物理法杖之类的各种物品！\\n你甚至可以买到鸡奖杯，只要你已经拥有了一个！\\n在你拥有了难以想象的财富后，你可以购买各类成就道具，甚至是铸币权！"]
+	quest.5079B94C2EF5EAE5.quest_subtitle: "首付"
+	quest.5079B94C2EF5EAE5.title: "首富"
 	quest.51AD5055AFCF75B4.quest_desc: [
 		"本条任务线将为你展示其他烹饪中所需要的调料，如酱，油，酱油等。"
 		"仅为展示指引，故本条任务线不含奖励与任务要求。"
@@ -534,15 +627,27 @@
 	quest.53B198245B3CA12E.quest_desc: ["将辣椒种子放在灵魂土上种植，你就可以得到灵魂辣椒。\\n灵魂辣椒可以在盆栽中直接种植。\\n这东西比主世界的辣椒都辣..."]
 	quest.53B198245B3CA12E.quest_subtitle: "地狱级辣度"
 	quest.53B198245B3CA12E.title: "直击灵魂"
+	quest.5479DAEFB7D7E793.quest_desc: ["欢迎来到开店风云！\\n在本章节中，你将了解到有关开餐馆，以及经济相关的内容。\\n由于经济内容尚未施工完全，故本章仅描述其商业用处。"]
+	quest.5479DAEFB7D7E793.quest_subtitle: "资本的大手"
+	quest.5479DAEFB7D7E793.title: "经济时间"
 	quest.556A8CC4271311DE.quest_desc: ["整合包添加了建筑棒模组，你可以使用较为便宜的材料制作可批量放置方块的魔棒！\\n&m&7某个魔棒只要木棍...我都可以送你一根...\\n&r总之，这个模组在建造一些大型区域，如农田等，还是挺有用的！"]
 	quest.556A8CC4271311DE.quest_subtitle: "\"最棒的建筑棒\""
 	quest.556A8CC4271311DE.title: "建筑魔杖"
+	quest.55E80FA659A5593E.quest_desc: ["在云层之上的浮空岛，你可以遇到居住在此的巨人。\\n巨人手中有一把巨大的镐子——你需要它，用它获取能够燃尽终焉城堡的荆棘的神灯。"]
+	quest.55E80FA659A5593E.quest_subtitle: "巨人快乐镐"
+	quest.55E80FA659A5593E.title: "杰克和魔豆"
+	quest.5704F13E271F6C41.quest_desc: ["你可以在暮色森林找到鹿之类的暮色动物。\\n从最常见的鹿身上，你可以获得鹿肉，这种肉可以当作一般肉类使用，也可以制作特色料理。"]
+	quest.5704F13E271F6C41.quest_subtitle: "需要香料"
+	quest.5704F13E271F6C41.title: "暮色的牛"
 	quest.57B2C276B64F64BD.quest_desc: ["你可以制作蟹笼来产出一些特殊的水产品！蟹笼在无诱饵的情况下也可以运行，但相对的，不管是否使用诱饵，蟹笼的生产速度都比钓鱼更低。"]
 	quest.57B2C276B64F64BD.quest_subtitle: "需要诱饵"
 	quest.57B2C276B64F64BD.title: "蟹笼"
 	quest.57F35DBFEE186F59.quest_desc: ["装饰锅可以盛装大量食物——也就是盛宴。\\n装饰锅类似农夫乐事原有的方块食物，但分食时使用的是勺子。"]
 	quest.57F35DBFEE186F59.quest_subtitle: "大伙饭，并非装饰"
 	quest.57F35DBFEE186F59.title: "火锅"
+	quest.5885A394451BFB4E.quest_desc: ["在巨魔洞穴中挖掉小型黑曜石，你就可以获得这种魔豆。\\n如果获得巨人之镐后你还有多余的魔豆，可以用它们来制作一种汤和一种酒。"]
+	quest.5885A394451BFB4E.quest_subtitle: "能种出什么呢"
+	quest.5885A394451BFB4E.title: "复杂的豆子"
 	quest.59207230A7CAC232.quest_desc: ["列车站点等方块需要先在轨道上定义方向，随后放置即可直接标记车站位置。\\n车站可以单个存在，在车站中可以选择创建列车，随后在蓝色的轨道上放置列车机壳即可产生一个车头。"]
 	quest.59207230A7CAC232.quest_subtitle: "这东西是怎么把一个方块变成车头的？"
 	quest.59207230A7CAC232.title: "车站"
@@ -552,10 +657,13 @@
 	quest.5A56C728547CD074.quest_desc: ["水产品的鱼大多可以直接食用，你也可以将它们制成鱼排。\\n鱼排可以使这些鱼通用合成其他菜品。"]
 	quest.5A56C728547CD074.quest_subtitle: "假设要翻译的话...怎么翻译..."
 	quest.5A56C728547CD074.title: "片鱼片"
+	quest.5AA9B7D9CB7F2323.quest_desc: ["吃下牛头人沙拉酱肉后，你才有足够的实力进入九头蛇的巢穴。\\n和九头蛇的战斗并不容易，但九头蛇的肉排质量堪比末影龙。"]
+	quest.5AA9B7D9CB7F2323.quest_subtitle: "与其说是蛇，不如说是龙"
+	quest.5AA9B7D9CB7F2323.title: "炽热之地的巨蛇"
 	quest.5BDE1801CA7CA793.quest_desc: ["石研磨碗可以制作一些简单的粉末，也可以帮助你将小麦种子制成油和面粉。\\n要使用它，你不需要额外的生物动力和应力，只需要你的研杵！"]
 	quest.5BDE1801CA7CA793.quest_subtitle: "比石磨的力量更小"
 	quest.5BDE1801CA7CA793.title: "研磨"
-	quest.5C6715143F50B980.quest_desc: ["欢迎来到烹饪篇！\\n本整合包添加了大量厨具和烹饪手法(且在将来会完成适配与兼容)，这一章任务会向你展示烹饪的内容！\\n当然，我建议你完成\"农业\"篇中的内容，获取足够的食材后再来完成本章！"]
+	quest.5C6715143F50B980.quest_desc: ["欢迎来到烹饪篇！\\n本整合包添加了大量厨具和烹饪手法(且在将来会完成适配与兼容)，这一章任务会向你展示烹饪的内容！\\n当然，我建议你完成\"农业\"篇中的内容，获取足够的食材后再来完成本章！\\n以及赛博秦始皇之力，食材基本上已经通用，烹饪方式也进行了一定的重写，所以不必担心！"]
 	quest.5C6715143F50B980.quest_subtitle: "万人称我美食家！"
 	quest.5C6715143F50B980.title: "烹饪"
 	quest.5D05277C5A20A6F5.quest_desc: ["使用海王锭可以合成海王装备，有着特殊的与水相关的能力，钓竿可以大幅提升你的钓鱼能力，装备更是能让你在水下极速运动！\\n&m你说刚刚你开出来的海王装备拿去融了做上一个任务了？"]
@@ -599,12 +707,18 @@
 	quest.6248FD2C099543CA.quest_desc: ["水产品添加了几种新的钓竿，虽然它们的钓鱼性能，除了海王钓竿都没有区别，但耐久区别很大。\\n你可以先制作一根铁钓竿开始钓鱼。"]
 	quest.6248FD2C099543CA.quest_subtitle: "还是底子好"
 	quest.6248FD2C099543CA.title: "钓鱼利器"
+	quest.6297548E5D48739D.quest_desc: ["除了使用洗碗池清洗你的餐盘，在赚够钱后，你还可以购买洗碗机。\\n洗碗机可以自动帮你洗好一堆餐盘！"]
+	quest.6297548E5D48739D.quest_subtitle: "每次都忘了拿出来"
+	quest.6297548E5D48739D.title: "自动洗碗"
 	quest.629A19F1D213FAE8.quest_desc: ["烈焰珍珠不是食材——从烈焰人身上掉落的物品基本上都不能直接吃。\\n它可以作为一种安全的远程爆破伤害手段，因为它不会破坏方块！"]
 	quest.629A19F1D213FAE8.quest_subtitle: "请勿食用"
 	quest.629A19F1D213FAE8.title: "下界的珍珠"
 	quest.62C7034601F76973.quest_desc: ["照片直接放置在物品展示框？你应该放置在相框内！"]
 	quest.62C7034601F76973.quest_subtitle: "头版新闻"
 	quest.62C7034601F76973.title: "展示你的照片"
+	quest.62E18AABDDA0852B.quest_desc: ["你需要一些工具来盛装菜单内的食物。\\n你可以使用空盘，也可以使用皮革进行打包，但它们需要放置在架子上，架子不要离操作台过远即可。"]
+	quest.62E18AABDDA0852B.quest_subtitle: "上菜的基本"
+	quest.62E18AABDDA0852B.title: "光盘行动"
 	quest.6302CC49842D2512.quest_desc: ["整合包添加了传送石碑模组，同时还添加了旷野之塔，你可以在探索过程中方便地获取传送石碑！"]
 	quest.6302CC49842D2512.quest_subtitle: "&m传送锚点"
 	quest.6302CC49842D2512.title: "传送石碑"
@@ -646,6 +760,9 @@
 	quest.6EC6E25A2E21099E.quest_desc: ["你可以使用绞肉机来进一步加工案板处理的食材，如制作香肠等。\\n当然，绞肉机还需要一个套件才能运行。"]
 	quest.6EC6E25A2E21099E.quest_subtitle: "制作肉制品"
 	quest.6EC6E25A2E21099E.title: "碎肉"
+	quest.6F520E6D99631A1B.quest_desc: ["暮初恶魂会掉落它的泪与肉，你可以像处理恶魂肉一样处理暮初恶魂，它的泪可以像九头蛇的血一样使用，也可以制作一种特色茶。"]
+	quest.6F520E6D99631A1B.quest_subtitle: "真的很大"
+	quest.6F520E6D99631A1B.title: "暮色的大章鱼"
 	quest.6FE49A7843C95D0C.quest_desc: ["揉面板可以让你将面团制成其他形状，在派对上会很有用！\\n你需要用烤炉等来烤制这些面团。"]
 	quest.6FE49A7843C95D0C.quest_subtitle: "造形神程度的能力"
 	quest.6FE49A7843C95D0C.title: "揉面"
@@ -665,9 +782,6 @@
 	quest.718ED3B5F1DC7DD7.title: "更多葡萄"
 	quest.720FA6ABB560CBA1.quest_subtitle: "牛奶常见的产品之一"
 	quest.720FA6ABB560CBA1.title: "奶香油脂"
-	quest.721A86CCF309EF5D.quest_desc: ["统一如奶酪、番茄、米饭等食材的配方及使用。\\n可能的话，统一大部分食物的合成。"]
-	quest.721A86CCF309EF5D.quest_subtitle: "统一材料以便于使用"
-	quest.721A86CCF309EF5D.title: "完全统一"
 	quest.72B1B75C7E00EFBD.quest_desc: ["如果你能做到的话——你可以屠宰一只兔子，随后你可以获得可穿戴的兔耳和兔尾...\\n&m&8虽然很贴近现实..."]
 	quest.72B1B75C7E00EFBD.quest_subtitle: "这可能做到吗？"
 	quest.72B1B75C7E00EFBD.title: "屠宰兔子"
@@ -677,9 +791,9 @@
 	quest.7350CDD8A5A16581.quest_desc: ["通过使用机械动力的注液器，你可以批量冲洗大量胶卷。\\n这个过程不需要你手动合成冲洗，但搭建一个冲洗产线的材料，可能会让你认为，你不如去手动冲洗照片。"]
 	quest.7350CDD8A5A16581.quest_subtitle: "万能的机械动力"
 	quest.7350CDD8A5A16581.title: "批量冲洗"
-	quest.74409396C08851DB.quest_desc: ["后续更新未汉化mod的汉化。"]
-	quest.74409396C08851DB.quest_subtitle: "所有mod的完全汉化"
-	quest.74409396C08851DB.title: "汉化"
+	quest.742F0A843ACD0CC7.quest_desc: ["你可以从米诺菇身上得到特殊的战斧牛排，相对于牛肉，战斧牛排有着更强的效果。\\n同时，你可以使用这种战斧牛排制作沙拉酱肉。"]
+	quest.742F0A843ACD0CC7.quest_subtitle: "蘑菇香味"
+	quest.742F0A843ACD0CC7.title: "战斧牛排"
 	quest.74F1188046F32125.quest_desc: ["除了使用一般的植物产品酿酒外，你还可以使用血液来酿酒！\\n&m虽然现实中你大概只能得到一滩烂泥..."]
 	quest.74F1188046F32125.quest_subtitle: "吸血鬼必喝榜"
 	quest.74F1188046F32125.title: "血酒"
@@ -698,15 +812,27 @@
 	quest.771F3C17A72293C3.quest_desc: ["屠宰后身上会有一股臭味，你可以使用肥皂来去除这种味道。\\n肥皂只需要少量材料就能合成。"]
 	quest.771F3C17A72293C3.quest_subtitle: "去除油臭味"
 	quest.771F3C17A72293C3.title: "香香的"
+	quest.7720613FC81915E8.quest_desc: ["你可以在森林里找到渡鸦。\\n渡鸦的羽毛可以制作暮色地图，也可以用来酿造一种暮色特色的酒。"]
+	quest.7720613FC81915E8.quest_subtitle: "它应该飞得快一点的"
+	quest.7720613FC81915E8.title: "异世界的乌鸦"
 	quest.7737822FD4B37C48.quest_desc: ["什么...你没喝够酒吗？\\n在人生菜单篇章中，一共有近百种酒类饮品！\\n如果本篇章没有满足你的收集欲，欢迎挑战人生菜单的全收集！"]
 	quest.7737822FD4B37C48.quest_subtitle: "千杯不倒，对吗？"
 	quest.7737822FD4B37C48.title: "饮酒者"
+	quest.7895B0C36A545AD3.quest_desc: ["你完成了主要厨具的制作！\\n后续任务位于人生菜单——你已经有足够的能力去制作它们了！"]
+	quest.7895B0C36A545AD3.quest_subtitle: "虽然你做的只是工具而已"
+	quest.7895B0C36A545AD3.title: "没做够？"
 	quest.79B94D3D6128C8A6.quest_desc: ["你可以制作一个收获塔。\\n它可以收获大范围内的作物，并自动输出到上方的容器中"]
 	quest.79B94D3D6128C8A6.quest_subtitle: "魔法"
 	quest.79B94D3D6128C8A6.title: "范围农场"
 	quest.79BCA96AF9A062C8.quest_desc: ["使用盐可以制作嫩豆腐块——最基本的豆腐，将其打碎可以获得豆腐，或者在厨锅中将豆浆与盐共煮即可获得。\\n但你这样只会获得普通的豆腐，当然都通用，不过你可以试试将其合成豆腐块，再使用石块压制，即可获得石豆腐块。\\n有关豆腐的具体内容将在豆腐篇章描述。"]
 	quest.79BCA96AF9A062C8.quest_subtitle: "不是榨汁"
 	quest.79BCA96AF9A062C8.title: "压制"
+	quest.79E8BAF5606AF1A0.quest_desc: ["娜迦是暮色森林流程中，你能挑战的第一个boss。\\n这条丛林中的巨蛇的肉质应该很有嚼劲。"]
+	quest.79E8BAF5606AF1A0.quest_subtitle: "它很长吗？是的"
+	quest.79E8BAF5606AF1A0.title: "丛林中的巨蛇"
+	quest.7A9F2EC14D251233.quest_desc: ["在极光城堡，你可以挑战冰雪女王。\\n与冰雪女王战斗并不轻松，而且她不会直接掉落食物。\\n但她掉落的四叶冰晶却是一种很好的调味料。"]
+	quest.7A9F2EC14D251233.quest_subtitle: "但不是暮色的"
+	quest.7A9F2EC14D251233.title: "极光的女王"
 	quest.7B09D36430AB363B.quest_desc: ["将胶卷与水瓶或三种最基本的药水瓶(粗制、平凡、粘稠)进行合成，你就可以使照片显影。\\n当然，你是不能直接在手上看见胶卷内的照片的。"]
 	quest.7B09D36430AB363B.quest_subtitle: "有点繁琐"
 	quest.7B09D36430AB363B.title: "洗胶卷"
@@ -716,6 +842,9 @@
 	quest.7BB4CF0AB94EF789.quest_desc: ["在末地可以找到这种薄荷。"]
 	quest.7BB4CF0AB94EF789.quest_subtitle: "没有龙息那么让人心寒"
 	quest.7BB4CF0AB94EF789.title: "透心凉"
+	quest.7C0866A6F6B16EFA.quest_desc: ["打单机可以接收随机产生的订单，你需要使用操作台来打包订单所需的餐食。\\n打单机实际上是整个餐厅的核心，它保存了你的餐厅的全部数据。"]
+	quest.7C0866A6F6B16EFA.quest_subtitle: "虚空订单"
+	quest.7C0866A6F6B16EFA.title: "接收订单"
 	quest.7C80063B4191E1D2.quest_desc: ["沃土可用于直接种植，直接种植时效果就很好——但它也可以用于植物盆栽。\\n在植物盆栽里时，沃土会为植物盆栽提供10%的速度加成。"]
 	quest.7C80063B4191E1D2.quest_subtitle: "额外土壤"
 	quest.7C80063B4191E1D2.title: "有机土"
@@ -734,14 +863,14 @@
 	quest.7E421F6D7BBE45D3.quest_desc: ["使用榨油器，你可以获得更清澈的菜籽油。相对于石磨产出的油脂，菜籽油更专用于烤串，但它也可用于炒菜等。\\n要制作菜籽油，你必须使用石磨等获得菜籽粉。"]
 	quest.7E421F6D7BBE45D3.quest_subtitle: "古法榨油"
 	quest.7E421F6D7BBE45D3.title: "菜籽油"
-	quest.7E66312B70160FFE.quest_desc: ["完成任务板及自定义物品的贴图绘制。"]
-	quest.7E66312B70160FFE.quest_subtitle: "贴图"
-	quest.7E66312B70160FFE.title: "美术"
 	quest.7EB67647EA8ED47D.quest_desc: ["击败末影龙，你可以获得末地的第一种食材，也是最昂贵的食材之一——末影龙肉。\\n巨龙的肉光是烤熟就能让你的胃被填饱一次，甚至还能再填饱半次！\\n相应的，末影龙肉也并不容易获取，只有逢年过节才能吃一次吧。\\n末影龙还会掉落龙腿，直接吃显然性价比不高，你可以将其制作成浇汁龙腿！"]
 	quest.7EB67647EA8ED47D.quest_subtitle: "吃起来会不会和鸡肉差不多？"
 	quest.7EB67647EA8ED47D.title: "巨龙的尸体"
 	quest.7F3F254C20FEEE8F.quest_subtitle: "海里面的不能直接吃"
 	quest.7F3F254C20FEEE8F.title: "盐"
+	quest.7F409A5223A5A8B5.quest_desc: ["在人工培育活根的同时，你可能获得蕨菜这种稀有的蔬菜。\\n蕨菜可以单独培育，并可能会产生猪儿虫。"]
+	quest.7F409A5223A5A8B5.quest_subtitle: "在一堆草里面找蕨菜？"
+	quest.7F409A5223A5A8B5.title: "绿色黄金"
 	quest.7F4A67AA758E6ED4.quest_desc: ["你可以用车轮悬架和车轮制作越野车——它在平坦的大路上可以以很高的速度运行，低速下也可以在崎岖的山路上驾驶，如果安装了可以破坏方块的工具，它可以做到在哪都如履平地。"]
 	quest.7F4A67AA758E6ED4.quest_subtitle: "无需轨道，但需大路"
 	quest.7F4A67AA758E6ED4.title: "车辆"

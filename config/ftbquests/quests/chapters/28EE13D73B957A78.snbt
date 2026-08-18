@@ -7,33 +7,15 @@
 		id: "farmersdelight:skillet"
 	}
 	id: "28EE13D73B957A78"
-	images: [
-		{
-			height: 18.0d
-			image: "minecraft:textures/gui/advancements/backgrounds/quest_book.png"
-			order: -9
-			rotation: 0.0d
-			width: 28.6d
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			height: 4.0d
-			image: "kaleidoscope_grilling:item/oil_pot_canola"
-			rotation: 0.0d
-			width: 4.0d
-			x: -8.5d
-			y: -5.0d
-		}
-		{
-			height: 3.0d
-			image: "kaleidoscope_grilling:item/secret_chili_oil_brush"
-			rotation: 90.0d
-			width: 3.0d
-			x: -10.0d
-			y: -4.5d
-		}
-	]
+	images: [{
+		height: 18.0d
+		image: "minecraft:textures/gui/advancements/backgrounds/cooking_quest_book.png"
+		order: -9
+		rotation: 0.0d
+		width: 28.6d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -698,6 +680,37 @@
 			}]
 			x: -6.0d
 			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7676E6C4A42D3FCD"
+				"5D585F37C74AD5A6"
+				"21A47CCF503E09A6"
+				"3B4652716AF39CD0"
+				"2C8DDDDBA176DF16"
+				"1B79F6B0202704D7"
+				"3186655F3F57DA92"
+				"1F38A15BC954B66B"
+				"57F35DBFEE186F59"
+				"3D71E833E45E5432"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/advancements/icons/silver_chicken.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7895B0C36A545AD3"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1A60BF613E9C533F"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
 		}
 	]
 }

@@ -112,7 +112,7 @@ python tools/push.py --release --version 1.1.0
 
 服务器不需要上面这套开发环境。只需:
 - `bootstrap/packwiz-installer-bootstrap.jar` + `packwiz-installer.jar`
-- `同步mods.bat`(从 `server/` 取)
+- `更新服务端.bat`(从 `server/` 取)
 - 放服务器根目录,开服前双击同步
 
 > 服务器侧细节暂不展开,见 `docs/guide/server.md`。

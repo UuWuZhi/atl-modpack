@@ -1,0 +1,13 @@
+name = "Order to cook下单了！"
+filename = "ordertocook-1.3.6-neoforge1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SoAnzOY4/versions/2JGn0iYb/ordertocook-1.3.6-neoforge1.21.1.jar"
+hash-format = "sha512"
+hash = "0b3dff3e7b4ebdee3b0bf5d8f5803bc70d760e58a9971c7da78da07344ae71c46a02cb64715d2ebf49224fb103fe1af2d3b22ce6f0b0a922573c9da20411199f"
+
+[update]
+[update.modrinth]
+mod-id = "SoAnzOY4"
+version = "2JGn0iYb"

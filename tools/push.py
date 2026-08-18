@@ -171,6 +171,12 @@ def commit_all_if_changed(message):
 
 def do_push_dev():
     """推 dev。"""
+    cur = current_branch()
+    if cur != "dev":
+        print(f"[错误] 当前在 {cur} 分支,默认推送需在 dev 分支执行")
+        print("  请先: git checkout dev")
+        sys.exit(1)
+    git(["git", "pull", "--rebase", "origin", "dev"])
     git(["git", "push", "origin", "dev"])
     print("[✓] 已推送到 dev(玩家不可见,发布需 --merge 或 --release)")
 

@@ -320,6 +320,19 @@ def choose_source():
     return None
 
 
+def append_curseforge_add_args(cmd, query, category=None, game=None):
+    cmd += ["curseforge", "add"]
+    if query.isdigit():
+        cmd += ["--addon-id", query]
+    if category:
+        cmd += ["--category", category]
+    if game:
+        cmd += ["--game", game]
+    if not query.isdigit():
+        cmd.append(query)
+    return cmd
+
+
 def add_resource():
     kind = choose_kind()
     if not kind:
@@ -366,10 +379,8 @@ def add_resource():
         default_category = "mc-mods" if kind_name == "Mod" else "texture-packs"
         category = input(f"CurseForge category(回车默认 {default_category}): ").strip() or default_category
         game = input("CurseForge game(回车默认 minecraft): ").strip()
-        cmd += ["--meta-folder", meta_folder, "curseforge", "add", "--category", category]
-        if game:
-            cmd += ["--game", game]
-        cmd.append(query)
+        cmd += ["--meta-folder", meta_folder]
+        cmd = append_curseforge_add_args(cmd, query, category, game)
     else:
         name = input("资源显示名称: ").strip()
         url = input("直接下载 URL: ").strip().strip('"')
