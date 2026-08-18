@@ -189,7 +189,8 @@
     },
     "groups": 75,
     "tagFilesWritten": 75,
-    "tagRoot": "kubejs/data/c/tags/item/food"
+    "tagRoot": "kubejs/data/c/tags/item/food",
+    "rulesFile": "kubejs/server_scripts/generated/item_unification_rules.json"
   },
   "groups": [
     {

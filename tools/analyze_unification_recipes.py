@@ -15,6 +15,7 @@ RESOURCE_FILES = (
 DEFAULT_LOG = Path("extern/crafttweaker.log")
 DEFAULT_REPORT = Path("docs/maintenance/item-unification-candidates.json")
 DEFAULT_TAG_ROOT = Path("kubejs/data/c/tags/item/food")
+DEFAULT_RULES = Path("kubejs/server_scripts/generated/item_unification_rules.json")
 
 ITEM_IN_ANGLE = re.compile(r"<item:([^>]+)>")
 ITEM_IN_JSON_ITEM = re.compile(r'(?:"item"\s*:\s*"([^"]+)")')
@@ -86,6 +87,24 @@ def write_tags(groups: list[dict], tag_root: Path) -> list[Path]:
         written.append(tag_path)
 
     return written
+
+
+def write_kubejs_rules(groups: list[dict], rules_file: Path) -> None:
+    rules_file.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "groups": groups,
+        "containerRecipeIds": [
+            "farmersdelight:beef_bulgogi",
+            "farmersdelight:caramel_chicken",
+            "pineapple_delight:cooking/pineapple_fried_rice",
+            "farmersdelight:honey_chili_chicken",
+            "farmersdelight:melon_rind_stirfry",
+        ],
+    }
+    rules_file.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
 
 def extract_recipe_id(line: str) -> str | None:
@@ -288,15 +307,18 @@ def main() -> None:
     parser.add_argument("--log", type=Path, default=DEFAULT_LOG)
     parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
     parser.add_argument("--tag-root", type=Path, default=DEFAULT_TAG_ROOT)
+    parser.add_argument("--rules", type=Path, default=DEFAULT_RULES)
     parser.add_argument("--no-tags", action="store_true")
     args = parser.parse_args()
 
     groups = load_groups(RESOURCE_FILES)
     written_tags = [] if args.no_tags else write_tags(groups, args.tag_root)
+    write_kubejs_rules(groups, args.rules)
     report = analyze_log(args.log, groups)
     report["summary"]["groups"] = len(groups)
     report["summary"]["tagFilesWritten"] = len(written_tags)
     report["summary"]["tagRoot"] = args.tag_root.as_posix()
+    report["summary"]["rulesFile"] = args.rules.as_posix()
 
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(

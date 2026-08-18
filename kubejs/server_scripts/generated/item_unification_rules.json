@@ -1,0 +1,724 @@
+{
+  "groups": [
+    {
+      "source": "extern/resources_0.json#1",
+      "target": "youkaishomecoming:butter",
+      "tag": "c:food/butter",
+      "members": [
+        "croptopia:butter",
+        "extradelight:butter",
+        "youkaishomecoming:butter"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#2",
+      "target": "kaleidoscope_cookery:red_chili",
+      "tag": "c:food/red_chili",
+      "members": [
+        "expandeddelight:chili_pepper",
+        "croptopia:chile_pepper",
+        "kaleidoscope_cookery:red_chili",
+        "tofucraft:chili",
+        "extradelight:chili"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#3",
+      "target": "trailandtales_delight:cheese_slice",
+      "tag": "c:food/cheese_slice",
+      "members": [
+        "trailandtales_delight:cheese_slice",
+        "expandeddelight:cheese_slice",
+        "extradelight:cheese",
+        "croptopia:cheese"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#4",
+      "target": "create:bar_of_chocolate",
+      "tag": "c:food/bar_of_chocolate",
+      "members": [
+        "create:bar_of_chocolate",
+        "croptopia:chocolate",
+        "neapolitan:chocolate_bar"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#5",
+      "target": "farmersdelight:rice",
+      "tag": "c:food/rice",
+      "members": [
+        "kaleidoscope_cookery:rice",
+        "croptopia:rice",
+        "farmersdelight:rice",
+        "tofucraft:rice"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#6",
+      "target": "rusticdelight:cooking_oil",
+      "tag": "c:food/cooking_oil",
+      "members": [
+        "extradelight:cooking_oil",
+        "rusticdelight:cooking_oil"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#7",
+      "target": "croptopia:flour",
+      "tag": "c:food/flour",
+      "members": [
+        "create:wheat_flour",
+        "extradelight:flour",
+        "croptopia:flour",
+        "kaleidoscope_cookery:flour"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#8",
+      "target": "extradelight:unshucked_corn",
+      "tag": "c:food/unshucked_corn",
+      "members": [
+        "croptopia:corn",
+        "extradelight:unshucked_corn"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#9",
+      "target": "kaleidoscope_cookery:rice_panicle",
+      "tag": "c:food/rice_panicle",
+      "members": [
+        "farmersdelight:rice_panicle",
+        "kaleidoscope_cookery:rice_panicle"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#10",
+      "target": "farmersdelight:onion",
+      "tag": "c:food/onion",
+      "members": [
+        "farmersdelight:onion",
+        "kaleidoscope_grilling:onion",
+        "croptopia:onion"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#11",
+      "target": "croptopia:soy_sauce",
+      "tag": "c:food/soy_sauce",
+      "members": [
+        "extradelight:soy_sauce_item",
+        "tofucraft:bottle_soysause",
+        "youkaishomecoming:soy_sauce_bottle",
+        "croptopia:soy_sauce"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#12",
+      "target": "farmersdelight:tomato",
+      "tag": "c:food/tomato",
+      "members": [
+        "kaleidoscope_cookery:tomato",
+        "farmersdelight:tomato",
+        "croptopia:tomato"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#13",
+      "target": "extradelight:coffee",
+      "tag": "c:food/coffee",
+      "members": [
+        "rusticdelight:dark_coffee",
+        "extradelight:coffee",
+        "croptopia:coffee",
+        "rusticdelight:coffee"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#14",
+      "target": "extradelight:whipped_cream",
+      "tag": "c:food/whipped_cream",
+      "members": [
+        "youkaishomecoming:bowl_of_cream",
+        "extradelight:whipped_cream",
+        "croptopia:whipping_cream"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#15",
+      "target": "croptopia:salt",
+      "tag": "c:food/salt",
+      "members": [
+        "expandeddelight:salt",
+        "croptopia:salt",
+        "tofucraft:salt",
+        "extradelight:salt"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#16",
+      "target": "kaleidoscope_cookery:lettuce",
+      "tag": "c:food/lettuce",
+      "members": [
+        "croptopia:lettuce",
+        "kaleidoscope_cookery:lettuce"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#17",
+      "target": "extradelight:lemon",
+      "tag": "c:food/lemon",
+      "members": [
+        "extradelight:lemon",
+        "croptopia:lemon"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#18",
+      "target": "kaleidoscope_cookery:raw_noodles",
+      "tag": "c:food/raw_noodles",
+      "members": [
+        "farmersdelight:raw_pasta",
+        "croptopia:noodle",
+        "kaleidoscope_cookery:raw_noodles"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#19",
+      "target": "farmersdelight:cabbage_leaf",
+      "tag": "c:food/cabbage_leaf",
+      "members": [
+        "croptopia:cabbage",
+        "farmersdelight:cabbage_leaf"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#20",
+      "target": "croptopia:garlic",
+      "tag": "c:food/garlic",
+      "members": [
+        "extradelight:garlic",
+        "croptopia:garlic"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#21",
+      "target": "croptopia:tofu",
+      "tag": "c:food/tofu",
+      "members": [
+        "croptopia:tofu",
+        "youkaishomecoming:tofu",
+        "tofucraft:tofukinu"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#22",
+      "target": "kaleidoscope_cookery:fried_egg",
+      "tag": "c:food/fried_egg",
+      "members": [
+        "croptopia:sunny_side_eggs",
+        "farmersdelight:fried_egg",
+        "kaleidoscope_cookery:fried_egg"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#23",
+      "target": "croptopia:ground_pork",
+      "tag": "c:food/ground_pork",
+      "members": [
+        "butchercraft:ground_pork",
+        "croptopia:ground_pork"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#24",
+      "target": "extradelight:beef_wellington",
+      "tag": "c:food/beef_wellington",
+      "members": [
+        "croptopia:beef_wellington",
+        "extradelight:beef_wellington"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#25",
+      "target": "extradelight:brownie",
+      "tag": "c:food/brownie",
+      "members": [
+        "croptopia:brownies",
+        "extradelight:brownie"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#26",
+      "target": "farmersdelight:bacon",
+      "tag": "c:food/bacon",
+      "members": [
+        "croptopia:bacon",
+        "farmersdelight:bacon"
+      ]
+    },
+    {
+      "source": "extern/resources_0.json#27",
+      "target": "farmersdelight:cooked_bacon",
+      "tag": "c:food/cooked_bacon",
+      "members": [
+        "croptopia:cooked_bacon",
+        "farmersdelight:cooked_bacon"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#1",
+      "target": "farmersdelight:cooked_rice",
+      "tag": "c:food/cooked_rice",
+      "members": [
+        "farmersdelight:cooked_rice",
+        "croptopia:steamed_rice",
+        "kaleidoscope_cookery:cooked_rice"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#2",
+      "target": "expandeddelight:sweet_potato",
+      "tag": "c:food/sweet_potato",
+      "members": [
+        "croptopia:sweetpotato",
+        "kaleidoscope_grilling:sweet_potato",
+        "expandeddelight:sweet_potato"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#3",
+      "target": "extradelight:peanuts",
+      "tag": "c:food/peanuts",
+      "members": [
+        "extradelight:peanuts",
+        "expandeddelight:peanut",
+        "croptopia:peanut"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#4",
+      "target": "expandeddelight:baked_sweet_potato",
+      "tag": "c:food/baked_sweet_potato",
+      "members": [
+        "expandeddelight:baked_sweet_potato",
+        "kaleidoscope_grilling:roasted_sweet_potato"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#5",
+      "target": "expandeddelight:peanut_butter",
+      "tag": "c:food/peanut_butter",
+      "members": [
+        "expandeddelight:peanut_butter",
+        "croptopia:peanut_butter"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#6",
+      "target": "farmersdelight:hamburger",
+      "tag": "c:food/hamburger",
+      "members": [
+        "croptopia:hamburger",
+        "farmersdelight:hamburger"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#7",
+      "target": "extradelight:potato_chips",
+      "tag": "c:food/potato_chips",
+      "members": [
+        "extradelight:potato_chips",
+        "croptopia:potato_chips"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#8",
+      "target": "kaleidoscope_cookery:raw_dough",
+      "tag": "c:food/raw_dough",
+      "members": [
+        "croptopia:dough",
+        "farmersdelight:wheat_dough",
+        "kaleidoscope_cookery:raw_dough",
+        "create:dough"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#9",
+      "target": "biomeswevegone:blueberries",
+      "tag": "c:food/blueberries",
+      "members": [
+        "croptopia:blueberry",
+        "biomeswevegone:blueberries",
+        "twilightforest:blueberry"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#10",
+      "target": "youkaishomecoming:mantou",
+      "tag": "c:food/mantou",
+      "members": [
+        "youkaishomecoming:mantou",
+        "kaleidoscope_cookery:mantou"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#11",
+      "target": "croptopia:clam",
+      "tag": "c:food/clam",
+      "members": [
+        "croptopia:clam",
+        "crabbersdelight:clam"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#12",
+      "target": "rusticdelight:bell_pepper_yellow",
+      "tag": "c:food/bell_pepper_yellow",
+      "members": [
+        "rusticdelight:bell_pepper_yellow",
+        "croptopia:bellpepper"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#13",
+      "target": "croptopia:asparagus",
+      "tag": "c:food/asparagus",
+      "members": [
+        "croptopia:asparagus",
+        "expandeddelight:asparagus"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#14",
+      "target": "extradelight:cheeseburger",
+      "tag": "c:food/cheeseburger",
+      "members": [
+        "croptopia:cheeseburger",
+        "extradelight:cheeseburger"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#15",
+      "target": "croptopia:shrimp",
+      "tag": "c:food/shrimp",
+      "members": [
+        "crabbersdelight:shrimp",
+        "croptopia:shrimp"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#16",
+      "target": "farmersdelight:shepherds_pie",
+      "tag": "c:food/shepherds_pie",
+      "members": [
+        "croptopia:shepherds_pie",
+        "farmersdelight:shepherds_pie"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#17",
+      "target": "youkaishomecoming:bun",
+      "tag": "c:food/bun",
+      "members": [
+        "youkaishomecoming:bun",
+        "kaleidoscope_cookery:baozi"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#18",
+      "target": "youkaishomecoming:green_coffee_bean",
+      "tag": "c:food/green_coffee_bean",
+      "members": [
+        "youkaishomecoming:green_coffee_bean",
+        "rusticdelight:coffee_beans",
+        "extradelight:green_coffee"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#19",
+      "target": "youkaishomecoming:coffee_beans",
+      "tag": "c:food/coffee_beans",
+      "members": [
+        "rusticdelight:roasted_coffee_beans",
+        "youkaishomecoming:coffee_beans",
+        "extradelight:coffee_beans",
+        "croptopia:coffee_beans"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#20",
+      "target": "youkaishomecoming:coffee_powder",
+      "tag": "c:food/coffee_powder",
+      "members": [
+        "youkaishomecoming:coffee_powder",
+        "extradelight:ground_coffee"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#21",
+      "target": "youkaishomecoming:ice_cube",
+      "tag": "c:food/ice_cube",
+      "members": [
+        "youkaishomecoming:ice_cube",
+        "extradelight:ice_cubes"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#22",
+      "target": "neapolitan:strawberries",
+      "tag": "c:food/strawberries",
+      "members": [
+        "croptopia:strawberry",
+        "neapolitan:strawberries"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#23",
+      "target": "neapolitan:dried_vanilla_pods",
+      "tag": "c:food/dried_vanilla_pods",
+      "members": [
+        "croptopia:vanilla",
+        "neapolitan:dried_vanilla_pods"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#24",
+      "target": "crabbersdelight:crab",
+      "tag": "c:food/crab",
+      "members": [
+        "croptopia:crab",
+        "crabbersdelight:crab"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#25",
+      "target": "extradelight:orange",
+      "tag": "c:food/orange",
+      "members": [
+        "extradelight:orange",
+        "croptopia:orange"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#26",
+      "target": "pineapple_delight:pineapple",
+      "tag": "c:food/pineapple",
+      "members": [
+        "croptopia:pineapple",
+        "pineapple_delight:pineapple"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#27",
+      "target": "kaleidoscope_tavern:grape",
+      "tag": "c:food/grape",
+      "members": [
+        "kaleidoscope_tavern:grape",
+        "croptopia:grape"
+      ]
+    },
+    {
+      "source": "extern/resources_1.json#28",
+      "target": "tofucraft:seeds_soybeans",
+      "tag": "c:food/seeds_soybeans",
+      "members": [
+        "tofucraft:seeds_soybeans",
+        "extradelight:soybeans",
+        "croptopia:soybean"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#2",
+      "target": "kaleidoscope_cookery:lettuce_rice",
+      "tag": "c:food/lettuce_rice",
+      "members": [
+        "kaleidoscope_cookery:lettuce_rice",
+        "croptopia:lettuce_rice"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#3",
+      "target": "kaleidoscope_end:raw_ender_dragon_meat",
+      "tag": "c:food/raw_ender_dragon_meat",
+      "members": [
+        "kaleidoscope_end:raw_ender_dragon_meat",
+        "ends_delight:raw_dragon_meat"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#4",
+      "target": "kaleidoscope_end:cooked_ender_dragon_meat",
+      "tag": "c:food/cooked_ender_dragon_meat",
+      "members": [
+        "kaleidoscope_end:cooked_ender_dragon_meat",
+        "ends_delight:roasted_dragon_meat"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#5",
+      "target": "kaleidoscope_end:raw_endermite_meat",
+      "tag": "c:food/raw_endermite_meat",
+      "members": [
+        "ends_delight:raw_ender_mite_meat",
+        "kaleidoscope_end:raw_endermite_meat"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#6",
+      "target": "kaleidoscope_end:roasted_endermite_meat",
+      "tag": "c:food/roasted_endermite_meat",
+      "members": [
+        "ends_delight:dried_endermite_meat",
+        "kaleidoscope_end:roasted_endermite_meat"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#7",
+      "target": "farmersdelight:tomato_seeds",
+      "tag": "c:food/tomato_seeds",
+      "members": [
+        "farmersdelight:tomato_seeds",
+        "croptopia:tomato_seed",
+        "kaleidoscope_cookery:tomato_seed"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#8",
+      "target": "kaleidoscope_cookery:chili_seed",
+      "tag": "c:food/chili_seed",
+      "members": [
+        "expandeddelight:chili_pepper_seeds",
+        "extradelight:chili_seeds",
+        "tofucraft:seeds_chili",
+        "croptopia:chile_pepper_seed",
+        "kaleidoscope_cookery:chili_seed"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#9",
+      "target": "kaleidoscope_cookery:oil",
+      "tag": "c:food/oil",
+      "members": [
+        "kaleidoscope_cookery:oil",
+        "butchercraft:lard"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#10",
+      "target": "neapolitan:milk_bottle",
+      "tag": "c:food/milk_bottle",
+      "members": [
+        "neapolitan:milk_bottle",
+        "croptopia:milk_bottle"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#11",
+      "target": "croptopia:blackberry",
+      "tag": "c:food/blackberry",
+      "members": [
+        "croptopia:blackberry",
+        "twilightforest:blackberry"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#12",
+      "target": "croptopia:raspberry",
+      "tag": "c:food/raspberry",
+      "members": [
+        "croptopia:raspberry",
+        "twilightforest:raspberry"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#13",
+      "target": "expandeddelight:cranberries",
+      "tag": "c:food/cranberries",
+      "members": [
+        "croptopia:cranberry",
+        "expandeddelight:cranberries"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#14",
+      "target": "ecologics:walnut",
+      "tag": "c:food/walnut",
+      "members": [
+        "ecologics:walnut",
+        "croptopia:walnut"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#15",
+      "target": "ecologics:coconut_slice",
+      "tag": "c:food/coconut_slice",
+      "members": [
+        "ecologics:coconut_slice",
+        "croptopia:coconut"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#16",
+      "target": "croptopia:apricot",
+      "tag": "c:food/apricot",
+      "members": [
+        "tofucraft:apricot",
+        "croptopia:apricot"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#17",
+      "target": "vinery:cherry",
+      "tag": "c:food/cherry",
+      "members": [
+        "vinery:cherry",
+        "croptopia:cherry"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#18",
+      "target": "extradelight:cucumber",
+      "tag": "c:food/cucumber",
+      "members": [
+        "croptopia:cucumber",
+        "extradelight:cucumber"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#19",
+      "target": "youkaishomecoming:tea_leaves",
+      "tag": "c:food/tea_leaves",
+      "members": [
+        "youkaishomecoming:tea_leaves",
+        "croptopia:tea_leaves"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#20",
+      "target": "neapolitan:banana",
+      "tag": "c:food/banana",
+      "members": [
+        "croptopia:banana",
+        "neapolitan:banana"
+      ]
+    },
+    {
+      "source": "extern/resources_2.json#21",
+      "target": "croptopia:cinnamon",
+      "tag": "c:food/cinnamon",
+      "members": [
+        "croptopia:cinnamon",
+        "expandeddelight:cinnamon_stick",
+        "extradelight:cinnamon_bark"
+      ]
+    }
+  ],
+  "containerRecipeIds": [
+    "farmersdelight:beef_bulgogi",
+    "farmersdelight:caramel_chicken",
+    "pineapple_delight:cooking/pineapple_fried_rice",
+    "farmersdelight:honey_chili_chicken",
+    "farmersdelight:melon_rind_stirfry"
+  ]
+}
