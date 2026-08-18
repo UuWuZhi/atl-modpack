@@ -30,7 +30,7 @@ hash = "f9c210595cccd5418afdd5342022c66adcd3c98c56baad829748bfb7ae4a05c4"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "37e09cc4bce348c61efb02542dcc6e95a91607698b64627391c407933c57ee7b"
+hash = "d4e66bc22fcfa56158ca7100017623c71b1437fb4722229b6e064e0a48a5f5de"
 
 [[files]]
 file = "config/fancymenu/normalized_scroll_screens.json"
