@@ -40,6 +40,29 @@ def run_py(script, args=None):
     subprocess.run(cmd)
 
 
+def has_uncommitted_changes():
+    result = subprocess.run(
+        ["git", "status", "--porcelain"],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+    if result.returncode != 0:
+        print("[警告] 无法检测工作区状态,将按有改动处理。")
+        return True
+    return bool(result.stdout.strip())
+
+
+def ask_message_if_changed(prompt):
+    if not has_uncommitted_changes():
+        print("[*] 未检测到未提交改动,跳过提交说明输入。")
+        return []
+    msg = input(prompt).strip()
+    return ["-m", msg] if msg else []
+
+
 def main():
     while True:
         print("=" * 52)
@@ -60,14 +83,11 @@ def main():
         if choice == "1":
             run_py("pull.py")
         elif choice == "2":
-            msg = input("提交说明(回车用默认): ").strip()
-            args = ["-m", msg] if msg else []
+            args = ask_message_if_changed("提交说明(回车用默认): ")
             run_py("push.py", args)
         elif choice == "3":
-            msg = input("发布说明(回车用默认): ").strip()
             args = ["--release"]
-            if msg:
-                args += ["-m", msg]
+            args += ask_message_if_changed("发布说明(回车用默认): ")
             run_py("push.py", args)
         elif choice == "4":
             ver = input("版本号(如 1.1.0): ").strip()
@@ -77,12 +97,10 @@ def main():
                 print("已取消。")
         elif choice == "5":
             ver = input("版本号(如 1.1.0): ").strip()
-            msg = input("发布说明(回车用默认): ").strip()
             args = ["--release"]
             if ver:
                 args += ["--version", ver]
-            if msg:
-                args += ["-m", msg]
+            args += ask_message_if_changed("发布说明(回车用默认): ")
             run_py("push.py", args)
         elif choice == "6":
             run_py("setup_dev_link.py")
