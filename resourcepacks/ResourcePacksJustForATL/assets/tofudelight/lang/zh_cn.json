@@ -1,0 +1,22 @@
+{
+  "block.tofudelight.tofu_metal_cooking_pot": "钢豆腐厨锅",
+  "block.tofudelight.soy_gratin_pumpkin_block": "豆腐填馅南瓜",
+  "block.tofudelight.ttt_burger": "炸豆腐汉堡",
+  "block.tofudelight.soy_chocolate_cake_block": "豆奶巧克力蛋糕",
+  "block.tofudelight.soy_chicken": "豆制素鸡",
+  "item.tofudelight.tofu_metal_knife": "钢豆腐刀",
+  "item.tofudelight.tofu_diamond_knife": "钻石豆腐刀",
+  "item.tofudelight.cooked_soymeat": "熟豆制素肉",
+  "item.tofudelight.soy_gratin_pumpkin": "豆腐填馅南瓜",
+  "item.tofudelight.soy_chocolate_cake": "豆奶巧克力蛋糕",
+  "item.tofudelight.ttt_burger_slice": "炸豆腐汉堡切片",
+  "item.tofudelight.soy_chicken_piece": "豆制素鸡肉块",
+  "item.tofudelight.kinako_rice_bread": "黄豆粉米面包",
+  "item.tofudelight.rice_bread": "米面包",
+  "item.tofudelight.rice_dough": "米粉面团",
+  "item.tofudelight.soy_vegetable_noodle": "豆奶蔬菜拉面",
+  "item.tofudelight.soy_dandan_noodle": "豆奶酱香面",
+  "item.tofudelight.soymilk.when_drank_more": "每日饮用过多时:",
+  "farmersdelight.container.tofu_metal_cooking_pot": "钢豆腐厨锅",
+  "itemGroup.tofudelight.main_tab": "豆腐乐事"
+}

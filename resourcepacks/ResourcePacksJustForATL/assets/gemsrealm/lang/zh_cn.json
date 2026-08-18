@@ -1,0 +1,46 @@
+{
+  "itemGroup.gemsrealm": "泛用兼容：矿石",
+  "itemGroup.gemsrealm.gems_realm": "泛用兼容：矿石",
+  "item.gemsrealm.all_gems": "所有的宝石，水晶，金属和红石。",
+  "tooltip.gemsrealm.metal_type": "金属种类: %s",
+  "tooltip.gemsrealm.gem_type": "宝石种类: %s",
+  "tooltip.gemsrealm.crystal_type": "水晶种类: %s",
+  "tooltip.gemsrealm.dust_type": "粉尘种类: %s",
+
+  "gem_type.crystalcraft_unlimited_java.saphire": "蓝宝石",
+  "gem_type.crystalcraft_unlimited_java.pearl_item": "珍珠",
+  "metal_type.crystalcraft_unlimited_java.silicium": "硅",
+
+  "item_type.minecraft.nugget": "%s粒",
+  "block_type.minecraft.bars": "%s锭",
+
+  "block_type.mcwbridges.bridge": "%s桥",
+  "block_type.mcwbridges.bridge_stair": "%s桥梯",
+  "block_type.mcwbridges.bridge_pier": "%s桥梁支架",
+
+  "block_type.mcwfences.cheval_de_frise": "%s障碍",
+
+  "block_type.mcwwindows.shutter":"%s百叶窗",
+  "block_type.mcwwindows.window": "%s可调窗户",
+  "block_type.mcwwindows.window2": "%s长方格窗户",
+  "block_type.mcwwindows.four_window": "%s四格窗户",
+  "block_type.mcwwindows.pane_window": "%s嵌板窗户",
+  "block_type.mcwwindows.curtain_rod": "%s窗帘杆",
+
+  "item_type.create.backtank": "%s背罐",
+  "item_type.create.backtank_placeable": "%s可放置背罐",
+  "item_type.create.sheet": "%s板",
+  "block_type.create.casing": "%s机壳",
+  "block_type.create.door": "%s门",
+  "block_type.create.ladder": "%s梯",
+  "block_type.create.scaffolding": "%s脚手架",
+  "block_type.create.shingles": "%s砖瓦",
+  "block_type.create.shingle_slab": "%s砖瓦台阶",
+  "block_type.create.shingle_stairs": "%s砖瓦楼梯",
+  "block_type.create.tiles": "%s瓷砖",
+  "block_type.create.tile_slab": "%s瓷砖台阶",
+  "block_type.create.tile_stairs": "%s瓷砖楼梯",
+  "block_type.create.table_cloth": "%s桌面",
+  "block_type.create.ornate_window": "华丽%s窗户",
+  "block_type.create.ornate_window_pane": "华丽%s窗户板"
+}

@@ -1,0 +1,7 @@
+{
+  "pack": {
+      "pack_format": 22,
+	  "supported_formats": [22, 99],
+    "description": "§c和加载顺序无关，但必须加载!\n§b用于整合包内的自定义资源，以及i18n未翻译的部分汉化。"
+  }
+}
