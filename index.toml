@@ -30,7 +30,7 @@ hash = "f9c210595cccd5418afdd5342022c66adcd3c98c56baad829748bfb7ae4a05c4"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "d4e66bc22fcfa56158ca7100017623c71b1437fb4722229b6e064e0a48a5f5de"
+hash = "37e09cc4bce348c61efb02542dcc6e95a91607698b64627391c407933c57ee7b"
 
 [[files]]
 file = "config/fancymenu/normalized_scroll_screens.json"
@@ -349,20 +349,16 @@ file = "kubejs/data/neoforge/data_maps/item/furnace_fuels.json"
 hash = "325a258fa8dea08b9afdd6e79599ad9bba507c4dd24992e78956e077b77b5bfa"
 
 [[files]]
-file = "kubejs/data/oei/replacements/resources_0.json"
-hash = "5bd4528c4e3078fa390d6725ac66fabfe08845d878260996c50e3257277013cf"
-
-[[files]]
-file = "kubejs/data/oei/replacements/resources_1.json"
-hash = "d464e2ed992a661b86c953aacad53ef841a519e7c0e7f57813a5882f8e318e15"
-
-[[files]]
-file = "kubejs/data/oei/replacements/resources_2.json"
-hash = "cf618e297e8b27a6fe370b724515a621ea58d184b0232883517d285780ee0f63"
+file = "kubejs/server_scripts/curios.js"
+hash = "afb5b310913194e951bbb033f319e7752ac6a275d5961ec40fc5900a9d6f76e8"
 
 [[files]]
 file = "kubejs/server_scripts/jei_hide.js"
-hash = "9da5f2eb2780908e4f28d9aa6c739261910f553e555cb95a91c21fa54d7ce477"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/server_scripts/loot.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -371,6 +367,10 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
 hash = "23df495f96aef34b651bd816bc5c95185eaaf5acf16df0135c882c5cfb12a32e"
+
+[[files]]
+file = "kubejs/startup_scripts/curios.js"
+hash = "1a2d7fc0a61bb92df9688ea010085a0f7d7a0dbb47f2f253b050838d5f4aee8e"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -1167,11 +1167,6 @@ hash = "85b0bf254c7e23c7d586901e33ea8d6a4f80b71e297f571597fd64ac513bb001"
 metafile = true
 
 [[files]]
-file = "mods/_______mystias_izakaya-neoforge-1.21.1-0.2.6-hf.pw.toml"
-hash = "3cd7ac2c58bb0edb5a6083431637f375c293bb50eac81c27ed845ff3cc3a3c4e"
-metafile = true
-
-[[files]]
 file = "mods/_______notenoughanimations-neoforge-1.12.4-mc1.21.1.pw.toml"
 hash = "27d25aba90fdf38d52eedb02c9bc9d4e6010761c564b2ae24b99b0e748f742af"
 metafile = true
@@ -1890,4 +1885,4 @@ hash = "faea6f5d3f87adcb57cd4219ab53a973fc17bcebd87609454a994f6935276b56"
 
 [[files]]
 file = "scripts/recipes/remove_recipes.zs"
-hash = "beb737eb740077fb859eea727a673930085089fe5f3b4bf78f3a22ce9ad1381c"
+hash = "c2e8944ba9607448136c4e87b79a4eb43032665679fd16256804844341a66445"
